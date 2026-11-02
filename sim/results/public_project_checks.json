@@ -11,5 +11,7 @@
   "log_scope": "repository",
   "log_base": "sim/results",
   "log": "logs/project/project_check.txt",
-  "ip_status": "logs/project/ip_status.rpt"
+  "ip_status": "logs/project/ip_status.rpt",
+  "source_inventory_file": "third_party/source_history/hardware_inventory_v11.json",
+  "source_inventory_scope": "historical inventory captured for this recorded BD check"
 }

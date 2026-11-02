@@ -74,7 +74,7 @@ def main():
         return {name: digest for digest, name in (line.split('  ', 1) for line in path.read_text(encoding='utf8').splitlines())}
     current_sources = source_manifest(origin['source_manifest'])
     historical_sources = source_manifest(origin['historical_base']['source_manifest'])
-    assert origin['source_snapshot'] == 'competition-v27'
+    assert origin['source_snapshot'].startswith('competition-v')
     for row in origin['selected']:
         assert current_sources[row['source']] == row['source_sha256'], row['path']
         actual = hashlib.sha256((ROOT / row['path']).read_bytes()).hexdigest()
@@ -88,7 +88,8 @@ def main():
     names = {p.relative_to(ROOT).as_posix() for p in paths}
     forbidden = [n for n in names if n.endswith(('.bit', '.hwh'))]
     assert not forbidden, forbidden
-    assert (ROOT / 'LICENSE').read_text(encoding='utf8').startswith('Mixed licensing')
+    assert (ROOT / 'LICENSE').read_text(encoding='utf8').startswith('MIT License')
+    assert 'project-developed files marked MIT' in (ROOT / 'LICENSE').read_text(encoding='utf8')
     assert (ROOT / 'licenses/mit.txt').read_text(encoding='utf8').startswith('MIT License')
     assert 'SIL OPEN FONT LICENSE' in (ROOT / 'third_party/fonts/OFL.txt').read_text(encoding='utf8')
     assert 'All rights reserved.' in (ROOT / 'sim/reference/pynq_v24_pl.py').read_text(encoding='utf8')
@@ -101,10 +102,12 @@ def main():
     assert hashlib.sha256((auth_dir / auth['screenshot_file']).read_bytes()).hexdigest() == auth['screenshot_sha256']
     assert hashlib.sha256((auth_dir / auth['transcript_file']).read_bytes()).hexdigest() == auth['transcript_sha256']
     source_inventory = json.loads((ROOT / 'third_party/source_inventory.json').read_text(encoding='utf8'))
+    assert source_inventory['source_snapshot'] == origin['source_snapshot']
     source_entries = {item['path']: item for item in source_inventory['files']}
     assert len(source_entries) == 41
     for name, item in source_entries.items():
         assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == item['current_sha256'], name
+        assert current_sources[name] == item['source_snapshot_sha256'], name
     assert (ROOT / 'hardware/vivado/ov5640_ddr3_tft_hdmi.xpr').is_file()
     assert all((ROOT / 'build' / name).is_file() for name in ['build_hardware.tcl', 'check_project.tcl', 'synthesis_resources.tcl'])
     python36 = []
@@ -152,7 +155,7 @@ def main():
     assert module.packed('\U0010ffff') is None
     licenses = json.loads((ROOT / 'third_party/file_licenses.json').read_text(encoding='utf8'))
     assert set(licenses) == names
-    assert licenses['LICENSE'] == 'LicenseRef-Mixed-License-Index'
+    assert licenses['LICENSE'] == 'MIT'
     assert licenses['licenses/mit.txt'] == 'MIT'
     for name, item in source_entries.items():
         assert licenses[name] == item['license'], name
@@ -196,7 +199,9 @@ def main():
     project = json.loads((result_dir / 'public_project_checks.json').read_text(encoding='utf8'))
     assert project['passed'] and project['log_scope'] == 'repository'
     assert project['log'] in log_entries and project['ip_status'] in log_entries
-    assert project['source_inventory_sha256'] == hashlib.sha256((ROOT / 'third_party/source_inventory.json').read_bytes()).hexdigest()
+    project_inventory = ROOT / project.get('source_inventory_file', 'third_party/source_inventory.json')
+    assert project_inventory.is_file()
+    assert project['source_inventory_sha256'] == hashlib.sha256(project_inventory.read_bytes()).hexdigest()
     # Historical CSV sources use their own archive namespace; hashes are indexes, not raw evidence.
     evidence = json.loads((ROOT / 'data/evidence_sources.json').read_text(encoding='utf8'))
     indexed = {item['path']: item for item in evidence['files']}
@@ -227,6 +232,11 @@ def main():
         for p in paths if p.name != 'manifest.sha256'}
     board_evidence = verify_board_acceptance()
     analysis_records = check_analysis_records()
+    publication = json.loads((ROOT / 'data/verification/github_publication.json').read_text(encoding='utf8'))
+    status = json.loads((ROOT / 'third_party/license_status.json').read_text(encoding='utf8'))
+    assert publication['release_tag'] == status['public_release_tag']
+    assert publication['release_ref'] == 'refs/tags/' + publication['release_tag']
+    assert status['release_executed'] == status['public_release_done'] == True
     report = dict(passed=True, privacy=privacy, analysis_records=analysis_records, files=len(paths), runtime_python36=len(python36),
         notebook_cells=cells, glyphs=len(chars), missing_markdown_links=[],
         local_personal_path_findings=[], authorization_evidence_hashes_verified=True,

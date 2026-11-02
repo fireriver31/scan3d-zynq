@@ -1,6 +1,6 @@
 # 第三方材料与许可范围
 
-根目录[LICENSE](LICENSE)为混合许可范围索引；标准[MIT文本](licenses/mit.txt)仅适用于[逐文件清单](third_party/file_licenses.json)中标为MIT的项目自研代码和文档。下列材料分别采用原许可或本项目取得的专项授权，原有署名、版权头和链接保留。
+根目录[LICENSE](LICENSE)提供项目自研部分的MIT许可正文；其适用范围为[逐文件清单](third_party/file_licenses.json)中标为MIT的项目自研代码和文档。下列材料分别采用原许可或本项目取得的专项授权，原有署名、版权头和链接保留。
 
 ## 1. ACZ702相机与显示例程
 

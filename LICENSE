@@ -1,40 +1,21 @@
-Mixed licensing / 分层许可范围索引
+MIT License
 
-本项目自研代码和文档采用MIT，见licenses/mit.txt及third_party/file_licenses.json。
-其他材料按各自原许可或专项授权提供，适用范围如下：
+Copyright (c) 2026 Scan3D project contributors (project-developed files marked MIT in third_party/file_licenses.json only; third-party terms: THIRD_PARTY_NOTICES.md)
 
-1. 项目自研代码与文档
-   仅third_party/file_licenses.json中标为MIT的文件适用licenses/mit.txt。
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-2. ACZ702例程及其修改版源码
-   按2026-11-01本项目取得的店铺答复和原请求范围处理：比赛、学术交流、
-   非商业用途，并保留厂家署名和原始链接。对应标记为
-   LicenseRef-ACZ702-Project-Permission，不适用MIT。
-   证据见third_party/authorization/，完整范围见THIRD_PARTY_NOTICES.md。
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-3. AMD生成配置与封装
-   保留原声明和AMD工具/IP的适用条款，标记为
-   LicenseRef-AMD-Generated-Configuration，不由本项目改授MIT。
-
-4. PYNQ参考源
-   原BSD-3-Clause保持不变，见源文件头和third_party/pynq_bsd.txt。
-
-5. Scan3D Raster CJK字模
-   scan_font.bin及字体资料适用OFL-1.1，见third_party/fonts/OFL.txt。
-   字模加载和生成代码按其逐文件标记适用MIT。
-
-6. 授权证明
-   third_party/authorization/是账号脱敏截图与转录证据，标记为
-   LicenseRef-Authorization-Evidence，不作为MIT授权材料。
-
-7. 验证记录
-   sim/results和data/board_acceptance中的验证记录记为LicenseRef-Validation-Record。
-   工具输出保留原有署名和声明，范围见THIRD_PARTY_NOTICES.md。
-
-8. AI协作选段与模型分析记录
-   data/ai_collaboration中的摘要、交互选段与模型分析记录保留角色和来源，记为
-   LicenseRef-Project-Evidence，不作为项目自研代码改授MIT。
-
-专项答复没有将厂家代码改授通用MIT，也未记载任意下游商业使用或转授权。
-各材料原有版权和署名保留。具体条目见THIRD_PARTY_NOTICES.md及
-third_party/file_licenses.json。
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

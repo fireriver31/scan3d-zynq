@@ -1,7 +1,9 @@
 # 来源快照与记录标签
 
-当前整理来源为比赛完整包competition-v27。competition_v27_manifest.sha256是该包的文件清单；public_origin.json逐项列出所选文件在来源清单中的SHA及公开副本SHA。完整比赛RAR不随公开库分发，仓库保存其SHA和清单，便于与比赛提交物交叉核对。
+当前整理来源为比赛完整包competition-v28。competition_v28_manifest.sha256是该包的文件清单；public_origin.json逐项列出所选文件在来源清单中的SHA及公开副本SHA。完整比赛RAR不随公开库分发，仓库保存其SHA和清单，便于与比赛提交物交叉核对。
 
 competition-v11是最初整理基线，原指纹保留在public_origin.json的historical_base中，对应清单为competition_v11_manifest.sha256。后续报告、许可索引和主机工具的变化与当前来源分开登记。
 
-记录中的public-v6-r2是当时板测使用的来源标签；public-v6-r15是一次主机检查的来源标签；当前公开整理版本为public-v6-r17。这些标签描述不同时间的记录，并非三个需要另行下载的代码分支。板测原标签及原始数据保持不变。
+记录中的public-v6-r2是当时板测使用的来源标签；public-v6-r15是一次主机检查的来源标签；当前公开整理版本为public-v6-r18。这些标签描述不同时间的记录，并非三个需要另行下载的代码分支。板测原标签及原始数据保持不变。
+
+固定标签submission-v27对应34db3cf及原v27归档c183a27a；submission-v28对应本次修订。两者各自的来源清单保留，标签创建后不移动。当前归档以标签定位，实际提交SHA与归档SHA在Release核验资产登记，避免归档与提交互相嵌入SHA。hardware_inventory_v11.json是历史BD检查当时的原清单，不作为当前硬件来源版本声明。

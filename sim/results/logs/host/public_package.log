@@ -3,7 +3,7 @@
   "privacy": {
     "passed": true,
     "local_paths_or_requester_accounts": [],
-    "payload_files_and_members": 247,
+    "payload_files_and_members": 250,
     "archive_members": 0,
     "path_redacted_files": 12,
     "screenshot_account_redacted": true,
@@ -20,7 +20,7 @@
     "executed_notebook_outputs": 13,
     "interrupt_output_preserved": true
   },
-  "files": 247,
+  "files": 250,
   "runtime_python36": 33,
   "notebook_cells": 10,
   "glyphs": 766,

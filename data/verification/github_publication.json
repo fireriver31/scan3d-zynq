@@ -1,0 +1,23 @@
+{
+  "record_kind": "submission_release_locator",
+  "url": "https://github.com/fireriver31/scan3d-zynq",
+  "release_tag": "submission-v28",
+  "release_ref": "refs/tags/submission-v28",
+  "release_url": "https://github.com/fireriver31/scan3d-zynq/releases/tag/submission-v28",
+  "source_tree_url": "https://github.com/fireriver31/scan3d-zynq/tree/submission-v28",
+  "date": "2026-11-02",
+  "repository_visibility": "public",
+  "binding_method": "The fixed tag records the source archive SHA and manifest; the release verification asset records the resolved commit and archive SHA.",
+  "historical_records": [
+    {
+      "scope": "initial_publication",
+      "commit": "5d7dc66c9377203e47256fdfc6312a552161de64"
+    },
+    {
+      "scope": "previous_submission_v27",
+      "tag": "submission-v27",
+      "commit": "34db3cf66cbd4c863a7998a4e4cf22d0306e1555",
+      "archive_sha256": "c183a27a3eaa690a7a5245e0d8e1f581680339da413fdab144f4eafe5be9b981"
+    }
+  ]
+}

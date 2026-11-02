@@ -4,7 +4,7 @@
 
 本项目使用OV5640、转台和Zynq-7000/PYNQ实现多视角轮廓重建、体积估算、照片着色及GT911触摸操作。本仓库提供项目软件、RTL、Vivado源工程、测试及技能工具。
 
-**仓库整体采用混合许可，[根LICENSE](LICENSE)是范围索引；[MIT文本](licenses/mit.txt)仅覆盖逐文件清单中的自研部分；ACZ702例程源码依据2026-11-01的本项目非商业分发授权，PYNQ参考与新字模分别保留BSD和OFL。** 范围与证据见[第三方通知](THIRD_PARTY_NOTICES.md)。仓库已恢复所述例程的Vivado源工程及构建入口，保留原文件中的“武汉芯路恒科技有限公司”等署名，以及http://www.corecourse.cn、http://xiaomeige.taobao.com原始链接。
+**仓库整体采用混合许可，[根LICENSE](LICENSE)为标准MIT正文，仅覆盖逐文件清单中标为MIT的自研部分；ACZ702例程源码依据2026-11-01的本项目非商业分发授权，PYNQ参考与新字模分别保留BSD和OFL。** 范围与证据见[第三方通知](THIRD_PARTY_NOTICES.md)。仓库已恢复所述例程的Vivado源工程及构建入口，保留原文件中的“武汉芯路恒科技有限公司”等署名，以及http://www.corecourse.cn、http://xiaomeige.taobao.com原始链接。
 
 本源码版不附预构建整机bit/hwh、旧字模或原始实拍附件，首次部署需要先构建。原比赛提交包另行保留，构建与部署条件见[硬件说明](hardware/README.md)。
 
@@ -73,7 +73,7 @@ Notebook需配套Overlay，且初始化会访问固定DDR缓存。**先按[板�
 
 ## 许可
 
-[根LICENSE](LICENSE)列出整库的许可分类，[MIT文本](licenses/mit.txt)仅适用于逐文件清单中的自研部分。厂家例程按本项目比赛、学术交流和非商业请求范围的答复处理；PYNQ为BSD-3-Clause，新字模为OFL-1.1，AMD配置保留原适用条款。完整范围见[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)及[逐文件许可](third_party/file_licenses.json)。
+[根LICENSE](LICENSE)提供自研部分的MIT正文；第三方材料的分类和适用范围见[第三方通知](THIRD_PARTY_NOTICES.md)。厂家例程按本项目比赛、学术交流和非商业请求范围的答复处理；PYNQ为BSD-3-Clause，新字模为OFL-1.1，AMD配置保留原适用条款。完整范围见[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)及[逐文件许可](third_party/file_licenses.json)。
 
 ## AI辅助与分析记录
 
@@ -88,3 +88,5 @@ ChatGPT用于方案比较、代码检查、故障分析，以及测试脚本和�
 “上传全部代码”的比赛RAR同时包含工程包、技能包和完整设计报告。公开仓库保留源码、技能及设计报告，原始私有附件和整机预构建文件的范围与比赛RAR不同。[报告第9章](report/design_report.md)说明AI协助的要点、采用与未采用的建议、工程心得和技能提炼。
 
 授权截图与历史报告的隐私处理及原件/副本SHA对应关系见[隐私处理说明](data/privacy/README.md)。
+
+本次提交源码以固定标签[submission-v28](https://github.com/fireriver31/scan3d-zynq/tree/submission-v28)定位，发布核验见[Release](https://github.com/fireriver31/scan3d-zynq/releases/tag/submission-v28)。

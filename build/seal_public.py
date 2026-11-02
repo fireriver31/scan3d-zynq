@@ -67,12 +67,12 @@ def main():
     mapping = {}
     for name in sorted(names):
         if name == 'LICENSE':
-            license_id = 'LicenseRef-Mixed-License-Index'
+            license_id = 'MIT'
         elif name.startswith('hardware/') and not name.endswith('.md'):
             if name not in hardware_licenses:
                 raise ValueError('Record hardware origin/license before sealing: ' + name)
             license_id = hardware_licenses[name]
-        elif name in {'board/tools/acceptance_capture.ipynb', 'board/tools/source.json'} or name.startswith(('sim/results/', 'data/board_acceptance/', 'data/privacy/')):
+        elif name in {'board/tools/acceptance_capture.ipynb', 'board/tools/source.json'} or name.startswith(('sim/results/', 'data/board_acceptance/', 'data/privacy/', 'data/verification/')):
             license_id = 'LicenseRef-Validation-Record'
         elif name.startswith('third_party/source_history/'):
             license_id = 'LicenseRef-Validation-Record'

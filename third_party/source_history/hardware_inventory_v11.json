@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-01",
+  "source_snapshot": "competition-v11",
+  "files": [
+    {
+      "path": "hardware/constraints/1026_touch_pins_v87.xdc",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "0f71f54640dfbba449c2c76fe9153a078fd34978fc6c192e29c6dc67be7a37f5",
+      "current_sha256": "0f71f54640dfbba449c2c76fe9153a078fd34978fc6c192e29c6dc67be7a37f5",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/rtl/1016_photo_mask_axis_v19.sv",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "9e656dc87401bdb27f0be89ead7875e6558ea937358309447fa049274e5c6a21",
+      "current_sha256": "9e656dc87401bdb27f0be89ead7875e6558ea937358309447fa049274e5c6a21",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/tests/mem/coef_hex.mem",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "426f9e79ae1b73e4570e39f1c35f543403cdf6bb0ec84a36d2e0ab40df465a57",
+      "current_sha256": "426f9e79ae1b73e4570e39f1c35f543403cdf6bb0ec84a36d2e0ab40df465a57",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/tests/mem/mask.mem",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "86222f4cd91a39a2e71f7cb9ced907a5369c2ca87eaf32513fa6aed9d6dd4e04",
+      "current_sha256": "86222f4cd91a39a2e71f7cb9ced907a5369c2ca87eaf32513fa6aed9d6dd4e04",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/tests/mem/occ_expected.mem",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "5435f3fbf2156fdd3bf9646184ea91828bc19f33ddb174da7247586880cbded2",
+      "current_sha256": "5435f3fbf2156fdd3bf9646184ea91828bc19f33ddb174da7247586880cbded2",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/tests/mem/recon_cfg.vh",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "fae35f8a05998a60a8f4a27c23e9ff7e54b2bf9c3ec872a39fdad21a2841a2f4",
+      "current_sha256": "fae35f8a05998a60a8f4a27c23e9ff7e54b2bf9c3ec872a39fdad21a2841a2f4",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/tests/tb_recon.v",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "2d6e045df46bad584345e2900e91b6027eba7d1f0c099c38645f4deb3a951434",
+      "current_sha256": "2d6e045df46bad584345e2900e91b6027eba7d1f0c099c38645f4deb3a951434",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/tests/tb_rgb565_mask_stream.v",
+      "license": "MIT",
+      "basis": "Project-developed RTL, tests, vectors or touch pin supplement.",
+      "source_snapshot_sha256": "312a134ab34291edc2329e5bc85c6be9d336fdd9e4e05abd454d9940af393520",
+      "current_sha256": "312a134ab34291edc2329e5bc85c6be9d336fdd9e4e05abd454d9940af393520",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/constrs_1/new/io.xdc",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "7608aa9bfae54be1b097daced4d7d4b9f08a5074f433117edf176c32eb4c364f",
+      "current_sha256": "7608aa9bfae54be1b097daced4d7d4b9f08a5074f433117edf176c32eb4c364f",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/bd/system/hdl/system_wrapper.v",
+      "license": "LicenseRef-AMD-Generated-Configuration",
+      "basis": "Project/IP configuration or generated wrapper; original AMD terms and notices retained.",
+      "source_snapshot_sha256": "7cb411fc14dc41129468bce5d64e30f9813367c5c96381685c1baf5021d4959b",
+      "current_sha256": "7cb411fc14dc41129468bce5d64e30f9813367c5c96381685c1baf5021d4959b",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/bd/system/system.bd",
+      "license": "LicenseRef-AMD-Generated-Configuration",
+      "basis": "Project/IP configuration or generated wrapper; original AMD terms and notices retained.",
+      "source_snapshot_sha256": "3faa5858a69ba4e186cae33e0b50ba277ffb3edfad435b31d64db2e5d1bca39d",
+      "current_sha256": "3faa5858a69ba4e186cae33e0b50ba277ffb3edfad435b31d64db2e5d1bca39d",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/ip/pll/pll.xci",
+      "license": "LicenseRef-AMD-Generated-Configuration",
+      "basis": "Project/IP configuration or generated wrapper; original AMD terms and notices retained.",
+      "source_snapshot_sha256": "093ff38153e6742abad2e9d114a9a7e317a8b1554b525317943514bd1e96db91",
+      "current_sha256": "093ff38153e6742abad2e9d114a9a7e317a8b1554b525317943514bd1e96db91",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/ip/rd_ddr3_fifo/rd_ddr3_fifo.xci",
+      "license": "LicenseRef-AMD-Generated-Configuration",
+      "basis": "Project/IP configuration or generated wrapper; original AMD terms and notices retained.",
+      "source_snapshot_sha256": "6973420136c2535269207163246873eb45021e2b0fd13a5ebdd6ccad7d3c7eca",
+      "current_sha256": "6973420136c2535269207163246873eb45021e2b0fd13a5ebdd6ccad7d3c7eca",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/ip/wr_ddr3_fifo/wr_ddr3_fifo.xci",
+      "license": "LicenseRef-AMD-Generated-Configuration",
+      "basis": "Project/IP configuration or generated wrapper; original AMD terms and notices retained.",
+      "source_snapshot_sha256": "e45629ffef643a4838e0d4ae0da24919a075909c78337e9a4472c0d39d27e21c",
+      "current_sha256": "e45629ffef643a4838e0d4ae0da24919a075909c78337e9a4472c0d39d27e21c",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/axi4_to_fifo.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "8dd34b2e77ba16571851c5e8a81ac7048a1f406a087b4fc94fbc2ce5b2798f3e",
+      "current_sha256": "8dd34b2e77ba16571851c5e8a81ac7048a1f406a087b4fc94fbc2ce5b2798f3e",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/camera_init.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "8a112a1f52827d86f03c2113a39f90201c49e9016f3eccd3683fa1e13b466171",
+      "current_sha256": "8a112a1f52827d86f03c2113a39f90201c49e9016f3eccd3683fa1e13b466171",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/disp_driver.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "c079d99120aaaf1ae0604ed534f65698d5645962c1e40161cde0e0921eb1651a",
+      "current_sha256": "c079d99120aaaf1ae0604ed534f65698d5645962c1e40161cde0e0921eb1651a",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/disp_parameter_cfg.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "2f9178475b8ae5ceae89ac4f01a3ced4838830c6c20ed4807734da8cd02dbb91",
+      "current_sha256": "2f9178475b8ae5ceae89ac4f01a3ced4838830c6c20ed4807734da8cd02dbb91",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/display_stream_probe.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "f0cf01f33a27b7b4e0656c66484ebb801bc460cf33f1a0afdf7fb908f8293f0a",
+      "current_sha256": "f0cf01f33a27b7b4e0656c66484ebb801bc460cf33f1a0afdf7fb908f8293f0a",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/dvp_capture.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "3e6ddbc8689267e1f030ba2e94269d858b1908aaeadf49aba2d78741b763ac76",
+      "current_sha256": "3e6ddbc8689267e1f030ba2e94269d858b1908aaeadf49aba2d78741b763ac76",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/fifo_axi4_adapter.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "4098bd52cf98ed59e7a8e0f28d45c4e4651610cb6aae1e8fbc3145eeb5200d74",
+      "current_sha256": "4098bd52cf98ed59e7a8e0f28d45c4e4651610cb6aae1e8fbc3145eeb5200d74",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/fifo_to_axi4.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "eaf4ff1e53bbccd93a5b9f1e559668b40d590e54b638891813c62c229520f77f",
+      "current_sha256": "eaf4ff1e53bbccd93a5b9f1e559668b40d590e54b638891813c62c229520f77f",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/gt911_reader.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "40431d819ac97c7a539cd004f03895b57e17aeaffa2564c163d8830d546e7c94",
+      "current_sha256": "40431d819ac97c7a539cd004f03895b57e17aeaffa2564c163d8830d546e7c94",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/i2c_bit_shift.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "f57a5f40c2c0994ad2cdbfdd3218c5fba8471a51f540e4dabf5068c89f3948a3",
+      "current_sha256": "f57a5f40c2c0994ad2cdbfdd3218c5fba8471a51f540e4dabf5068c89f3948a3",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/i2c_control.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "270bbce61ae8fbdf3cbe512c9274ae31dce9c3be1f2b285e6efb06e2f87d9430",
+      "current_sha256": "270bbce61ae8fbdf3cbe512c9274ae31dce9c3be1f2b285e6efb06e2f87d9430",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/ov5640_ddr3_tft_hdmi.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "7456eff880ac10dc19454c678ac848d4abb84ae07cf3d4793c4eabad5aa08d98",
+      "current_sha256": "7456eff880ac10dc19454c678ac848d4abb84ae07cf3d4793c4eabad5aa08d98",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/ov5640_init_table_jpeg.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "2a547f2352c169c6f726ae5e952b8301f5378ec71cf44a01fbbed8e3bbc1eed8",
+      "current_sha256": "2a547f2352c169c6f726ae5e952b8301f5378ec71cf44a01fbbed8e3bbc1eed8",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/ov5640_init_table_rgb.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "90eb72edde46f8d169cc1e2f4b21c144e23a10738ba103e06895071cce46fb59",
+      "current_sha256": "90eb72edde46f8d169cc1e2f4b21c144e23a10738ba103e06895071cce46fb59",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/ov7725_init_table_rgb.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "0ed862c79e570b3391f5ca0822d4e649b111a3f14ed164d598516173d1f9b42f",
+      "current_sha256": "0ed862c79e570b3391f5ca0822d4e649b111a3f14ed164d598516173d1f9b42f",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/recon_axil.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "ff16f9c73a4c5b1906df39ff39cfe6b2d285e8247f8b88a1c899a7cbc836879f",
+      "current_sha256": "ff16f9c73a4c5b1906df39ff39cfe6b2d285e8247f8b88a1c899a7cbc836879f",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/recon_top.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "d7fabb5fcbd0e51401c51dd6264095ac0b852ca9074c463ddb1f19c01d15d825",
+      "current_sha256": "d7fabb5fcbd0e51401c51dd6264095ac0b852ca9074c463ddb1f19c01d15d825",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/rgb565_mask_stream.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "edd28f73ccf6385d276b6f86d37cf62f752a07e92dd036a91365a0795e8d9500",
+      "current_sha256": "edd28f73ccf6385d276b6f86d37cf62f752a07e92dd036a91365a0795e8d9500",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/sii9022_init.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "8813b25f5d0813e89af83f5528102a7f65dda30963d44bb073deef0ae936f6da",
+      "current_sha256": "8813b25f5d0813e89af83f5528102a7f65dda30963d44bb073deef0ae936f6da",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/sii9022_init_table.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "92dca611e89a5ac772c321296b0920a1ba87cb52ac1cf77a06de39bf8f2a9570",
+      "current_sha256": "92dca611e89a5ac772c321296b0920a1ba87cb52ac1cf77a06de39bf8f2a9570",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/test_dat_gen.v",
+      "license": "LicenseRef-ACZ702-Project-Permission",
+      "basis": "Named ACZ702 example or its integrated modification; project-specific shop permission record.",
+      "source_snapshot_sha256": "e0dcfcb9324c91bb01b0fb9eb9cfaec827792daefc832e3aee03936986444868",
+      "current_sha256": "e0dcfcb9324c91bb01b0fb9eb9cfaec827792daefc832e3aee03936986444868",
+      "source_modified": false,
+      "permission_record": "third_party/authorization/20261101_acz702_permission_v1.json"
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/touch_i2c.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "0ea057ea8577238705fc23b2204dbfa9a3b51bf64de82bdc44fe077c5df1e1d3",
+      "current_sha256": "0ea057ea8577238705fc23b2204dbfa9a3b51bf64de82bdc44fe077c5df1e1d3",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/touch_viewer_ctrl.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "1ba76f8396f38fd91179723376bce3e1187044939211564086f3afccfd9bef3e",
+      "current_sha256": "1ba76f8396f38fd91179723376bce3e1187044939211564086f3afccfd9bef3e",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/ui_mixer.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "549a0624741940df134ffc7022d68e6bf0f8ba235efc0af1865f7fd17b814763",
+      "current_sha256": "d0fd98f7a64ba9a128035eb99711466e27b769112aa7222e6a734d835cdbb5e0",
+      "source_modified": true,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/viewer_frame_reader.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "96358e9c36f6dfff087eb013ff0f2d0fd47e1624cdf203039d039f5c716c58d4",
+      "current_sha256": "96358e9c36f6dfff087eb013ff0f2d0fd47e1624cdf203039d039f5c716c58d4",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/voxel_carver.v",
+      "license": "MIT",
+      "basis": "Project-developed module; source preserved except documented UI attribution comment.",
+      "source_snapshot_sha256": "5f88330ace8a783935bfb9e0fb37739f2d1577d17bc54063b9d109bb7110ccde",
+      "current_sha256": "5f88330ace8a783935bfb9e0fb37739f2d1577d17bc54063b9d109bb7110ccde",
+      "source_modified": false,
+      "permission_record": null
+    },
+    {
+      "path": "hardware/vivado/ov5640_ddr3_tft_hdmi.xpr",
+      "license": "LicenseRef-AMD-Generated-Configuration",
+      "basis": "Project/IP configuration or generated wrapper; original AMD terms and notices retained.",
+      "source_snapshot_sha256": "3312776a863bab69cba47d4f3756bd89e18511437cd832821e380bff29d41805",
+      "current_sha256": "7da3b883933a3ed4bbcf0eda861ea7adafcb867c96f3c191e6331bd8df0c46de",
+      "source_modified": true,
+      "permission_record": null,
+      "modification": "Removed 12 obsolete ImportPath hints; all 40 File Path references unchanged."
+    }
+  ],
+  "generated_ip_sources_not_bundled": true
+}

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "edition": "public-v6-r17",
+  "edition": "public-v6-r18",
   "team_license": {
     "identifier": "MIT",
     "scope": "project-developed files identified in file_licenses.json",
@@ -33,12 +33,18 @@
   },
   "whole_repository_license": "mixed; no blanket MIT",
   "restored_hardware_source_files": 41,
-  "repository_license_index": "LICENSE",
+  "repository_license_index": "THIRD_PARTY_NOTICES.md",
   "prebuilt_artifacts": {
     "included": false,
     "scope": "source edition",
     "note": "Combined-design redistribution is not inferred solely from the generic AMD Core License clause."
   },
   "authorization_screenshot_redacted": true,
-  "reviewed_on": "2026-11-02"
+  "reviewed_on": "2026-11-02",
+  "public_release_done": true,
+  "release_executed": true,
+  "public_repository_url": "https://github.com/fireriver31/scan3d-zynq",
+  "public_release_tag": "submission-v28",
+  "public_release_ref": "refs/tags/submission-v28",
+  "team_license_file": "LICENSE"
 }

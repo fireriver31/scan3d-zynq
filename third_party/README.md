@@ -2,7 +2,7 @@
 
 2026-11-01，小梅哥FPGA企业店客服针对本项目“公开仓库保留并分发ACZ702例程修改版源文件”的请求回复“可以”。请求同时承诺比赛及学术交流、非商业使用，并保留厂家署名和链接。账号脱敏截图、文字转录及SHA保存在[authorization/](authorization/20261101_acz702_permission_v1.md)。
 
-根LICENSE是混合许可范围索引；licenses/mit.txt仅覆盖逐文件标为MIT的自研部分。各来源的适用范围集中列在[THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)，当前状态见[license_status.json](license_status.json)。
+根LICENSE为项目自研部分的MIT正文；licenses/mit.txt同样仅覆盖逐文件标为MIT的自研部分。各来源的适用范围集中列在[THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)，当前状态见[license_status.json](license_status.json)。
 
 | 内容 | 来源 | 许可与处理 |
 |---|---|---|

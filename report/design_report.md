@@ -181,6 +181,12 @@
 
 技能包按“故障来源—可复用操作—验证方法—失效条件”组织。元数据脚本用器件/IP和格式异常检查检测能力；数组脚本用dtype、shape、缺字段及单点破坏检查；另用非扫描设备元数据和数组字段验证是否脱离题目。各项输入、输出、命令与限制见[技能入口](../skill/README.md)，可填写的提问与结果模板见[复用工作表](../skill/pynq-integration-checks/references/reuse_worksheet.md)。
 
+### 9.7 开源发布与许可
+
+项目源码、构建脚本、技能包、设计报告及选定验证记录公开在[GitHub仓库](https://github.com/fireriver31/scan3d-zynq)。本次提交使用固定标签[submission-v28](https://github.com/fireriver31/scan3d-zynq/tree/submission-v28)定位；标签对应的来源清单和发布核验文件登记归档SHA，便于复核提交材料。
+
+项目自研代码和文档采用MIT许可，正文见根LICENSE，适用文件列入third_party/file_licenses.json。ACZ702例程及修改源码按厂家专项答复提供，PYNQ参考代码保留BSD，新字模保留OFL，AMD配置沿用原适用条款；具体范围集中列于THIRD_PARTY_NOTICES.md。源码变更后通过清单和测试核对，再形成新的版本标签。
+
 ## 10. 实验现场与排错记录
 
 现存记录覆盖2026年10月8日至31日。下列耗时均为程序记录；接线调整的总耗时和人工重试次数未记全。相关记录范围见[现场说明](../data/evidence_sources.json)。
