@@ -22,7 +22,7 @@ test_speed_retry_and_manual_timing_are_touch_answers (__main__.Tests.test_speed_
 test_unsafe_initialization_rejected_before_any_execution (__main__.Tests.test_unsafe_initialization_rejected_before_any_execution) ... ok
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.685s
+Ran 21 tests in 0.707s
 
 OK
 触屏流程已启动。本格[*]表示正在等待屏幕操作，请勿重复运行。

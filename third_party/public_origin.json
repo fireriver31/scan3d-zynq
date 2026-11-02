@@ -1,6 +1,6 @@
 {
-  "source_snapshot": "competition-v29",
-  "competition_archive_sha256": "3875f0a8b30c7d933953aef17b07892264dc34f562fdc4529622ed74ba3599d6",
+  "source_snapshot": "competition-v30",
+  "competition_archive_sha256": "1a1f6a22b9d5fa04b254827adc7ff97d08751f2b8bb15d5081a995cbdd9b65c8",
   "selected": [
     {
       "path": ".gitignore",
@@ -572,8 +572,8 @@
     {
       "path": "report/design_report.md",
       "source": "report/design_report.md",
-      "source_sha256": "025a7a4ce1ff8e6e26baa0c30e10ec1ce27dd48daf833f0fbbf4a279a718cd51",
-      "public_sha256": "a7b83fea9222d7cb80d42c257b9509c84c518694acf43b59cb8780674ab2f063",
+      "source_sha256": "af96066740580a69c4e6df52719ee74b583fbe3962cc1778ad67243d01e00c65",
+      "public_sha256": "b4a9751d8e2b5b389cc31059a8cfd6418691d19277380288f501baadf50d93f6",
       "modified_for_public_edition": true
     },
     {
@@ -602,10 +602,10 @@
     "license": "OFL-1.1"
   },
   "whole_system_bit_included": false,
-  "edition": "public-v6-r19",
+  "edition": "public-v6-r20",
   "vendor_permission": "third_party/authorization/20261101_acz702_permission_v1.json",
   "restored_hardware_inventory": "third_party/source_inventory.json",
-  "public_edition": "v6-r19",
+  "public_edition": "v6-r20",
   "runtime_changes_from_v2": [
     "scan_workflow.ipynb: COLOR_BIT defaults to scan3d.bit; no algorithm change"
   ],
@@ -1037,8 +1037,8 @@
   },
   "competition_archive_in_repository": false,
   "source_manifest": {
-    "file": "third_party/source_history/competition_v29_manifest.sha256",
-    "sha256": "87b16f1b5c10f4682d1db6ba2115e983f4d803624924e5b7389f8a9f944018e7"
+    "file": "third_party/source_history/competition_v30_manifest.sha256",
+    "sha256": "58122fdc3f9eb803a8e57de527957a70cf1e58ffbffe9a0473d28fbd7ea890cc"
   },
   "previous_submissions": [
     {
@@ -1054,7 +1054,14 @@
       "commit": "64bfc7ee34365d818461f1bbd1e539ab5324589f",
       "competition_archive_sha256": "5c4133b85bf1e1d4cab535c52df91cf9d3fd232fb6191adb293e0f0570cff499",
       "source_manifest_file": "third_party/source_history/competition_v28_manifest.sha256"
+    },
+    {
+      "source_snapshot": "competition-v29",
+      "release_tag": "submission-v29",
+      "commit": "0f0a4b583131400fa6477f01e9921b262c24c1dd",
+      "competition_archive_sha256": "3875f0a8b30c7d933953aef17b07892264dc34f562fdc4529622ed74ba3599d6",
+      "source_manifest_file": "third_party/source_history/competition_v29_manifest.sha256"
     }
   ],
-  "release_tag": "submission-v29"
+  "release_tag": "submission-v30"
 }

@@ -58,6 +58,6 @@
   "log_scope": "repository",
   "log_base": "sim/results",
   "check_suite_version": 5,
-  "source_snapshot": "public-v6-r19",
+  "source_snapshot": "public-v6-r20",
   "package_audit_scope": "sealed snapshot before host-log archiving"
 }

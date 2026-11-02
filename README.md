@@ -89,4 +89,4 @@ ChatGPT用于方案比较、代码检查、故障分析，以及测试脚本和�
 
 授权截图与历史报告的隐私处理及原件/副本SHA对应关系见[隐私处理说明](data/privacy/README.md)。
 
-本次提交源码以版本标签[submission-v29](https://github.com/fireriver31/scan3d-zynq/tree/submission-v29)定位，完整提交SHA和比赛归档SHA见[发布核验文件](https://github.com/fireriver31/scan3d-zynq/releases/download/submission-v29/submission_v29_verification.json)。[开源发布与许可](report/design_report.md#12-开源发布与许可)独立说明源码入口和许可范围。
+本次提交源码以版本标签[submission-v30](https://github.com/fireriver31/scan3d-zynq/tree/submission-v30)定位，完整提交SHA和比赛归档SHA见[发布核验文件](https://github.com/fireriver31/scan3d-zynq/releases/download/submission-v30/submission_v30_verification.json)。[开源发布与许可](report/design_report.md#12-开源发布与许可)独立说明源码入口和许可范围。

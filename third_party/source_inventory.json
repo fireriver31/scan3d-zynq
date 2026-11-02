@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "source_snapshot": "competition-v29",
+  "source_snapshot": "competition-v30",
   "files": [
     {
       "path": "hardware/constraints/1026_touch_pins_v87.xdc",

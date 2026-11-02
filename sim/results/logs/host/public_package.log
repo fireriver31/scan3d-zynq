@@ -3,7 +3,7 @@
   "privacy": {
     "passed": true,
     "local_paths_or_requester_accounts": [],
-    "payload_files_and_members": 251,
+    "payload_files_and_members": 252,
     "archive_members": 0,
     "path_redacted_files": 12,
     "screenshot_account_redacted": true,
@@ -20,7 +20,7 @@
     "executed_notebook_outputs": 13,
     "interrupt_output_preserved": true
   },
-  "files": 251,
+  "files": 252,
   "runtime_python36": 33,
   "notebook_cells": 10,
   "glyphs": 766,
@@ -36,7 +36,7 @@
   "linked_test_logs": 22,
   "archived_log_files": 38,
   "historical_data_scope_explicit": true,
-  "design_report_chapters": 12,
+  "design_report_chapters": 13,
   "obsolete_import_paths_absent": true,
   "deployment_bit_name": "scan3d.bit"
 }

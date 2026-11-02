@@ -1,11 +1,13 @@
 # 来源快照与记录标签
 
-当前整理来源为比赛完整包competition-v29。competition_v29_manifest.sha256是该包文件清单；public_origin.json逐项登记来源SHA与公开副本SHA。比赛RAR由赛事提交渠道提供，公开库保存其SHA和清单用于交叉核对。
+当前整理来源为比赛完整包competition-v30。competition_v30_manifest.sha256是该包文件清单；public_origin.json逐项登记来源SHA与公开副本SHA。比赛RAR由赛事提交渠道提供，公开库保存其SHA和清单用于交叉核对。
 
 competition-v11为最初整理基线，原指纹保留在historical_base及competition_v11_manifest.sha256。competition_v27_manifest.sha256和competition_v28_manifest.sha256保留后续两次已发布快照。
 
-public-v6-r2是原板测来源标签，public-v6-r15为一次历史主机检查标签；当前公开整理版本为public-v6-r19。这些名称用于区分记录时间，运行软件和板测原始标签保持原值。
+public-v6-r2是原板测来源标签，public-v6-r15为一次历史主机检查标签；当前公开整理版本为public-v6-r20。这些名称用于区分记录时间，运行软件和板测原始标签保持原值。
 
-submission-v27对应34db3cf及原v27归档c183a27a；submission-v28对应64bfc7e及原v28归档5c4133b8；submission-v29对应本次文档修订。历史标签保留原指向，修订另建版本。完整提交SHA和归档SHA列于各Release核验文件；附注信息不等同于标签不可变保护。
+submission-v27对应34db3cf及原v27归档c183a27a；submission-v28对应64bfc7e及原v28归档5c4133b8；submission-v29对应0f0a4b5及原v29归档3875f0a8；submission-v30对应本次核对完成版本。历史标签保留原指向，修订另建版本。完整提交SHA和归档SHA列于各Release核验文件；附注信息不等同于标签不可变保护。
 
 hardware_inventory_v11.json是历史BD检查的原清单，不作为当前硬件来源版本声明。
+
+competition_v29_manifest.sha256保留上一轮公开快照对应清单。

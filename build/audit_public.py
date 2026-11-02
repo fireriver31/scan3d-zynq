@@ -246,7 +246,7 @@ def main():
         full_system_bit_absent=True, per_file_license_coverage=True, board_record_present=board_evidence['board_record_present'],
         hardware_access_performed=False,
         linked_test_logs=linked_logs, archived_log_files=len(log_entries),
-        historical_data_scope_explicit=True, design_report_chapters=12,
+        historical_data_scope_explicit=True, design_report_chapters=len(re.findall(r'^## \d+\.', report_text, re.M)),
         obsolete_import_paths_absent=True, deployment_bit_name='scan3d.bit')
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, indent=2) + '\n', encoding='utf8')

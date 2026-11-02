@@ -221,7 +221,7 @@ v87布线报告WNS为+0.100ns，当前v99为+0.520ns，来自两套完整实现�
 
 ## 12. 开源发布与许可
 
-项目源码、构建脚本、技能包、设计报告及选定验证记录公开在[GitHub仓库](https://github.com/fireriver31/scan3d-zynq)。本次提交通过版本标签[submission-v29](https://github.com/fireriver31/scan3d-zynq/tree/submission-v29)定位；完整提交SHA、比赛归档SHA及两份文件清单的对应关系见[发布核验文件](https://github.com/fireriver31/scan3d-zynq/releases/download/submission-v29/submission_v29_verification.json)。
+项目源码、构建脚本、技能包、设计报告及选定验证记录公开在[GitHub仓库](https://github.com/fireriver31/scan3d-zynq)。本次提交通过版本标签[submission-v30](https://github.com/fireriver31/scan3d-zynq/tree/submission-v30)定位；完整提交SHA、比赛归档SHA及两份文件清单的对应关系见[发布核验文件](https://github.com/fireriver31/scan3d-zynq/releases/download/submission-v30/submission_v30_verification.json)。
 
 项目自研代码和文档采用MIT许可，根LICENSE与licenses/mit.txt提供相同文本，适用文件列于third_party/file_licenses.json。ACZ702例程及修改源码按厂家专项答复提供，PYNQ参考代码保留BSD，新字模保留OFL，AMD配置沿用原适用条款；具体范围见THIRD_PARTY_NOTICES.md。
 
