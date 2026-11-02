@@ -1,6 +1,6 @@
 {
   "source_snapshot": "competition-v27",
-  "competition_archive_sha256": "5cc34ec26f49618d78ee640c1f4f64c0f4265efea067bb698219af2d81b97389",
+  "competition_archive_sha256": "c183a27a3eaa690a7a5245e0d8e1f581680339da413fdab144f4eafe5be9b981",
   "selected": [
     {
       "path": ".gitignore",
@@ -1038,6 +1038,6 @@
   "competition_archive_in_repository": false,
   "source_manifest": {
     "file": "third_party/source_history/competition_v27_manifest.sha256",
-    "sha256": "9b1286256c1701129a119e765004b5f2a913efdc05f1290be7cb9b9cf0d2790d"
+    "sha256": "aabee72ec31208959dbf33290e739b1f3d889d7a6a1b12ed098c7203b6c0881a"
   }
 }

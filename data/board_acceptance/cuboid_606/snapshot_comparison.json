@@ -1016,7 +1016,7 @@
       {
         "path": "third_party/public_origin.json",
         "tested_sha256": "f2074eaf82fdb957d47b1c5b77c9abd6f23f86ef4eb546ce7f53234db36a7b14",
-        "current_sha256": "d286319d6ef7bf2720b742b35ea677e787743465f04b1b88830d05343d57c445"
+        "current_sha256": "cce8b415c64f96fb7a8f70ca2ad66bbc7573239e6d570ae58de87aaeb05ca0c8"
       },
       {
         "path": "third_party/README.md",
