@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-01",
+  "factory_example_source_restored_under_project_permission": true,
+  "current_exclusions": [
+    "prebuilt whole-system bit/hwh",
+    "old font raster with unresolved source",
+    "raw photographs and sample model",
+    "private environment ZIP and original dialogue",
+    "unsanitized historical local-machine logs",
+    "proprietary generated IP implementation sources"
+  ],
+  "prior_subset": "public-v1",
+  "original_submission_retained": true
+}

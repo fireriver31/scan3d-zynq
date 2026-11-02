@@ -1,0 +1,77 @@
+{
+  "version": 99,
+  "frame_sequence": 227,
+  "last_frame_underflows": 0,
+  "total_underflows": 0,
+  "samples_y100_rgb565": {
+    "x32": 33644,
+    "x96": 33708,
+    "x400": 44180,
+    "x768": 52665
+  },
+  "last_underflow_request_xy": {
+    "x": 0,
+    "y": 0
+  },
+  "display_fifo_pixels": 4096,
+  "note": "FPGA观察值；颜色采样在UI叠加前，不代表相机白平衡或实体屏观测",
+  "fclk0_register_mhz": 50.0,
+  "bitfile": "/home/xilinx/jupyter_notebooks/User/Overlays/OV5640_UI/mask_rtl_1010_v1/scan3d.bit",
+  "observations": [
+    {
+      "version": 99,
+      "frame_sequence": 221,
+      "last_frame_underflows": 0,
+      "total_underflows": 0,
+      "samples_y100_rgb565": {
+        "x32": 31597,
+        "x96": 33677,
+        "x400": 44212,
+        "x768": 52633
+      },
+      "last_underflow_request_xy": {
+        "x": 0,
+        "y": 0
+      },
+      "display_fifo_pixels": 4096,
+      "note": "FPGA观察值；颜色采样在UI叠加前，不代表相机白平衡或实体屏观测"
+    },
+    {
+      "version": 99,
+      "frame_sequence": 223,
+      "last_frame_underflows": 0,
+      "total_underflows": 0,
+      "samples_y100_rgb565": {
+        "x32": 31628,
+        "x96": 33677,
+        "x400": 44274,
+        "x768": 52665
+      },
+      "last_underflow_request_xy": {
+        "x": 0,
+        "y": 0
+      },
+      "display_fifo_pixels": 4096,
+      "note": "FPGA观察值；颜色采样在UI叠加前，不代表相机白平衡或实体屏观测"
+    },
+    {
+      "version": 99,
+      "frame_sequence": 225,
+      "last_frame_underflows": 0,
+      "total_underflows": 0,
+      "samples_y100_rgb565": {
+        "x32": 33645,
+        "x96": 33646,
+        "x400": 42098,
+        "x768": 52634
+      },
+      "last_underflow_request_xy": {
+        "x": 0,
+        "y": 0
+      },
+      "display_fifo_pixels": 4096,
+      "note": "FPGA观察值；颜色采样在UI叠加前，不代表相机白平衡或实体屏观测"
+    }
+  ],
+  "screen_image_confirmed": false
+}

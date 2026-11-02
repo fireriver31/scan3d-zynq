@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.so
+*.dll
+*.building.*
+.Xil/
+*.jou
+*.runs/
+*.cache/
+*.gen/
+sim/out/
+build/work/
+build/out/
+.ipynb_checkpoints/

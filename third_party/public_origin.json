@@ -1,0 +1,1043 @@
+{
+  "source_snapshot": "competition-v27",
+  "competition_archive_sha256": "5cc34ec26f49618d78ee640c1f4f64c0f4265efea067bb698219af2d81b97389",
+  "selected": [
+    {
+      "path": ".gitignore",
+      "source": ".gitignore",
+      "source_sha256": "a589586ac7ccd44fbfb6e7805778f8e12265a1094f26684fceacc47115769f51",
+      "public_sha256": "a589586ac7ccd44fbfb6e7805778f8e12265a1094f26684fceacc47115769f51",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/adaptive_scan.py",
+      "source": "src/runtime/adaptive_scan.py",
+      "source_sha256": "f0e4e91c0e7e9b690aaa48fe756642d45acd1d889ce57439675d5e7db73e3a4d",
+      "public_sha256": "f0e4e91c0e7e9b690aaa48fe756642d45acd1d889ce57439675d5e7db73e3a4d",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/background_model.py",
+      "source": "src/runtime/background_model.py",
+      "source_sha256": "bca050ceddadef066faa80c7cea87c9788230f702b4a5010ba1e4277aa78fb28",
+      "public_sha256": "bca050ceddadef066faa80c7cea87c9788230f702b4a5010ba1e4277aa78fb28",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/background_witness.py",
+      "source": "src/runtime/background_witness.py",
+      "source_sha256": "7c003dd8d7847c94d5bd35c27a457661c71546270869da60adca15f4f5e75ff9",
+      "public_sha256": "7c003dd8d7847c94d5bd35c27a457661c71546270869da60adca15f4f5e75ff9",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/camera_control.py",
+      "source": "src/runtime/camera_control.py",
+      "source_sha256": "29ef77c2f43249d33b521ad94a89ebab0176f35370d7c37bd4434fd9cd7bda81",
+      "public_sha256": "29ef77c2f43249d33b521ad94a89ebab0176f35370d7c37bd4434fd9cd7bda81",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/competitive_colour.py",
+      "source": "src/runtime/competitive_colour.py",
+      "source_sha256": "75fb93372673fbada19389247d0802668e8a314a82be857cf94f2741472e1bf0",
+      "public_sha256": "75fb93372673fbada19389247d0802668e8a314a82be857cf94f2741472e1bf0",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/edge_partition.py",
+      "source": "src/runtime/edge_partition.py",
+      "source_sha256": "a1ce08e9c5710c19d6a129574a9bdb2acb30bb37a82d0c9a64dedf76a72e313b",
+      "public_sha256": "a1ce08e9c5710c19d6a129574a9bdb2acb30bb37a82d0c9a64dedf76a72e313b",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/exact_scan_accel.c",
+      "source": "src/runtime/exact_scan_accel.c",
+      "source_sha256": "32a0b331efea66269410464358e16636e8c7c7bf6bab70eacb93429de276fdec",
+      "public_sha256": "32a0b331efea66269410464358e16636e8c7c7bf6bab70eacb93429de276fdec",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/exact_scan_accel.py",
+      "source": "src/runtime/exact_scan_accel.py",
+      "source_sha256": "aa61cf548f51e7ce09df7126d569bb1f6c3aebfa09b5c67841c67d5daf248f91",
+      "public_sha256": "aa61cf548f51e7ce09df7126d569bb1f6c3aebfa09b5c67841c67d5daf248f91",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/interior_evidence.py",
+      "source": "src/runtime/interior_evidence.py",
+      "source_sha256": "b315cf2ff2779e4b55d2942758b6ae1753cb31710f85c5a36f9895e3e3223d7c",
+      "public_sha256": "b315cf2ff2779e4b55d2942758b6ae1753cb31710f85c5a36f9895e3e3223d7c",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/marker_speed.py",
+      "source": "src/runtime/marker_speed.py",
+      "source_sha256": "2720c416cce0d4a634404cb2edebb300fd937f05c2526dc828b797c881766a9f",
+      "public_sha256": "2720c416cce0d4a634404cb2edebb300fd937f05c2526dc828b797c881766a9f",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/mask_input.py",
+      "source": "src/runtime/mask_input.py",
+      "source_sha256": "821a9f9e8df030ea0369069c0a840854c1a2690d148a42ef9911a4f5a138030d",
+      "public_sha256": "821a9f9e8df030ea0369069c0a840854c1a2690d148a42ef9911a4f5a138030d",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/photo_geometry.py",
+      "source": "src/runtime/photo_geometry.py",
+      "source_sha256": "d9a98e3851c15d67ce41ccf2ebea644d200a510f2feae10b307384f110ba1eeb",
+      "public_sha256": "d9a98e3851c15d67ce41ccf2ebea644d200a510f2feae10b307384f110ba1eeb",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/pl_mask.py",
+      "source": "src/runtime/pl_mask.py",
+      "source_sha256": "816b96cb2d238b3178a25429ffab5c021fd12879e8183e21d70658538bdb1a4d",
+      "public_sha256": "816b96cb2d238b3178a25429ffab5c021fd12879e8183e21d70658538bdb1a4d",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/ps_demo.py",
+      "source": "src/runtime/ps_demo.py",
+      "source_sha256": "ec10688599e9c06e43ec92d5f11a619ac8afb4623b6e180c657be3375edde974",
+      "public_sha256": "ec10688599e9c06e43ec92d5f11a619ac8afb4623b6e180c657be3375edde974",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/reference_motion.py",
+      "source": "src/runtime/reference_motion.py",
+      "source_sha256": "7d1eed8e98f12c6d3d39ed7ed4650e8747164d2f1cce2d8e02007a04957ab98e",
+      "public_sha256": "7d1eed8e98f12c6d3d39ed7ed4650e8747164d2f1cce2d8e02007a04957ab98e",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/roi_reference.py",
+      "source": "src/runtime/roi_reference.py",
+      "source_sha256": "34d30aa9fe5ff1f878b70bf920d0b84cdfdf4ad9d45bd92693554a7b1afa4202",
+      "public_sha256": "34d30aa9fe5ff1f878b70bf920d0b84cdfdf4ad9d45bd92693554a7b1afa4202",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/rtl_mask_demo.py",
+      "source": "src/runtime/rtl_mask_demo.py",
+      "source_sha256": "2647ed8c32aa61df2b30556e60cec47207b20273eff4dbd46bccd63bd81d008a",
+      "public_sha256": "2647ed8c32aa61df2b30556e60cec47207b20273eff4dbd46bccd63bd81d008a",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/scan_clock.py",
+      "source": "src/runtime/scan_clock.py",
+      "source_sha256": "41f9e7f6c71bf0a6249463d5e6e7287e0b9c17181977edfc9f9bb2189aec0453",
+      "public_sha256": "41f9e7f6c71bf0a6249463d5e6e7287e0b9c17181977edfc9f9bb2189aec0453",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/scan_pipeline.py",
+      "source": "src/runtime/scan_pipeline.py",
+      "source_sha256": "38746abf5f5d030036437029cbf4913cb6085c22480a7a1c8e054c42351cdcf1",
+      "public_sha256": "38746abf5f5d030036437029cbf4913cb6085c22480a7a1c8e054c42351cdcf1",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/scan_pl_guard.py",
+      "source": "src/runtime/scan_pl_guard.py",
+      "source_sha256": "891ab1e5223aa410e38b57a27e612250fade50b88b16de1422bc20335e4bef8c",
+      "public_sha256": "891ab1e5223aa410e38b57a27e612250fade50b88b16de1422bc20335e4bef8c",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/scan_runtime.py",
+      "source": "src/runtime/scan_runtime.py",
+      "source_sha256": "aa1d3fd431247d14af2699319004d2d2d4a06d7ccbead3bad6ed8fb388207777",
+      "public_sha256": "aa1d3fd431247d14af2699319004d2d2d4a06d7ccbead3bad6ed8fb388207777",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/scan_screen.py",
+      "source": "src/runtime/scan_screen.py",
+      "source_sha256": "e9a5843621b13768f8de55babc975e7cb11fa81ff873f3f4661b1daa4631c863",
+      "public_sha256": "e9a5843621b13768f8de55babc975e7cb11fa81ff873f3f4661b1daa4631c863",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/scan_workflow.ipynb",
+      "source": "src/runtime/scan_workflow.ipynb",
+      "source_sha256": "87abd5c9c4ab94f8d51d1d33bd68f93c4e8a82b3556da6486828a751c980f9c0",
+      "public_sha256": "87abd5c9c4ab94f8d51d1d33bd68f93c4e8a82b3556da6486828a751c980f9c0",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/screen_lease.py",
+      "source": "src/runtime/screen_lease.py",
+      "source_sha256": "4d4f9a773be1d5e4952b84cf909830400e0035e7b13322f875b6f4706aa03de8",
+      "public_sha256": "4d4f9a773be1d5e4952b84cf909830400e0035e7b13322f875b6f4706aa03de8",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/screen_probe.py",
+      "source": "src/runtime/screen_probe.py",
+      "source_sha256": "f311095a5056d81cbc9715611a058773ddd210a8ca5626aeb6475cc03fbb28ba",
+      "public_sha256": "f311095a5056d81cbc9715611a058773ddd210a8ca5626aeb6475cc03fbb28ba",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/subject_evidence.py",
+      "source": "src/runtime/subject_evidence.py",
+      "source_sha256": "53bb6a5b1397c1499c99fb4e879d5fb9497b3cb9f60b936708b4da30a6581501",
+      "public_sha256": "53bb6a5b1397c1499c99fb4e879d5fb9497b3cb9f60b936708b4da30a6581501",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/subject_region.py",
+      "source": "src/runtime/subject_region.py",
+      "source_sha256": "cafb1e0471a214e2a6a68c93f69fd5dedb3d854955acbfc1bb64b7e671102daf",
+      "public_sha256": "cafb1e0471a214e2a6a68c93f69fd5dedb3d854955acbfc1bb64b7e671102daf",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/surface_photo.py",
+      "source": "src/runtime/surface_photo.py",
+      "source_sha256": "3fd34fbe3278b13f1ac43d03c75284525652e1d0008ebbb732e3eb541f84dde1",
+      "public_sha256": "3fd34fbe3278b13f1ac43d03c75284525652e1d0008ebbb732e3eb541f84dde1",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/tft_model.py",
+      "source": "src/runtime/tft_model.py",
+      "source_sha256": "fd7dbecee3275984bf56bfabe79fd1a1ac58ccdea693552a04c94e4d52900b1d",
+      "public_sha256": "fd7dbecee3275984bf56bfabe79fd1a1ac58ccdea693552a04c94e4d52900b1d",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/tft_raster.c",
+      "source": "src/runtime/tft_raster.c",
+      "source_sha256": "230d052a48a68498b598c8cc886eb6d58058af4c257a6dfc759ebc6ba9280185",
+      "public_sha256": "230d052a48a68498b598c8cc886eb6d58058af4c257a6dfc759ebc6ba9280185",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/tft_touch.py",
+      "source": "src/runtime/tft_touch.py",
+      "source_sha256": "cc071ffb76a06030087e3002e3aad3880e3e2988e8174f58c8cf05a92c637e38",
+      "public_sha256": "cc071ffb76a06030087e3002e3aad3880e3e2988e8174f58c8cf05a92c637e38",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/tft_viewer.py",
+      "source": "src/runtime/tft_viewer.py",
+      "source_sha256": "02bc280393f050a008b2f8ba3dca6d5b63be4a72eb2a1f17ebfa8f9eed3e670c",
+      "public_sha256": "02bc280393f050a008b2f8ba3dca6d5b63be4a72eb2a1f17ebfa8f9eed3e670c",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/touch_scan.py",
+      "source": "src/runtime/touch_scan.py",
+      "source_sha256": "b915b3cc609e07a8e2c43cb9e8af1d760caa567dbc0e26e3105f1d9682bc8e6e",
+      "public_sha256": "b915b3cc609e07a8e2c43cb9e8af1d760caa567dbc0e26e3105f1d9682bc8e6e",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/touch_workflow.ipynb",
+      "source": "src/runtime/touch_workflow.ipynb",
+      "source_sha256": "9f69aaa40c208c524c00f9f1450d7607f6fe0a1f3b61e5f1a88b8aec8248b5b0",
+      "public_sha256": "9f69aaa40c208c524c00f9f1450d7607f6fe0a1f3b61e5f1a88b8aec8248b5b0",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/turntable_camera.py",
+      "source": "src/runtime/turntable_camera.py",
+      "source_sha256": "1cdca61f27f1f489b7816e8eb9b186bc82d000576076d998308f70cdf9c71ae9",
+      "public_sha256": "1cdca61f27f1f489b7816e8eb9b186bc82d000576076d998308f70cdf9c71ae9",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "src/runtime/uncertainty_scope.py",
+      "source": "src/runtime/uncertainty_scope.py",
+      "source_sha256": "29770ca7c58e5eb1c38745c9875e580f6a07c41bde34d2f9c48d54c0263a9e2d",
+      "public_sha256": "29770ca7c58e5eb1c38745c9875e580f6a07c41bde34d2f9c48d54c0263a9e2d",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/rtl/1016_photo_mask_axis_v19.sv",
+      "source": "hardware/rtl/1016_photo_mask_axis_v19.sv",
+      "source_sha256": "9e656dc87401bdb27f0be89ead7875e6558ea937358309447fa049274e5c6a21",
+      "public_sha256": "9e656dc87401bdb27f0be89ead7875e6558ea937358309447fa049274e5c6a21",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/constraints/1026_touch_pins_v87.xdc",
+      "source": "hardware/constraints/1026_touch_pins_v87.xdc",
+      "source_sha256": "0f71f54640dfbba449c2c76fe9153a078fd34978fc6c192e29c6dc67be7a37f5",
+      "public_sha256": "0f71f54640dfbba449c2c76fe9153a078fd34978fc6c192e29c6dc67be7a37f5",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/tests/mem/coef_hex.mem",
+      "source": "hardware/tests/mem/coef_hex.mem",
+      "source_sha256": "426f9e79ae1b73e4570e39f1c35f543403cdf6bb0ec84a36d2e0ab40df465a57",
+      "public_sha256": "426f9e79ae1b73e4570e39f1c35f543403cdf6bb0ec84a36d2e0ab40df465a57",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/tests/mem/mask.mem",
+      "source": "hardware/tests/mem/mask.mem",
+      "source_sha256": "86222f4cd91a39a2e71f7cb9ced907a5369c2ca87eaf32513fa6aed9d6dd4e04",
+      "public_sha256": "86222f4cd91a39a2e71f7cb9ced907a5369c2ca87eaf32513fa6aed9d6dd4e04",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/tests/mem/occ_expected.mem",
+      "source": "hardware/tests/mem/occ_expected.mem",
+      "source_sha256": "5435f3fbf2156fdd3bf9646184ea91828bc19f33ddb174da7247586880cbded2",
+      "public_sha256": "5435f3fbf2156fdd3bf9646184ea91828bc19f33ddb174da7247586880cbded2",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/tests/mem/recon_cfg.vh",
+      "source": "hardware/tests/mem/recon_cfg.vh",
+      "source_sha256": "fae35f8a05998a60a8f4a27c23e9ff7e54b2bf9c3ec872a39fdad21a2841a2f4",
+      "public_sha256": "fae35f8a05998a60a8f4a27c23e9ff7e54b2bf9c3ec872a39fdad21a2841a2f4",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/tests/tb_recon.v",
+      "source": "hardware/tests/tb_recon.v",
+      "source_sha256": "2d6e045df46bad584345e2900e91b6027eba7d1f0c099c38645f4deb3a951434",
+      "public_sha256": "2d6e045df46bad584345e2900e91b6027eba7d1f0c099c38645f4deb3a951434",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "hardware/tests/tb_rgb565_mask_stream.v",
+      "source": "hardware/tests/tb_rgb565_mask_stream.v",
+      "source_sha256": "312a134ab34291edc2329e5bc85c6be9d336fdd9e4e05abd454d9940af393520",
+      "public_sha256": "312a134ab34291edc2329e5bc85c6be9d336fdd9e4e05abd454d9940af393520",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/test_touch_workflow.py",
+      "source": "sim/test_touch_workflow.py",
+      "source_sha256": "30ab0540832f1e6130f4f1676470905b56405d50016ae8d8b00c47e8014f5e20",
+      "public_sha256": "30ab0540832f1e6130f4f1676470905b56405d50016ae8d8b00c47e8014f5e20",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/test_pl_rpc.py",
+      "source": "sim/test_pl_rpc.py",
+      "source_sha256": "1a995c22558910d457ec45f76417844384cc9b296b203e728af0153f89b62625",
+      "public_sha256": "1a995c22558910d457ec45f76417844384cc9b296b203e728af0153f89b62625",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/run_rtl.py",
+      "source": "sim/run_rtl.py",
+      "source_sha256": "0edf6b3337c430f56cda19e0ba5f91349fc756e14b5f1a61aaa957e6515c5624",
+      "public_sha256": "bc7ee1a79384d5458794fc0b72b39bb7fe3d35fe9cf8f9be47384c8bd7b7c521",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "sim/run_core_rtl.py",
+      "source": "sim/run_core_rtl.py",
+      "source_sha256": "a416e25c261a5d717a2c01059e1abc16240b4a803d6a5e1b9ee199b186865192",
+      "public_sha256": "1add0fab200feb90b778a10f46cbc779a1b5e16ea2cf2ed9e8de7e7a6e1ac633",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "sim/generate_core_vectors.py",
+      "source": "sim/generate_core_vectors.py",
+      "source_sha256": "ba7ae9e30d43314a2ac06908b6a73cd22e12aae09423f7c594568fce603bf3d7",
+      "public_sha256": "7c442f75446fbb08e7dbc626c349c7adc8f98ccbc4c3a4abe678804de2f9c513",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "sim/reference/pynq_v24_pl.py",
+      "source": "sim/reference/pynq_v24_pl.py",
+      "source_sha256": "c1f6fe3779e67cd9fb6fa6a0bda17d8151f71bbff58771a503e26de67421a3ba",
+      "public_sha256": "c1f6fe3779e67cd9fb6fa6a0bda17d8151f71bbff58771a503e26de67421a3ba",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/reference/pynq_v24_overlay.py",
+      "source": "sim/reference/pynq_v24_overlay.py",
+      "source_sha256": "ff30846c2a351d655f52e0aafd4d04e62dbb617547ed40ff2dca82aac16fc8ac",
+      "public_sha256": "ff30846c2a351d655f52e0aafd4d04e62dbb617547ed40ff2dca82aac16fc8ac",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/reference/scan_screen_v88.py",
+      "source": "sim/reference/scan_screen_v88.py",
+      "source_sha256": "2bd52cfe6f56db48af3455a36e68dcbac9ffb1575a4a62fd3be5e0f0365e3443",
+      "public_sha256": "2bd52cfe6f56db48af3455a36e68dcbac9ffb1575a4a62fd3be5e0f0365e3443",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/reference/touch_scan_v105.py",
+      "source": "sim/reference/touch_scan_v105.py",
+      "source_sha256": "53526709c719de8bada544c65e662b63f082e497c79d013299258eba14106a0f",
+      "public_sha256": "53526709c719de8bada544c65e662b63f082e497c79d013299258eba14106a0f",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1026_tb_absent_v87.sv",
+      "source": "sim/rtl/1026_tb_absent_v87.sv",
+      "source_sha256": "e9f86249fcb2088bf2f99ff72f6b31b26ab8e5e1a1887b7d2c1f31a369dc6d69",
+      "public_sha256": "e9f86249fcb2088bf2f99ff72f6b31b26ab8e5e1a1887b7d2c1f31a369dc6d69",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1026_tb_color_v87.sv",
+      "source": "sim/rtl/1026_tb_color_v87.sv",
+      "source_sha256": "bd4e404a6281e663e24a26979855c4946bda8430e6930553492aa90fb5ac975e",
+      "public_sha256": "bd4e404a6281e663e24a26979855c4946bda8430e6930553492aa90fb5ac975e",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1026_tb_frame_v87.sv",
+      "source": "sim/rtl/1026_tb_frame_v87.sv",
+      "source_sha256": "2a08f7330be76bbfc46126f154834274a29dd1c4bc69c54737d664a0311140de",
+      "public_sha256": "2a08f7330be76bbfc46126f154834274a29dd1c4bc69c54737d664a0311140de",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1026_tb_registers_v87.sv",
+      "source": "sim/rtl/1026_tb_registers_v87.sv",
+      "source_sha256": "5176579fc5c49fe09a0d9ac51b394456115a3decb689a5919180102a9ea280f8",
+      "public_sha256": "5176579fc5c49fe09a0d9ac51b394456115a3decb689a5919180102a9ea280f8",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1026_tb_touch_v87.sv",
+      "source": "sim/rtl/1026_tb_touch_v87.sv",
+      "source_sha256": "ce330a8d215b7d5b88969f7c4ec243182d12cf497fdd84453ff8a08d56385df5",
+      "public_sha256": "ce330a8d215b7d5b88969f7c4ec243182d12cf497fdd84453ff8a08d56385df5",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1027_tb_probe_regs_v90.sv",
+      "source": "sim/rtl/1027_tb_probe_regs_v90.sv",
+      "source_sha256": "262ec2b92eb731424d31098fcfea450a9f2d80b523ace402d801760ef92845c9",
+      "public_sha256": "262ec2b92eb731424d31098fcfea450a9f2d80b523ace402d801760ef92845c9",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1027_tb_probe_v90.sv",
+      "source": "sim/rtl/1027_tb_probe_v90.sv",
+      "source_sha256": "691420acf67ead96c0892cd326c108ed1aad90b52061753b4341f371b76a7c69",
+      "public_sha256": "691420acf67ead96c0892cd326c108ed1aad90b52061753b4341f371b76a7c69",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1028_tb_display_probe_v99.sv",
+      "source": "sim/rtl/1028_tb_display_probe_v99.sv",
+      "source_sha256": "613526654d58d7e43e283b5bf84ac7c26510e660695c5e8e82136a2407ab66ba",
+      "public_sha256": "613526654d58d7e43e283b5bf84ac7c26510e660695c5e8e82136a2407ab66ba",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/1028_tb_display_registers_v99.sv",
+      "source": "sim/rtl/1028_tb_display_registers_v99.sv",
+      "source_sha256": "7ff0ef93a7dac1fdad682f3d5207f7dd2d928d96fda4217189a88176cd0ea66b",
+      "public_sha256": "7ff0ef93a7dac1fdad682f3d5207f7dd2d928d96fda4217189a88176cd0ea66b",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "sim/rtl/tb_photo_mask.sv",
+      "source": "sim/rtl/tb_photo_mask.sv",
+      "source_sha256": "fbc3791d24778258393f2546253f963919cc82aaedcf381054831363f0e40c84",
+      "public_sha256": "fbc3791d24778258393f2546253f963919cc82aaedcf381054831363f0e40c84",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "board/interfaces.md",
+      "source": "board/interfaces.md",
+      "source_sha256": "deea14fcbf5f9f49551d6b153967b7ee1b693c864dbced3e273829c28040f359",
+      "public_sha256": "bc10a7f9e4b9237cf0531cc46e46554f1cd94b55a1fcf26b59573be6f70143fb",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "build/requirements_host.txt",
+      "source": "build/requirements_host.txt",
+      "source_sha256": "b386a2750059fbbb1a65261c3b2172c0ce4a95d17dfd9e15692a1b3b91e232a6",
+      "public_sha256": "b386a2750059fbbb1a65261c3b2172c0ce4a95d17dfd9e15692a1b3b91e232a6",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/README.md",
+      "source": "skill/pynq-integration-checks/README.md",
+      "source_sha256": "1957a4c32965f853951588952b2dcba0771036d57d118d0b9414e21f44e3416d",
+      "public_sha256": "c72593ac96a70374753b5b413cc35d64df8ca0c5589cb3b25fa13fd966233c49",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "skill/pynq-integration-checks/references/cases.md",
+      "source": "skill/pynq-integration-checks/references/cases.md",
+      "source_sha256": "bf60dcc3a0fb0490e39a15fb4c969e9d511b425d398b16315f27ac3f343aa448",
+      "public_sha256": "cf2eedf1b2d3925f52e5f2c36766cfd65c22454b6a38948ffe60a59cf9921724",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "skill/pynq-integration-checks/references/workflow.md",
+      "source": "skill/pynq-integration-checks/references/workflow.md",
+      "source_sha256": "aa990f92422c5804ebd966881f759a7f788187660fcc68d11f1b3099f304c68b",
+      "public_sha256": "aa990f92422c5804ebd966881f759a7f788187660fcc68d11f1b3099f304c68b",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/scripts/compare_arrays.py",
+      "source": "skill/pynq-integration-checks/scripts/compare_arrays.py",
+      "source_sha256": "7d424571f65922a2a0e4865c8e6b8d1e88f9c03148ca5e9e673fd1c233358994",
+      "public_sha256": "7d424571f65922a2a0e4865c8e6b8d1e88f9c03148ca5e9e673fd1c233358994",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/scripts/overlay_audit.py",
+      "source": "skill/pynq-integration-checks/scripts/overlay_audit.py",
+      "source_sha256": "08507e333a883282ac097f58d205aa20932ca2ba5d774e3ff0cb5855a00ba4c3",
+      "public_sha256": "08507e333a883282ac097f58d205aa20932ca2ba5d774e3ff0cb5855a00ba4c3",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/SKILL.md",
+      "source": "skill/pynq-integration-checks/SKILL.md",
+      "source_sha256": "fcdec337d59cf78d0d549297eff53f6f68d03457ade925aa7cf18e703e5fb75a",
+      "public_sha256": "fcdec337d59cf78d0d549297eff53f6f68d03457ade925aa7cf18e703e5fb75a",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/tests/skill_validation.json",
+      "source": "skill/pynq-integration-checks/tests/skill_validation.json",
+      "source_sha256": "e9f3c7ae3e75047acbd24d2d754bed2a7d4c48fa726b231291c2b458d900e38c",
+      "public_sha256": "e9f3c7ae3e75047acbd24d2d754bed2a7d4c48fa726b231291c2b458d900e38c",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/tests/validate_reuse.py",
+      "source": "skill/pynq-integration-checks/tests/validate_reuse.py",
+      "source_sha256": "e0ca4da1915e48f29140ce62847be3e737dc573cb602901a485b3d9344d50c2f",
+      "public_sha256": "e0ca4da1915e48f29140ce62847be3e737dc573cb602901a485b3d9344d50c2f",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/tests/validate_tools.py",
+      "source": "skill/pynq-integration-checks/tests/validate_tools.py",
+      "source_sha256": "7d7ae3259c24656ed72c65482821c128864e5ae5eabd92c908aec34f2b04eaa1",
+      "public_sha256": "7d7ae3259c24656ed72c65482821c128864e5ae5eabd92c908aec34f2b04eaa1",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/pynq-integration-checks/tests/validation.json",
+      "source": "skill/pynq-integration-checks/tests/validation.json",
+      "source_sha256": "303c3338313fb1b561bbb2eb2063f97e4aef9f039a81a41c86b6d02dea10829c",
+      "public_sha256": "303c3338313fb1b561bbb2eb2063f97e4aef9f039a81a41c86b6d02dea10829c",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "skill/README.md",
+      "source": "skill/README.md",
+      "source_sha256": "41760def9c05e8df99f990fa182e9d9ba5900597a1cafb7c680a69ec27189895",
+      "public_sha256": "5969d33d391ba1fa077ae99e51b868588a438c962e20b2b057b6e78a1fe7320d",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "data/reference_comparisons.csv",
+      "source": "board/acceptance/reference_comparisons.csv",
+      "source_sha256": "3f267f3ef0ebde5aed321b3d10b44164f02f59a424241fbcdf790a4e8beeeab4",
+      "public_sha256": "2eb53332c1696277477cf6ed9043c1e23cb94f106894dd7e15c8512d89095879",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "data/pl_reference_comparison.csv",
+      "source": "board/acceptance/pl_reference_comparison.csv",
+      "source_sha256": "f12f85be277f23078b55b59ede843e3cc3feff71d64d428ab55427f0dc5431d3",
+      "public_sha256": "f12f85be277f23078b55b59ede843e3cc3feff71d64d428ab55427f0dc5431d3",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "data/resource_comparison.csv",
+      "source": "board/acceptance/resource_comparison.csv",
+      "source_sha256": "1764b91fb58bb4744941d3cfdbabfbad83e820c685d74dbf556a11ccee595e61",
+      "public_sha256": "1764b91fb58bb4744941d3cfdbabfbad83e820c685d74dbf556a11ccee595e61",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "data/display_optimization_comparison.csv",
+      "source": "board/acceptance/display_optimization_comparison.csv",
+      "source_sha256": "cd99ec9976703d50b018e764e91b3ed99de20533199f7f4746edb87e68bb21f7",
+      "public_sha256": "cd99ec9976703d50b018e764e91b3ed99de20533199f7f4746edb87e68bb21f7",
+      "modified_for_public_edition": false
+    },
+    {
+      "path": "report/design_report.md",
+      "source": "report/design_report.md",
+      "source_sha256": "75554ddf6dd64cb765dbce500f7e8f91b85b818e43e1a903103c603bf0a6657f",
+      "public_sha256": "344d4d713c75081b7c02af0564fed2a3fdb2dbf42cbe94a9e6dcae1a8904e58d",
+      "modified_for_public_edition": true
+    },
+    {
+      "path": "report/figures/system_flow.png",
+      "source": "report/figures/system_flow.png",
+      "source_sha256": "96f40e113862cbf7f35ae36bcd720f3944f40fd8a02a1a00509e76fe8951aacc",
+      "public_sha256": "96f40e113862cbf7f35ae36bcd720f3944f40fd8a02a1a00509e76fe8951aacc",
+      "modified_for_public_edition": false
+    }
+  ],
+  "new_font": {
+    "characters": 766,
+    "unique_characters": 766,
+    "bytes": 98048,
+    "font_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "data_sha256": "5b889d76225beff6ad81e09c82e0e472f68d2a19d05540ea3f6cdc89578ad991",
+    "pixel_size": 30,
+    "cell": [
+      32,
+      32
+    ],
+    "threshold": 128,
+    "bit_order": "row-major, MSB first",
+    "missing_characters": [],
+    "empty_nonspace_characters": [],
+    "license": "OFL-1.1"
+  },
+  "whole_system_bit_included": false,
+  "edition": "public-v6-r17",
+  "vendor_permission": "third_party/authorization/20261101_acz702_permission_v1.json",
+  "restored_hardware_inventory": "third_party/source_inventory.json",
+  "public_edition": "v6-r17",
+  "runtime_changes_from_v2": [
+    "scan_workflow.ipynb: COLOR_BIT defaults to scan3d.bit; no algorithm change"
+  ],
+  "historical_base": {
+    "source_snapshot": "competition-v11",
+    "competition_archive_sha256": "e4fab6942334f9f2c56cb1c5d985f19f42dee469ff48312d431efab840e666e8",
+    "archive_in_repository": false,
+    "source_manifest": {
+      "file": "third_party/source_history/competition_v11_manifest.sha256",
+      "sha256": "8ec4da9823657f32237c917e691932e9b6f59369a902efbc125305ba54a3f78a"
+    },
+    "selected": [
+      {
+        "path": ".gitignore",
+        "source": ".gitignore",
+        "source_sha256": "a589586ac7ccd44fbfb6e7805778f8e12265a1094f26684fceacc47115769f51"
+      },
+      {
+        "path": "src/runtime/adaptive_scan.py",
+        "source": "src/runtime/adaptive_scan.py",
+        "source_sha256": "f0e4e91c0e7e9b690aaa48fe756642d45acd1d889ce57439675d5e7db73e3a4d"
+      },
+      {
+        "path": "src/runtime/background_model.py",
+        "source": "src/runtime/background_model.py",
+        "source_sha256": "bca050ceddadef066faa80c7cea87c9788230f702b4a5010ba1e4277aa78fb28"
+      },
+      {
+        "path": "src/runtime/background_witness.py",
+        "source": "src/runtime/background_witness.py",
+        "source_sha256": "7c003dd8d7847c94d5bd35c27a457661c71546270869da60adca15f4f5e75ff9"
+      },
+      {
+        "path": "src/runtime/camera_control.py",
+        "source": "src/runtime/camera_control.py",
+        "source_sha256": "29ef77c2f43249d33b521ad94a89ebab0176f35370d7c37bd4434fd9cd7bda81"
+      },
+      {
+        "path": "src/runtime/competitive_colour.py",
+        "source": "src/runtime/competitive_colour.py",
+        "source_sha256": "75fb93372673fbada19389247d0802668e8a314a82be857cf94f2741472e1bf0"
+      },
+      {
+        "path": "src/runtime/edge_partition.py",
+        "source": "src/runtime/edge_partition.py",
+        "source_sha256": "a1ce08e9c5710c19d6a129574a9bdb2acb30bb37a82d0c9a64dedf76a72e313b"
+      },
+      {
+        "path": "src/runtime/exact_scan_accel.c",
+        "source": "src/runtime/exact_scan_accel.c",
+        "source_sha256": "32a0b331efea66269410464358e16636e8c7c7bf6bab70eacb93429de276fdec"
+      },
+      {
+        "path": "src/runtime/exact_scan_accel.py",
+        "source": "src/runtime/exact_scan_accel.py",
+        "source_sha256": "aa61cf548f51e7ce09df7126d569bb1f6c3aebfa09b5c67841c67d5daf248f91"
+      },
+      {
+        "path": "src/runtime/interior_evidence.py",
+        "source": "src/runtime/interior_evidence.py",
+        "source_sha256": "b315cf2ff2779e4b55d2942758b6ae1753cb31710f85c5a36f9895e3e3223d7c"
+      },
+      {
+        "path": "src/runtime/marker_speed.py",
+        "source": "src/runtime/marker_speed.py",
+        "source_sha256": "2720c416cce0d4a634404cb2edebb300fd937f05c2526dc828b797c881766a9f"
+      },
+      {
+        "path": "src/runtime/mask_input.py",
+        "source": "src/runtime/mask_input.py",
+        "source_sha256": "821a9f9e8df030ea0369069c0a840854c1a2690d148a42ef9911a4f5a138030d"
+      },
+      {
+        "path": "src/runtime/photo_geometry.py",
+        "source": "src/runtime/photo_geometry.py",
+        "source_sha256": "d9a98e3851c15d67ce41ccf2ebea644d200a510f2feae10b307384f110ba1eeb"
+      },
+      {
+        "path": "src/runtime/pl_mask.py",
+        "source": "src/runtime/pl_mask.py",
+        "source_sha256": "816b96cb2d238b3178a25429ffab5c021fd12879e8183e21d70658538bdb1a4d"
+      },
+      {
+        "path": "src/runtime/ps_demo.py",
+        "source": "src/runtime/ps_demo.py",
+        "source_sha256": "ec10688599e9c06e43ec92d5f11a619ac8afb4623b6e180c657be3375edde974"
+      },
+      {
+        "path": "src/runtime/reference_motion.py",
+        "source": "src/runtime/reference_motion.py",
+        "source_sha256": "7d1eed8e98f12c6d3d39ed7ed4650e8747164d2f1cce2d8e02007a04957ab98e"
+      },
+      {
+        "path": "src/runtime/roi_reference.py",
+        "source": "src/runtime/roi_reference.py",
+        "source_sha256": "34d30aa9fe5ff1f878b70bf920d0b84cdfdf4ad9d45bd92693554a7b1afa4202"
+      },
+      {
+        "path": "src/runtime/rtl_mask_demo.py",
+        "source": "src/runtime/rtl_mask_demo.py",
+        "source_sha256": "2647ed8c32aa61df2b30556e60cec47207b20273eff4dbd46bccd63bd81d008a"
+      },
+      {
+        "path": "src/runtime/scan_clock.py",
+        "source": "src/runtime/scan_clock.py",
+        "source_sha256": "41f9e7f6c71bf0a6249463d5e6e7287e0b9c17181977edfc9f9bb2189aec0453"
+      },
+      {
+        "path": "src/runtime/scan_pipeline.py",
+        "source": "src/runtime/scan_pipeline.py",
+        "source_sha256": "38746abf5f5d030036437029cbf4913cb6085c22480a7a1c8e054c42351cdcf1"
+      },
+      {
+        "path": "src/runtime/scan_pl_guard.py",
+        "source": "src/runtime/scan_pl_guard.py",
+        "source_sha256": "891ab1e5223aa410e38b57a27e612250fade50b88b16de1422bc20335e4bef8c"
+      },
+      {
+        "path": "src/runtime/scan_runtime.py",
+        "source": "src/runtime/scan_runtime.py",
+        "source_sha256": "aa1d3fd431247d14af2699319004d2d2d4a06d7ccbead3bad6ed8fb388207777"
+      },
+      {
+        "path": "src/runtime/scan_screen.py",
+        "source": "src/runtime/scan_screen.py",
+        "source_sha256": "e9a5843621b13768f8de55babc975e7cb11fa81ff873f3f4661b1daa4631c863"
+      },
+      {
+        "path": "src/runtime/scan_workflow.ipynb",
+        "source": "src/runtime/scan_workflow.ipynb",
+        "source_sha256": "be6ec1a93cf6e9b52c025ac9684361a957d62f7d94b426397986c9177aeb2301"
+      },
+      {
+        "path": "src/runtime/screen_lease.py",
+        "source": "src/runtime/screen_lease.py",
+        "source_sha256": "4d4f9a773be1d5e4952b84cf909830400e0035e7b13322f875b6f4706aa03de8"
+      },
+      {
+        "path": "src/runtime/screen_probe.py",
+        "source": "src/runtime/screen_probe.py",
+        "source_sha256": "f311095a5056d81cbc9715611a058773ddd210a8ca5626aeb6475cc03fbb28ba"
+      },
+      {
+        "path": "src/runtime/subject_evidence.py",
+        "source": "src/runtime/subject_evidence.py",
+        "source_sha256": "53bb6a5b1397c1499c99fb4e879d5fb9497b3cb9f60b936708b4da30a6581501"
+      },
+      {
+        "path": "src/runtime/subject_region.py",
+        "source": "src/runtime/subject_region.py",
+        "source_sha256": "cafb1e0471a214e2a6a68c93f69fd5dedb3d854955acbfc1bb64b7e671102daf"
+      },
+      {
+        "path": "src/runtime/surface_photo.py",
+        "source": "src/runtime/surface_photo.py",
+        "source_sha256": "3fd34fbe3278b13f1ac43d03c75284525652e1d0008ebbb732e3eb541f84dde1"
+      },
+      {
+        "path": "src/runtime/tft_model.py",
+        "source": "src/runtime/tft_model.py",
+        "source_sha256": "fd7dbecee3275984bf56bfabe79fd1a1ac58ccdea693552a04c94e4d52900b1d"
+      },
+      {
+        "path": "src/runtime/tft_raster.c",
+        "source": "src/runtime/tft_raster.c",
+        "source_sha256": "230d052a48a68498b598c8cc886eb6d58058af4c257a6dfc759ebc6ba9280185"
+      },
+      {
+        "path": "src/runtime/tft_touch.py",
+        "source": "src/runtime/tft_touch.py",
+        "source_sha256": "cc071ffb76a06030087e3002e3aad3880e3e2988e8174f58c8cf05a92c637e38"
+      },
+      {
+        "path": "src/runtime/tft_viewer.py",
+        "source": "src/runtime/tft_viewer.py",
+        "source_sha256": "02bc280393f050a008b2f8ba3dca6d5b63be4a72eb2a1f17ebfa8f9eed3e670c"
+      },
+      {
+        "path": "src/runtime/touch_scan.py",
+        "source": "src/runtime/touch_scan.py",
+        "source_sha256": "b915b3cc609e07a8e2c43cb9e8af1d760caa567dbc0e26e3105f1d9682bc8e6e"
+      },
+      {
+        "path": "src/runtime/touch_workflow.ipynb",
+        "source": "src/runtime/touch_workflow.ipynb",
+        "source_sha256": "9f69aaa40c208c524c00f9f1450d7607f6fe0a1f3b61e5f1a88b8aec8248b5b0"
+      },
+      {
+        "path": "src/runtime/turntable_camera.py",
+        "source": "src/runtime/turntable_camera.py",
+        "source_sha256": "1cdca61f27f1f489b7816e8eb9b186bc82d000576076d998308f70cdf9c71ae9"
+      },
+      {
+        "path": "src/runtime/uncertainty_scope.py",
+        "source": "src/runtime/uncertainty_scope.py",
+        "source_sha256": "29770ca7c58e5eb1c38745c9875e580f6a07c41bde34d2f9c48d54c0263a9e2d"
+      },
+      {
+        "path": "hardware/rtl/1016_photo_mask_axis_v19.sv",
+        "source": "hardware/rtl/1016_photo_mask_axis_v19.sv",
+        "source_sha256": "9e656dc87401bdb27f0be89ead7875e6558ea937358309447fa049274e5c6a21"
+      },
+      {
+        "path": "hardware/constraints/1026_touch_pins_v87.xdc",
+        "source": "hardware/constraints/1026_touch_pins_v87.xdc",
+        "source_sha256": "0f71f54640dfbba449c2c76fe9153a078fd34978fc6c192e29c6dc67be7a37f5"
+      },
+      {
+        "path": "hardware/tests/mem/coef_hex.mem",
+        "source": "hardware/tests/mem/coef_hex.mem",
+        "source_sha256": "426f9e79ae1b73e4570e39f1c35f543403cdf6bb0ec84a36d2e0ab40df465a57"
+      },
+      {
+        "path": "hardware/tests/mem/mask.mem",
+        "source": "hardware/tests/mem/mask.mem",
+        "source_sha256": "86222f4cd91a39a2e71f7cb9ced907a5369c2ca87eaf32513fa6aed9d6dd4e04"
+      },
+      {
+        "path": "hardware/tests/mem/occ_expected.mem",
+        "source": "hardware/tests/mem/occ_expected.mem",
+        "source_sha256": "5435f3fbf2156fdd3bf9646184ea91828bc19f33ddb174da7247586880cbded2"
+      },
+      {
+        "path": "hardware/tests/mem/recon_cfg.vh",
+        "source": "hardware/tests/mem/recon_cfg.vh",
+        "source_sha256": "fae35f8a05998a60a8f4a27c23e9ff7e54b2bf9c3ec872a39fdad21a2841a2f4"
+      },
+      {
+        "path": "hardware/tests/tb_recon.v",
+        "source": "hardware/tests/tb_recon.v",
+        "source_sha256": "2d6e045df46bad584345e2900e91b6027eba7d1f0c099c38645f4deb3a951434"
+      },
+      {
+        "path": "hardware/tests/tb_rgb565_mask_stream.v",
+        "source": "hardware/tests/tb_rgb565_mask_stream.v",
+        "source_sha256": "312a134ab34291edc2329e5bc85c6be9d336fdd9e4e05abd454d9940af393520"
+      },
+      {
+        "path": "sim/test_touch_workflow.py",
+        "source": "sim/test_touch_workflow.py",
+        "source_sha256": "30ab0540832f1e6130f4f1676470905b56405d50016ae8d8b00c47e8014f5e20"
+      },
+      {
+        "path": "sim/test_pl_rpc.py",
+        "source": "sim/test_pl_rpc.py",
+        "source_sha256": "1a995c22558910d457ec45f76417844384cc9b296b203e728af0153f89b62625"
+      },
+      {
+        "path": "sim/run_rtl.py",
+        "source": "sim/run_rtl.py",
+        "source_sha256": "0edf6b3337c430f56cda19e0ba5f91349fc756e14b5f1a61aaa957e6515c5624"
+      },
+      {
+        "path": "sim/run_core_rtl.py",
+        "source": "sim/run_core_rtl.py",
+        "source_sha256": "a416e25c261a5d717a2c01059e1abc16240b4a803d6a5e1b9ee199b186865192"
+      },
+      {
+        "path": "sim/generate_core_vectors.py",
+        "source": "sim/generate_core_vectors.py",
+        "source_sha256": "ba7ae9e30d43314a2ac06908b6a73cd22e12aae09423f7c594568fce603bf3d7"
+      },
+      {
+        "path": "sim/reference/pynq_v24_pl.py",
+        "source": "sim/reference/pynq_v24_pl.py",
+        "source_sha256": "c1f6fe3779e67cd9fb6fa6a0bda17d8151f71bbff58771a503e26de67421a3ba"
+      },
+      {
+        "path": "sim/reference/pynq_v24_overlay.py",
+        "source": "sim/reference/pynq_v24_overlay.py",
+        "source_sha256": "ff30846c2a351d655f52e0aafd4d04e62dbb617547ed40ff2dca82aac16fc8ac"
+      },
+      {
+        "path": "sim/reference/scan_screen_v88.py",
+        "source": "sim/reference/scan_screen_v88.py",
+        "source_sha256": "2bd52cfe6f56db48af3455a36e68dcbac9ffb1575a4a62fd3be5e0f0365e3443"
+      },
+      {
+        "path": "sim/reference/touch_scan_v105.py",
+        "source": "sim/reference/touch_scan_v105.py",
+        "source_sha256": "53526709c719de8bada544c65e662b63f082e497c79d013299258eba14106a0f"
+      },
+      {
+        "path": "sim/rtl/1026_tb_absent_v87.sv",
+        "source": "sim/rtl/1026_tb_absent_v87.sv",
+        "source_sha256": "e9f86249fcb2088bf2f99ff72f6b31b26ab8e5e1a1887b7d2c1f31a369dc6d69"
+      },
+      {
+        "path": "sim/rtl/1026_tb_color_v87.sv",
+        "source": "sim/rtl/1026_tb_color_v87.sv",
+        "source_sha256": "bd4e404a6281e663e24a26979855c4946bda8430e6930553492aa90fb5ac975e"
+      },
+      {
+        "path": "sim/rtl/1026_tb_frame_v87.sv",
+        "source": "sim/rtl/1026_tb_frame_v87.sv",
+        "source_sha256": "2a08f7330be76bbfc46126f154834274a29dd1c4bc69c54737d664a0311140de"
+      },
+      {
+        "path": "sim/rtl/1026_tb_registers_v87.sv",
+        "source": "sim/rtl/1026_tb_registers_v87.sv",
+        "source_sha256": "5176579fc5c49fe09a0d9ac51b394456115a3decb689a5919180102a9ea280f8"
+      },
+      {
+        "path": "sim/rtl/1026_tb_touch_v87.sv",
+        "source": "sim/rtl/1026_tb_touch_v87.sv",
+        "source_sha256": "ce330a8d215b7d5b88969f7c4ec243182d12cf497fdd84453ff8a08d56385df5"
+      },
+      {
+        "path": "sim/rtl/1027_tb_probe_regs_v90.sv",
+        "source": "sim/rtl/1027_tb_probe_regs_v90.sv",
+        "source_sha256": "262ec2b92eb731424d31098fcfea450a9f2d80b523ace402d801760ef92845c9"
+      },
+      {
+        "path": "sim/rtl/1027_tb_probe_v90.sv",
+        "source": "sim/rtl/1027_tb_probe_v90.sv",
+        "source_sha256": "691420acf67ead96c0892cd326c108ed1aad90b52061753b4341f371b76a7c69"
+      },
+      {
+        "path": "sim/rtl/1028_tb_display_probe_v99.sv",
+        "source": "sim/rtl/1028_tb_display_probe_v99.sv",
+        "source_sha256": "613526654d58d7e43e283b5bf84ac7c26510e660695c5e8e82136a2407ab66ba"
+      },
+      {
+        "path": "sim/rtl/1028_tb_display_registers_v99.sv",
+        "source": "sim/rtl/1028_tb_display_registers_v99.sv",
+        "source_sha256": "7ff0ef93a7dac1fdad682f3d5207f7dd2d928d96fda4217189a88176cd0ea66b"
+      },
+      {
+        "path": "sim/rtl/tb_photo_mask.sv",
+        "source": "sim/rtl/tb_photo_mask.sv",
+        "source_sha256": "fbc3791d24778258393f2546253f963919cc82aaedcf381054831363f0e40c84"
+      },
+      {
+        "path": "board/interfaces.md",
+        "source": "board/interfaces.md",
+        "source_sha256": "deea14fcbf5f9f49551d6b153967b7ee1b693c864dbced3e273829c28040f359"
+      },
+      {
+        "path": "build/requirements_host.txt",
+        "source": "build/requirements_host.txt",
+        "source_sha256": "b386a2750059fbbb1a65261c3b2172c0ce4a95d17dfd9e15692a1b3b91e232a6"
+      },
+      {
+        "path": "skill/pynq-integration-checks/README.md",
+        "source": "skill/pynq-integration-checks/README.md",
+        "source_sha256": "6ff44d24c48caca62baa32887a19eb98b79beef69807fcb2dd7a5e62c7cbaa91"
+      },
+      {
+        "path": "skill/pynq-integration-checks/references/cases.md",
+        "source": "skill/pynq-integration-checks/references/cases.md",
+        "source_sha256": "44e157c8f0ad2169effa4f54d3c216e93dc11c19f305a3413c9834dbba0a7fe0"
+      },
+      {
+        "path": "skill/pynq-integration-checks/references/workflow.md",
+        "source": "skill/pynq-integration-checks/references/workflow.md",
+        "source_sha256": "aa990f92422c5804ebd966881f759a7f788187660fcc68d11f1b3099f304c68b"
+      },
+      {
+        "path": "skill/pynq-integration-checks/scripts/compare_arrays.py",
+        "source": "skill/pynq-integration-checks/scripts/compare_arrays.py",
+        "source_sha256": "7d424571f65922a2a0e4865c8e6b8d1e88f9c03148ca5e9e673fd1c233358994"
+      },
+      {
+        "path": "skill/pynq-integration-checks/scripts/overlay_audit.py",
+        "source": "skill/pynq-integration-checks/scripts/overlay_audit.py",
+        "source_sha256": "08507e333a883282ac097f58d205aa20932ca2ba5d774e3ff0cb5855a00ba4c3"
+      },
+      {
+        "path": "skill/pynq-integration-checks/SKILL.md",
+        "source": "skill/pynq-integration-checks/SKILL.md",
+        "source_sha256": "22a5c763999d5f5ba90f9f40727f48fafb05b25471926f3ed5fbace24691fecb"
+      },
+      {
+        "path": "skill/pynq-integration-checks/tests/skill_validation.json",
+        "source": "skill/pynq-integration-checks/tests/skill_validation.json",
+        "source_sha256": "e9f3c7ae3e75047acbd24d2d754bed2a7d4c48fa726b231291c2b458d900e38c"
+      },
+      {
+        "path": "skill/pynq-integration-checks/tests/validate_reuse.py",
+        "source": "skill/pynq-integration-checks/tests/validate_reuse.py",
+        "source_sha256": "e0ca4da1915e48f29140ce62847be3e737dc573cb602901a485b3d9344d50c2f"
+      },
+      {
+        "path": "skill/pynq-integration-checks/tests/validate_tools.py",
+        "source": "skill/pynq-integration-checks/tests/validate_tools.py",
+        "source_sha256": "7d7ae3259c24656ed72c65482821c128864e5ae5eabd92c908aec34f2b04eaa1"
+      },
+      {
+        "path": "skill/pynq-integration-checks/tests/validation.json",
+        "source": "skill/pynq-integration-checks/tests/validation.json",
+        "source_sha256": "303c3338313fb1b561bbb2eb2063f97e4aef9f039a81a41c86b6d02dea10829c"
+      },
+      {
+        "path": "skill/README.md",
+        "source": "skill/README.md",
+        "source_sha256": "4aad017b05faf70fd35fac2304742e559a854041c7e6796f03939f45b3038a56"
+      },
+      {
+        "path": "data/reference_comparisons.csv",
+        "source": "board/acceptance/reference_comparisons.csv",
+        "source_sha256": "3f267f3ef0ebde5aed321b3d10b44164f02f59a424241fbcdf790a4e8beeeab4"
+      },
+      {
+        "path": "data/pl_reference_comparison.csv",
+        "source": "board/acceptance/pl_reference_comparison.csv",
+        "source_sha256": "f12f85be277f23078b55b59ede843e3cc3feff71d64d428ab55427f0dc5431d3"
+      },
+      {
+        "path": "data/resource_comparison.csv",
+        "source": "board/acceptance/resource_comparison.csv",
+        "source_sha256": "1764b91fb58bb4744941d3cfdbabfbad83e820c685d74dbf556a11ccee595e61"
+      },
+      {
+        "path": "data/display_optimization_comparison.csv",
+        "source": "board/acceptance/display_optimization_comparison.csv",
+        "source_sha256": "cd99ec9976703d50b018e764e91b3ed99de20533199f7f4746edb87e68bb21f7"
+      },
+      {
+        "path": "report/design_report.md",
+        "source": "report/design_report.md",
+        "source_sha256": "8a87214c2458f8327818b588fca60ca5607fa91e209d9bea78579b0de45fd0df"
+      },
+      {
+        "path": "report/figures/system_flow.png",
+        "source": "report/figures/system_flow.png",
+        "source_sha256": "96f40e113862cbf7f35ae36bcd720f3944f40fd8a02a1a00509e76fe8951aacc"
+      }
+    ]
+  },
+  "competition_archive_in_repository": false,
+  "source_manifest": {
+    "file": "third_party/source_history/competition_v27_manifest.sha256",
+    "sha256": "9b1286256c1701129a119e765004b5f2a913efdc05f1290be7cb9b9cf0d2790d"
+  }
+}

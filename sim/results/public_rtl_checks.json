@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "top": "tb_touch",
+      "source": "1026_tb_touch_v87.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_touch_run.log"
+    },
+    {
+      "top": "tb_absent",
+      "source": "1026_tb_absent_v87.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_absent_run.log"
+    },
+    {
+      "top": "tb_color",
+      "source": "1026_tb_color_v87.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_color_run.log"
+    },
+    {
+      "top": "tb_frame",
+      "source": "1026_tb_frame_v87.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_frame_run.log"
+    },
+    {
+      "top": "tb_registers",
+      "source": "1026_tb_registers_v87.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_registers_run.log"
+    },
+    {
+      "top": "tb_probe_regs_v90",
+      "source": "1027_tb_probe_regs_v90.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_probe_regs_v90_run.log"
+    },
+    {
+      "top": "tb_probe_v90",
+      "source": "1027_tb_probe_v90.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_probe_v90_run.log"
+    },
+    {
+      "top": "tb_display_probe_v99",
+      "source": "1028_tb_display_probe_v99.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_display_probe_v99_run.log"
+    },
+    {
+      "top": "tb_display_registers_v99",
+      "source": "1028_tb_display_registers_v99.sv",
+      "passed": true,
+      "run_log": "logs/touch/tb_display_registers_v99_run.log"
+    }
+  ],
+  "board_tested": false,
+  "log_scope": "repository",
+  "log_base": "sim/results",
+  "source_base": "sim/rtl",
+  "camera_full_frame_test_run": false,
+  "camera_full_frame_note": "Requires generated FIFO netlist; reference results are archived separately.",
+  "archive_note": "Public log copies; raw hashes and path replacements are in log_provenance.json."
+}

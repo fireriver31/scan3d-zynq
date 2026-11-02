@@ -1,0 +1,32 @@
+test_dead_server_healthcheck_fails_before_any_download (__main__.Tests.test_dead_server_healthcheck_fails_before_any_download) ... ok
+test_guard_serializes_900_official_overlay_property_and_update_transactions (__main__.Tests.test_guard_serializes_900_official_overlay_property_and_update_transactions) ... ok
+test_healthy_read_only_healthcheck_preserves_metadata (__main__.Tests.test_healthy_read_only_healthcheck_preserves_metadata) ... ok
+test_install_neither_queries_hardware_nor_wraps_half_transactions (__main__.Tests.test_install_neither_queries_hardware_nor_wraps_half_transactions) ... ok
+test_nested_metadata_call_is_reentrant (__main__.Tests.test_nested_metadata_call_is_reentrant) ... ok
+test_original_shared_connection_race_matches_closed_handle_failure (__main__.Tests.test_original_shared_connection_race_matches_closed_handle_failure) ... ok
+test_receive_exception_releases_lock_for_other_thread (__main__.Tests.test_receive_exception_releases_lock_for_other_thread) ... ok
+test_reload_and_reinstall_keep_one_lock_and_original_checks (__main__.Tests.test_reload_and_reinstall_keep_one_lock_and_original_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.640s
+
+OK
+{
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "official_functions_executed_with_simulated_transport": true,
+  "unsafe_closed_handle_race_reproduced": true,
+  "serialized_transactions": 900,
+  "board_tested": false,
+  "sources": [
+    {
+      "file": "pynq_v24_overlay.py",
+      "sha256": "ff30846c2a351d655f52e0aafd4d04e62dbb617547ed40ff2dca82aac16fc8ac"
+    },
+    {
+      "file": "pynq_v24_pl.py",
+      "sha256": "c1f6fe3779e67cd9fb6fa6a0bda17d8151f71bbff58771a503e26de67421a3ba"
+    }
+  ]
+}

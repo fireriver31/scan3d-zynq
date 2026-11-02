@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2019-02-26T11:27:30.838432Z",
+  "boot_id": "ac8c66d2-018b-4017-8338-3d28bf203a0b",
+  "test_fixture": false,
+  "exporter_loaded_bit": false,
+  "exporter_captured_camera": false,
+  "exporter_wrote_clock_registers": false,
+  "existing_scan_files_modified": false,
+  "read_ok": true,
+  "expected_fclk0_mhz": 50.0,
+  "note": "Current PS clock-register-derived frequency, not an oscilloscope measurement or proof of an earlier scan.",
+  "fclk0_register_mhz": 50.0,
+  "within_expected_tolerance": true
+}

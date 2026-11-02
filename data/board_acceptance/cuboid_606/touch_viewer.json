@@ -1,0 +1,32 @@
+{
+  "version": 87,
+  "software_version": 95,
+  "mode": "result",
+  "model_path": "/home/xilinx/jupyter_notebooks/User/Overlays/OV5640_UI/mask_rtl_1010_v1/1014_彩色原图扫描_20190226_104704_648667_v1/1014_photo_guided_result_20190226_110654_635649_v1/1015_照片与待定外壳三角网格_v76.ply",
+  "error": null,
+  "touch": {
+    "sequence": 1939,
+    "down": false,
+    "online": true,
+    "points": 0,
+    "x": 16,
+    "y": 36,
+    "max_x": 800,
+    "max_y": 480,
+    "product": 3223865,
+    "errors": 0
+  },
+  "calibrated": true,
+  "yaw": 5.211388197553792,
+  "pitch": 1.52,
+  "zoom": 1.0,
+  "display_info": {
+    "source_faces": 358712,
+    "display_faces": 19886,
+    "display_cell_mm": 2.464329855782645,
+    "source_file_modified": false,
+    "volume_modified": false,
+    "display_only": true
+  },
+  "board_display_confirmed": false
+}

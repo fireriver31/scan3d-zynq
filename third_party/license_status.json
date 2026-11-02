@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-01",
+  "edition": "public-v6-r17",
+  "team_license": {
+    "identifier": "MIT",
+    "scope": "project-developed files identified in file_licenses.json",
+    "selection_confirmed": true,
+    "text": "licenses/mit.txt"
+  },
+  "vendor_example": {
+    "status": "project_specific_source_distribution_permission_received",
+    "evidence": "third_party/authorization/20261101_acz702_permission_v1.json",
+    "screenshot_sha256": "4203a48e605d3fb585e79042325b225fd009e326e824499f075881eb2535484f",
+    "named_example": "ov5640_ddr3_tft_hdmi",
+    "request_time": "2026-11-01 14:16:24",
+    "reply_time": "2026-11-01 14:16:53",
+    "reply": "可以",
+    "scope": "retain and distribute the modified example source files in this project public repository",
+    "purpose": [
+      "competition",
+      "academic exchange"
+    ],
+    "noncommercial_commitment": true,
+    "attribution_and_original_links_required": true,
+    "blanket_mit_granted": false,
+    "downstream_relicensing_granted": false,
+    "prebuilt_bitstream_permission_explicit": false
+  },
+  "other_components": {
+    "pynq": "BSD-3-Clause original headers retained",
+    "font": "replaced with Noto-derived OFL-1.1 raster; old raster absent",
+    "amd": "configuration/wrapper notices and applicable tool/IP terms retained"
+  },
+  "whole_repository_license": "mixed; no blanket MIT",
+  "restored_hardware_source_files": 41,
+  "repository_license_index": "LICENSE",
+  "prebuilt_artifacts": {
+    "included": false,
+    "scope": "source edition",
+    "note": "Combined-design redistribution is not inferred solely from the generic AMD Core License clause."
+  },
+  "authorization_screenshot_redacted": true,
+  "reviewed_on": "2026-11-02"
+}

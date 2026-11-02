@@ -1,0 +1,634 @@
+{
+  "note": "Original captured bytes remain in external output directories. Known path prefixes are replaced at byte level for UTF-8 and GB18030/GBK, then strictly decoded. Unknown encodings, replacement characters and unresolved user path tails are rejected.",
+  "path_tokens_supported": [
+    "$REPO",
+    "$OUTPUT_HOST",
+    "$OUTPUT_TOUCH",
+    "$OUTPUT_CORE",
+    "$OUTPUT_PROJECT",
+    "$USER"
+  ],
+  "token_replacement_counts": {
+    "$REPO": 40,
+    "$OUTPUT_HOST": 0,
+    "$OUTPUT_TOUCH": 0,
+    "$OUTPUT_CORE": 0,
+    "$OUTPUT_PROJECT": 0,
+    "$USER": 0
+  },
+  "log_base": "sim/results",
+  "files": [
+    {
+      "path": "logs/host/public_package.log",
+      "source_group": "host",
+      "source_file": "public_package.log",
+      "raw_sha256": "a9151e7f5a14a0edc58c4a2da925472403957bb609e7383de7c21bf1b47463fa",
+      "public_sha256": "a9151e7f5a14a0edc58c4a2da925472403957bb609e7383de7c21bf1b47463fa",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v6-r17"
+    },
+    {
+      "path": "logs/host/log_sanitizer.log",
+      "source_group": "host",
+      "source_file": "log_sanitizer.log",
+      "raw_sha256": "5f6ae3b9231ac3cddda35e0452c83cddb3917a85dfb0478752af1c0823f238e7",
+      "public_sha256": "5f6ae3b9231ac3cddda35e0452c83cddb3917a85dfb0478752af1c0823f238e7",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v6-r17"
+    },
+    {
+      "path": "logs/host/touch.log",
+      "source_group": "host",
+      "source_file": "touch.log",
+      "raw_sha256": "7e61483403ae53a52c6b2f135021d516a7c5af48345892f67303e98c13ae1f22",
+      "public_sha256": "7e61483403ae53a52c6b2f135021d516a7c5af48345892f67303e98c13ae1f22",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "utf-8-sig",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v6-r17"
+    },
+    {
+      "path": "logs/host/rpc.log",
+      "source_group": "host",
+      "source_file": "rpc.log",
+      "raw_sha256": "fd3491ddbcc42b0edf0f3dff18bd28f6f119ae647483824a80bef7ded5cf8830",
+      "public_sha256": "fd3491ddbcc42b0edf0f3dff18bd28f6f119ae647483824a80bef7ded5cf8830",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v6-r17"
+    },
+    {
+      "path": "logs/host/skill.log",
+      "source_group": "host",
+      "source_file": "skill.log",
+      "raw_sha256": "a243303c8d9effb6c1159c25d088f6f4b2a80b4f9f6a05bdb054aea6a4b173d7",
+      "public_sha256": "a243303c8d9effb6c1159c25d088f6f4b2a80b4f9f6a05bdb054aea6a4b173d7",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v6-r17"
+    },
+    {
+      "path": "logs/host/skill_reuse.log",
+      "source_group": "host",
+      "source_file": "skill_reuse.log",
+      "raw_sha256": "a4d5ee6e2e4f9ab1684e0087539dd8213f4ba1235f7fb8d27f203c950a42824a",
+      "public_sha256": "a4d5ee6e2e4f9ab1684e0087539dd8213f4ba1235f7fb8d27f203c950a42824a",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v6-r17"
+    },
+    {
+      "path": "logs/host/vectors.log",
+      "source_group": "host",
+      "source_file": "vectors.log",
+      "raw_sha256": "abdba88efb5ca1e045edcafd9ceb9a5d8c06325476346e07506328e1c02bedd6",
+      "public_sha256": "abdba88efb5ca1e045edcafd9ceb9a5d8c06325476346e07506328e1c02bedd6",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v6-r17"
+    },
+    {
+      "path": "logs/touch/compile.log",
+      "source_group": "touch",
+      "source_file": "compile.log",
+      "raw_sha256": "d7257a343c94d46db3380da0d6e5388e8ada8ca28c089dcf582d452ecb7fa4d2",
+      "public_sha256": "9c3edaecceea1241214c10a61a479ff91e985b330cd16a67d3457b8642419ec1",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 15
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_touch_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_touch_elaborate.log",
+      "raw_sha256": "27123e0365accb3608a97bc80def34011e632cd0c51a40ec44e455fbb3805095",
+      "public_sha256": "c73d8e91daa11663719e93bb3785f812e0c4d966dcd507f57020557058b48701",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "3c98d03def58be4898bb0ad7f817db57d3b0f9fcf2877cee79314d105705eb24",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_touch_run.log",
+      "source_group": "touch",
+      "source_file": "tb_touch_run.log",
+      "raw_sha256": "d57a2edfa74769b0fa86b79a185bc1e74ad46f7d8de3c2c1cbfe33c49317a72c",
+      "public_sha256": "377fcfdabf02e71979cd268bc59afc6088d92bcf6fa8e1f17e670c90a2685cd1",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_absent_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_absent_elaborate.log",
+      "raw_sha256": "47de07c61c87dde6d514d707baf8d9ff9bfaec1a3eaae5c909c75f23782289e2",
+      "public_sha256": "8d02cff99f000da59bd9d43e7b6753d2fde52a902fbb18613155fd65e93b6284",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "e77dbaeb631e29455e0d29a4718b6ae6cb036a5934ff766abcf8f1995bffc1d2",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_absent_run.log",
+      "source_group": "touch",
+      "source_file": "tb_absent_run.log",
+      "raw_sha256": "d22d59c35ff408264248f5f8af51c0b36ab5534e6408834847ad19046560e84f",
+      "public_sha256": "0b2585e94c138a72d0223604920efd32f6bb88082c6cbf9966a006f708dc5db0",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_color_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_color_elaborate.log",
+      "raw_sha256": "4da59e5b43e4072acf7153b653b0c5167056171f8c663fe220c1eb25e00e5e3e",
+      "public_sha256": "2482f72f06754cc1d1cf831401848a90e5d65982097c5a26bd8186df542c9ba5",
+      "path_redacted": true,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "4da59e5b43e4072acf7153b653b0c5167056171f8c663fe220c1eb25e00e5e3e",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_color_run.log",
+      "source_group": "touch",
+      "source_file": "tb_color_run.log",
+      "raw_sha256": "9e6544304fbe6b495bcc5913b4150df2a319fd457325c15f06a189e2970485b9",
+      "public_sha256": "eeeb395e98ea0c9352b8c20739133367b311de20ddb1a7466214ab349eeef20f",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_frame_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_frame_elaborate.log",
+      "raw_sha256": "6f46896c1fdcc7dd95188db29740e2f3fedbeb2bdba25d70fbd121b3dac9fec4",
+      "public_sha256": "152bcef0f2594da3d5f3bbf1710f68b73a8d0e49c0f20d69d4c4b949323d54e0",
+      "path_redacted": true,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "6f46896c1fdcc7dd95188db29740e2f3fedbeb2bdba25d70fbd121b3dac9fec4",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_frame_run.log",
+      "source_group": "touch",
+      "source_file": "tb_frame_run.log",
+      "raw_sha256": "e295b1054f930b4db84b92eced6d60b50d99c19e04e3333ce043f257b714ad12",
+      "public_sha256": "78b05b24e65287b5fd85504efe710bd6de23bba52ad878757448ee886692ca83",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_registers_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_registers_elaborate.log",
+      "raw_sha256": "a818003b72c94f0ab1618fce50f16fb80f9100e03aa3491b8cab215c174dba3b",
+      "public_sha256": "eea047fb398a50965e009c469142efed54978dc91a1bd5e552a4ddecb0bd8e23",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "bbcd8c37e10e31574cf51c0b858e4e076ac66808ca94e6ea5ddf8eefbd0e2ad6",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_registers_run.log",
+      "source_group": "touch",
+      "source_file": "tb_registers_run.log",
+      "raw_sha256": "5c97fa99d2058f73e36440be7117cb0788f3e06802135867850dba9e9d40dc81",
+      "public_sha256": "eb4ca2541358d0562a15d0b92210018affec9cb002a8fee2ad5813070fd6bbac",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_probe_regs_v90_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_probe_regs_v90_elaborate.log",
+      "raw_sha256": "54635c4aa4dcaa456a4838aa61b82410650747b5ca027afdd19bd5e7d1382413",
+      "public_sha256": "ddeaa537d6aae69af13f8a0182a496191e4e3bf74ba6e37cfb794da71f0b5bf4",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "40ca23a8ae1e36d0862b508b5e8c30295ba2cb849a7bf0f8f0ddd8640f5f1bbd",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_probe_regs_v90_run.log",
+      "source_group": "touch",
+      "source_file": "tb_probe_regs_v90_run.log",
+      "raw_sha256": "ade515847eb2ef80957ee757793647bcff78bde8eac1806c4a4eb4b1b93677d9",
+      "public_sha256": "c6a6f8ddb8bd1ec4f2131e9fd5a44112fc45266a0110dd6b28896d4cb7ae7ece",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_probe_v90_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_probe_v90_elaborate.log",
+      "raw_sha256": "97f3690db4f24f3ad864b5192f95f1617a36f16e753574f2e520a4cf4744b14b",
+      "public_sha256": "b9b7518cac3ab38b9bfff26ef3341306c6dcb0d22b8cc4e1cae66c7af284f133",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "0d7bf1bb8df425bcafd91676c80f4b907cb4e94fa19d225f5e476a1c65958b95",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_probe_v90_run.log",
+      "source_group": "touch",
+      "source_file": "tb_probe_v90_run.log",
+      "raw_sha256": "e5f814af89fa217ada3c2d89412227df296a51e36dabd1a488c722d661841879",
+      "public_sha256": "ecfb0c66ec324f7a96a9c420bf83a84c758d0eb632b9cde62d661f7dff6b8c8d",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_display_probe_v99_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_display_probe_v99_elaborate.log",
+      "raw_sha256": "a8441953f22f74e00202f90c955fc7601c8f4090a26e97c9e244eab4070a4085",
+      "public_sha256": "6c503ef9b15641345ebd2a83a7093f7036d8c00547c371fe0658694a44fdd5a6",
+      "path_redacted": true,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "a8441953f22f74e00202f90c955fc7601c8f4090a26e97c9e244eab4070a4085",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_display_probe_v99_run.log",
+      "source_group": "touch",
+      "source_file": "tb_display_probe_v99_run.log",
+      "raw_sha256": "69ce4158bd554411f7e81d9c470bb2ef85cc3e3a26602e438cf286040ce38127",
+      "public_sha256": "e175a538f819df423972ec042eb63f72280caa610a1e97f93d83047114f9eb42",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/touch/tb_display_registers_v99_elaborate.log",
+      "source_group": "touch",
+      "source_file": "tb_display_registers_v99_elaborate.log",
+      "raw_sha256": "e7728d24594a442f6a2eec8c9718774b22343d35902001446dbf257de195d6da",
+      "public_sha256": "7c1cbd373b62d67f387ed8447b5323867f34cbc58a7fb53a4068ede89e2a81c1",
+      "path_redacted": true,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "e7728d24594a442f6a2eec8c9718774b22343d35902001446dbf257de195d6da",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/touch/tb_display_registers_v99_run.log",
+      "source_group": "touch",
+      "source_file": "tb_display_registers_v99_run.log",
+      "raw_sha256": "03a2d6d874daee2466544d7737230a53b4122f4efde5c1454bae0e448be6e8cb",
+      "public_sha256": "3b570273c628fbfdbf6cfa2f8d76d7ccc6ccc64c921120b37f4882df5bddc18e",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/core/recon_compile.log",
+      "source_group": "core",
+      "source_file": "recon_compile.log",
+      "raw_sha256": "8e9d5f9f03b5c6e1ecc6e866b0ce594d309e19e833cd368cace7e8221e3f68a0",
+      "public_sha256": "77f5817a96b73afc96f881c2887e4884e189b1f81ee582fbe47ef5b7d4aa79cb",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 4
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/core/recon_elaborate.log",
+      "source_group": "core",
+      "source_file": "recon_elaborate.log",
+      "raw_sha256": "e82c29a1c49205a4485126be3efa80645d43ff65c50928117275f0b7f34a0bd2",
+      "public_sha256": "f6cabfd18193727dfa58e93f14621e35ef2c47ccdbc58646c39c3b40007c44ba",
+      "path_redacted": true,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "e82c29a1c49205a4485126be3efa80645d43ff65c50928117275f0b7f34a0bd2",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/core/photo_compile.log",
+      "source_group": "core",
+      "source_file": "photo_compile.log",
+      "raw_sha256": "6773be0692a3026054d07f6e45ca18f5b3293d23d36eb26dd98dc7fc768d0831",
+      "public_sha256": "2505901151e028718db8431d6da1109be294242cf8e25723af5c83fb535704b7",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 2
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/core/photo_elaborate.log",
+      "source_group": "core",
+      "source_file": "photo_elaborate.log",
+      "raw_sha256": "7938ce1953317c525e33c703a24e056756bcb964a3cb88f422f92b5bb7f7cb5c",
+      "public_sha256": "caef5f08e2e9ea46ece7d3e1477b710a7e46211d82e0fdd9fce1d876ce89e765",
+      "path_redacted": true,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "7938ce1953317c525e33c703a24e056756bcb964a3cb88f422f92b5bb7f7cb5c",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/core/recon_run.log",
+      "source_group": "core",
+      "source_file": "recon_run.log",
+      "raw_sha256": "38287a914a4914834b68b82fc4198e9787917ae9e26d57659f39336248b22400",
+      "public_sha256": "97c667d873883a3dd1aa6b7ed7641743f6a861a63c759d2d9b24942fb7ad763b",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "utf-8-sig",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/core/recon_shift_run.log",
+      "source_group": "core",
+      "source_file": "recon_shift_run.log",
+      "raw_sha256": "becca2e516427d5064de96ae94d1f97fb25541b249aee62fc13930b96d3141a8",
+      "public_sha256": "1f0566493b8a30fdfdce24c2cf723cacf95c51887a74c62dec415b861361f053",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "utf-8-sig",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/core/photo_protocol_run.log",
+      "source_group": "core",
+      "source_file": "photo_protocol_run.log",
+      "raw_sha256": "49a8e82989d30a4da694b54f6c0fdd9f5f9dbbbb8872861261b8c36bae77bc2f",
+      "public_sha256": "69b7abd9ef0bbe64990780c32434ca803c5c6ce882fed30e2069a0f012260513",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/core/photo_pattern_run.log",
+      "source_group": "core",
+      "source_file": "photo_pattern_run.log",
+      "raw_sha256": "607d66f6475ce73b86db892222c7f62261b8bd860be4181a20549a97bd02b303",
+      "public_sha256": "5977f2a201702b371e8967ea3a83b3fd92e32eb00cee7e7d8616da3c1df15a0f",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/core/photo_random_run.log",
+      "source_group": "core",
+      "source_file": "photo_random_run.log",
+      "raw_sha256": "8f93ddfdd1d64ec99683d121510c7892ec6960ef199e5d878d86868cbe0d36d1",
+      "public_sha256": "cd6533c72ed09bf4d1b52b18c37b436d95674c13880a0cef93559f896c8ea56c",
+      "path_redacted": true,
+      "path_replacements": {
+        "$REPO": 1
+      },
+      "path_encodings_matched": [
+        "gb18030"
+      ],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/project/project_check.txt",
+      "source_group": "project",
+      "source_file": "project_check.txt",
+      "raw_sha256": "da0c81853e06dbb9a08a6fa2fcb4eb903dd8cdb9c3aba8ed9fdb2c18ebc30fcb",
+      "public_sha256": "da0c81853e06dbb9a08a6fa2fcb4eb903dd8cdb9c3aba8ed9fdb2c18ebc30fcb",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4"
+    },
+    {
+      "path": "logs/project/ip_status.rpt",
+      "source_group": "project",
+      "source_file": "ip_status.rpt",
+      "raw_sha256": "28c71ee7a2bedbf7ce0c6c8331029b6669964f5dc6cf3245fe8efa3476f4ec53",
+      "public_sha256": "a67b86c9c95101e830633ce53479e1956e723e1d744320c8681546200c166bdc",
+      "path_redacted": true,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false,
+      "source_snapshot": "public-v4",
+      "pre_privacy_copy_sha256": "28c71ee7a2bedbf7ce0c6c8331029b6669964f5dc6cf3245fe8efa3476f4ec53",
+      "additional_path_redaction_manifest": "data/privacy/redaction_manifest.json"
+    },
+    {
+      "path": "logs/host/board_evidence.log",
+      "source_group": "host",
+      "source_snapshot": "public-v6-r17",
+      "raw_sha256": "655818127b82d8b26fe24cadb470b48c68cbd09fa01316c37d8aebdaccc94640",
+      "public_sha256": "655818127b82d8b26fe24cadb470b48c68cbd09fa01316c37d8aebdaccc94640",
+      "path_redacted": false,
+      "path_replacements": {},
+      "path_encodings_matched": [],
+      "decode_after_path_redaction": "ascii",
+      "lossy_decode_used": false
+    }
+  ],
+  "source_scopes": {
+    "host": "public-v6-r17",
+    "touch": "public-v4",
+    "core": "public-v4",
+    "project": "public-v4"
+  },
+  "source_scope_note": "Host evidence checks rerun. Deployed runtime and hardware source bytes remain those of public-v6-r2; historical RTL/project records retain their original source scope."
+}

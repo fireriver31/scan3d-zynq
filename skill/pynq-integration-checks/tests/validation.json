@@ -1,0 +1,63 @@
+{
+  "passed": 14,
+  "tests": [
+    {
+      "test": "python36_syntax",
+      "passed": true
+    },
+    {
+      "test": "equal_integer_arrays_pass",
+      "passed": true
+    },
+    {
+      "test": "single_bit_corruption_localized",
+      "passed": true
+    },
+    {
+      "test": "dtype_mismatch_detected",
+      "passed": true
+    },
+    {
+      "test": "shape_mismatch_detected",
+      "passed": true
+    },
+    {
+      "test": "missing_requested_field_detected",
+      "passed": true
+    },
+    {
+      "test": "no_empty_field_list_false_pass",
+      "passed": true
+    },
+    {
+      "test": "supported_metadata_fixture_passes",
+      "passed": true
+    },
+    {
+      "test": "missing_expected_ip_detected",
+      "passed": true
+    },
+    {
+      "test": "basename_mismatch_detected",
+      "passed": true
+    },
+    {
+      "test": "part_mismatch_detected",
+      "passed": true
+    },
+    {
+      "test": "invalid_xml_is_failure",
+      "passed": true
+    },
+    {
+      "test": "truncated_bit_payload_is_failure",
+      "passed": true
+    },
+    {
+      "test": "real_v99_metadata_pair_passes",
+      "passed": true
+    }
+  ],
+  "board_tested": false,
+  "hardware_writes_performed": false
+}

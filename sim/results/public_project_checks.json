@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "tool": "Vivado 2026.1",
+  "part": "xc7z020clg400-1",
+  "project_relocation": true,
+  "bd_validation": true,
+  "synthesis_run": false,
+  "new_bit_generated": false,
+  "board_tested": false,
+  "source_inventory_sha256": "96f16474d441945f3881538c65c27aa746e9ed7b431a5668b257904efd630269",
+  "log_scope": "repository",
+  "log_base": "sim/results",
+  "log": "logs/project/project_check.txt",
+  "ip_status": "logs/project/ip_status.rpt"
+}

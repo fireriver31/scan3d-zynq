@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "evidence_files": 10,
+  "runtime_files_matched": 38,
+  "board_record_present": true,
+  "hardware_access_performed": false,
+  "source_edition_tested": "public-v6-r2",
+  "tested_snapshot_description": "2026-11-01 paired board run; preserved source snapshot and unchanged deployed software",
+  "tested_snapshot_manifest_file": "data/board_acceptance/cuboid_606/tested_source_manifest.sha256",
+  "tested_runtime_snapshot_matches": 38,
+  "tested_source_manifest_sha256": "86269aee313d5b5d2812428d54fa0e5a57a139c0ea2760b035f9a874ebdcd475",
+  "occupied_voxels": 349895,
+  "volume_cm3": 637.3279817160902,
+  "reference_volume_cm3": 606.0959999999999,
+  "relative_error_percent": 5.152976049353623,
+  "reference_scope": "one_sample_ruler_based_cuboid_estimate",
+  "repeats": 1,
+  "operator_checks_source": "manual_confirmation_in_returned_archive",
+  "step_elapsed_s": {
+    "7": 467.179112283,
+    "8": 491.08710873400014
+  },
+  "flow_exit_error": "KeyboardInterrupt: ",
+  "clean_flow_exit_verified": false,
+  "shape_consistency_passed": false,
+  "physical_accuracy_verified": false,
+  "shape_minimum_coverage": 0.8363417215428034,
+  "raw_zip_in_public_repo": false
+}

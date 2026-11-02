@@ -1,0 +1,15 @@
+test_backslashes_and_json_escaped_paths (__main__.LogTests.test_backslashes_and_json_escaped_paths) ... ok
+test_distinct_directory_prefix_is_not_silently_shortened (__main__.LogTests.test_distinct_directory_prefix_is_not_silently_shortened) ... ok
+test_gbk_message_retains_its_text (__main__.LogTests.test_gbk_message_retains_its_text) ... ok
+test_gbk_source_path_preserves_ascii_results (__main__.LogTests.test_gbk_source_path_preserves_ascii_results) ... ok
+test_masked_home_tail_is_rejected_without_drive_letter (__main__.LogTests.test_masked_home_tail_is_rejected_without_drive_letter) ... ok
+test_mixed_path_encodings_in_one_output (__main__.LogTests.test_mixed_path_encodings_in_one_output) ... ok
+test_previous_lossy_output_is_rejected (__main__.LogTests.test_previous_lossy_output_is_rejected) ... ok
+test_unknown_encoding_is_rejected (__main__.LogTests.test_unknown_encoding_is_rejected) ... ok
+test_utf8_message_is_not_decoded_as_gbk (__main__.LogTests.test_utf8_message_is_not_decoded_as_gbk) ... ok
+test_utf8_source_path_and_warning_preserved (__main__.LogTests.test_utf8_source_path_and_warning_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.006s
+
+OK

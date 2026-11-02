@@ -1,0 +1,19 @@
+{
+  "sample_id": "cuboid_606",
+  "reference_record_date": "2026-11-01",
+  "measurement_method": "ruler_dimensions_cuboid_approximation",
+  "dimensions_cm": [
+    12.2,
+    9.2,
+    5.4
+  ],
+  "reference_volume_cm3": 606.096,
+  "original_rounded_reference_cm3": 606.0,
+  "ruler_resolution_mm": null,
+  "dimension_repeat_measurements": null,
+  "independent_scan_repetitions": 1,
+  "predefined_pass_threshold_percent": null,
+  "reference_accuracy_certified": false,
+  "reference_provenance": "Dimensions and ruler method supplied with this scan; geometric product computed from those dimensions.",
+  "reference_quantity": "approximate_exterior_geometric_volume"
+}

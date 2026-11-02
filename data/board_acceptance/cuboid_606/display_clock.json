@@ -1,0 +1,30 @@
+{
+  "version": 98,
+  "target_fclk0_mhz": 50.0,
+  "before_fclk0_register_mhz": 50.0,
+  "source_register_mhz": 1500.0,
+  "source_select": 0,
+  "clock_api": "legacy_clocks_metaclass",
+  "original_clock_dict": {
+    "enable": 1,
+    "divisor0": 8,
+    "divisor1": 4
+  },
+  "corrected_clock_dict": {
+    "enable": 1,
+    "divisor0": 6,
+    "divisor1": 5
+  },
+  "planned_fclk0_mhz": 50.0,
+  "original_dividers_on_running_source_mhz": 46.875,
+  "preparation_wrote_clock_registers": false,
+  "bit_or_hwh_file_modified": false,
+  "physical_frequency_measured": false,
+  "actual_fclk0_register_mhz": 50.0,
+  "passed": true,
+  "computed_display_clock_mhz": 33.333333333333336,
+  "computed_camera_xclk_mhz": 24.0,
+  "computed_axi_clock_mhz": 200.0,
+  "computed_clock_ratios_source": "current_bit_MMCM_mul24_div1_outputs_div36_div50_div6",
+  "screen_image_confirmed": false
+}

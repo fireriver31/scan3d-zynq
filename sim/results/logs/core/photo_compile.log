@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/hardware/rtl/1016_photo_mask_axis_v19.sv" into library work
+INFO: [VRFC 10-311] analyzing module photo_mask_axis
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/tb_photo_mask.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_photo_mask

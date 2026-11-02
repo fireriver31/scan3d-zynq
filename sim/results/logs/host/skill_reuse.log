@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "7z010_metadata_fixture",
+      "passed": true,
+      "synthetic": true,
+      "independent_working_directory": true,
+      "real_board_test": false
+    },
+    {
+      "case": "7z045_metadata_fixture",
+      "passed": true,
+      "synthetic": true,
+      "independent_working_directory": true,
+      "real_board_test": false
+    },
+    {
+      "case": "zu3eg_metadata_fixture",
+      "passed": true,
+      "synthetic": true,
+      "independent_working_directory": true,
+      "real_board_test": false
+    },
+    {
+      "case": "vector_add_arrays",
+      "passed": true,
+      "synthetic": true,
+      "no_scan_specific_fields": true,
+      "corrupted_element_detected": true
+    },
+    {
+      "case": "sensor_frames_arrays",
+      "passed": true,
+      "synthetic": true,
+      "no_scan_specific_fields": true,
+      "corrupted_element_detected": true
+    }
+  ],
+  "offline_fixture_cases": 5,
+  "no_scan_runtime_imported": true,
+  "physical_cross_board_verified": false,
+  "real_hardware_writes": false,
+  "scope": "Different metadata devices and unrelated tasks; synthetic fixtures, not board measurements"
+}

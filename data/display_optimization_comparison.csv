@@ -1,0 +1,5 @@
+configuration,condition,pixels,pixel_errors,underflows,overflows,axi_fault,evidence,scope
+fifo256,normal,384000,0,0,0,0,data/optimization_evidence/fifo256_normal.log,historical_actual_fifo_netlist_simulation_not_board
+fifo256,stall,384000,359680,127,0,0,data/optimization_evidence/fifo256_stall.log,historical_actual_fifo_netlist_simulation_not_board
+fifo4096,normal,384000,0,0,0,0,data/optimization_evidence/fifo4096_normal.log,historical_actual_fifo_netlist_simulation_not_board
+fifo4096,stall,384000,0,0,0,0,data/optimization_evidence/fifo4096_stall.log,historical_actual_fifo_netlist_simulation_not_board

@@ -1,0 +1,218 @@
+{
+  "description": "2026-11-01 paired board run; preserved source snapshot and unchanged deployed software",
+  "manifest_file": "tested_source_manifest.sha256",
+  "manifest_sha256": "86269aee313d5b5d2812428d54fa0e5a57a139c0ea2760b035f9a874ebdcd475",
+  "manifest_entries": 204,
+  "original_source_edition": "public-v6-r2",
+  "original_source_edition_is_provenance_label": true,
+  "current_repository_manifest": "manifest.sha256",
+  "current_repository_manifest_scope": "current delivery, not the tested historical snapshot",
+  "tested_snapshot_included_prebuilt_artifacts": false,
+  "runtime_files": [
+    {
+      "path": "src/runtime/adaptive_scan.py",
+      "sha256": "f0e4e91c0e7e9b690aaa48fe756642d45acd1d889ce57439675d5e7db73e3a4d",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/background_model.py",
+      "sha256": "bca050ceddadef066faa80c7cea87c9788230f702b4a5010ba1e4277aa78fb28",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/background_witness.py",
+      "sha256": "7c003dd8d7847c94d5bd35c27a457661c71546270869da60adca15f4f5e75ff9",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/camera_control.py",
+      "sha256": "29ef77c2f43249d33b521ad94a89ebab0176f35370d7c37bd4434fd9cd7bda81",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/competitive_colour.py",
+      "sha256": "75fb93372673fbada19389247d0802668e8a314a82be857cf94f2741472e1bf0",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/edge_partition.py",
+      "sha256": "a1ce08e9c5710c19d6a129574a9bdb2acb30bb37a82d0c9a64dedf76a72e313b",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/exact_scan_accel.c",
+      "sha256": "32a0b331efea66269410464358e16636e8c7c7bf6bab70eacb93429de276fdec",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/exact_scan_accel.py",
+      "sha256": "aa61cf548f51e7ce09df7126d569bb1f6c3aebfa09b5c67841c67d5daf248f91",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/interior_evidence.py",
+      "sha256": "b315cf2ff2779e4b55d2942758b6ae1753cb31710f85c5a36f9895e3e3223d7c",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/marker_speed.py",
+      "sha256": "2720c416cce0d4a634404cb2edebb300fd937f05c2526dc828b797c881766a9f",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/mask_input.py",
+      "sha256": "821a9f9e8df030ea0369069c0a840854c1a2690d148a42ef9911a4f5a138030d",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/photo_geometry.py",
+      "sha256": "d9a98e3851c15d67ce41ccf2ebea644d200a510f2feae10b307384f110ba1eeb",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/pl_mask.py",
+      "sha256": "816b96cb2d238b3178a25429ffab5c021fd12879e8183e21d70658538bdb1a4d",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/ps_demo.py",
+      "sha256": "ec10688599e9c06e43ec92d5f11a619ac8afb4623b6e180c657be3375edde974",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/reference_motion.py",
+      "sha256": "7d1eed8e98f12c6d3d39ed7ed4650e8747164d2f1cce2d8e02007a04957ab98e",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/roi_reference.py",
+      "sha256": "34d30aa9fe5ff1f878b70bf920d0b84cdfdf4ad9d45bd92693554a7b1afa4202",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/rtl_mask_demo.py",
+      "sha256": "2647ed8c32aa61df2b30556e60cec47207b20273eff4dbd46bccd63bd81d008a",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_clock.py",
+      "sha256": "41f9e7f6c71bf0a6249463d5e6e7287e0b9c17181977edfc9f9bb2189aec0453",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_font.bin",
+      "sha256": "5b889d76225beff6ad81e09c82e0e472f68d2a19d05540ea3f6cdc89578ad991",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_pipeline.py",
+      "sha256": "38746abf5f5d030036437029cbf4913cb6085c22480a7a1c8e054c42351cdcf1",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_pl_guard.py",
+      "sha256": "891ab1e5223aa410e38b57a27e612250fade50b88b16de1422bc20335e4bef8c",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_runtime.py",
+      "sha256": "aa1d3fd431247d14af2699319004d2d2d4a06d7ccbead3bad6ed8fb388207777",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_screen.py",
+      "sha256": "e9a5843621b13768f8de55babc975e7cb11fa81ff873f3f4661b1daa4631c863",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_screen_font.py",
+      "sha256": "bddea8161774bb02bb7f45def29132c7111db0a936c84a60ec68e964ead8b0d5",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/scan_workflow.ipynb",
+      "sha256": "87abd5c9c4ab94f8d51d1d33bd68f93c4e8a82b3556da6486828a751c980f9c0",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/screen_lease.py",
+      "sha256": "4d4f9a773be1d5e4952b84cf909830400e0035e7b13322f875b6f4706aa03de8",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/screen_probe.py",
+      "sha256": "f311095a5056d81cbc9715611a058773ddd210a8ca5626aeb6475cc03fbb28ba",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/subject_evidence.py",
+      "sha256": "53bb6a5b1397c1499c99fb4e879d5fb9497b3cb9f60b936708b4da30a6581501",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/subject_region.py",
+      "sha256": "cafb1e0471a214e2a6a68c93f69fd5dedb3d854955acbfc1bb64b7e671102daf",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/surface_photo.py",
+      "sha256": "3fd34fbe3278b13f1ac43d03c75284525652e1d0008ebbb732e3eb541f84dde1",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/tft_model.py",
+      "sha256": "fd7dbecee3275984bf56bfabe79fd1a1ac58ccdea693552a04c94e4d52900b1d",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/tft_raster.c",
+      "sha256": "230d052a48a68498b598c8cc886eb6d58058af4c257a6dfc759ebc6ba9280185",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/tft_touch.py",
+      "sha256": "cc071ffb76a06030087e3002e3aad3880e3e2988e8174f58c8cf05a92c637e38",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/tft_viewer.py",
+      "sha256": "02bc280393f050a008b2f8ba3dca6d5b63be4a72eb2a1f17ebfa8f9eed3e670c",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/touch_scan.py",
+      "sha256": "b915b3cc609e07a8e2c43cb9e8af1d760caa567dbc0e26e3105f1d9682bc8e6e",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/touch_workflow.ipynb",
+      "sha256": "9f69aaa40c208c524c00f9f1450d7607f6fe0a1f3b61e5f1a88b8aec8248b5b0",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/turntable_camera.py",
+      "sha256": "1cdca61f27f1f489b7816e8eb9b186bc82d000576076d998308f70cdf9c71ae9",
+      "matches_tested_snapshot": true
+    },
+    {
+      "path": "src/runtime/uncertainty_scope.py",
+      "sha256": "29770ca7c58e5eb1c38745c9875e580f6a07c41bde34d2f9c48d54c0263a9e2d",
+      "matches_tested_snapshot": true
+    }
+  ],
+  "paired_artifacts": [
+    {
+      "name": "scan3d.bit",
+      "bytes": 4045775,
+      "sha256": "c563373a98e544cdde2797d4b88f1d3bc1af3f94a703aea0eb769833ea14c606"
+    },
+    {
+      "name": "scan3d.hwh",
+      "bytes": 488996,
+      "sha256": "bbfe9e71e3652a2466d3a757e2ed62f8c82dfc47bf64ada1fc089401474f9412"
+    }
+  ],
+  "artifact_build_record_scope": "competition build/reproduction_reports/20261031_packaged",
+  "current_runtime_changed_since_test": false,
+  "scope_note": "Current documentation, indexes and host verification tools differ; only the 38 deployed software files are asserted unchanged here. Bit/hwh are bound by the recorded pair, not by the source-only snapshot."
+}

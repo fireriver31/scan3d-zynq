@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "name": "public_package",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/public_package.log"
+    },
+    {
+      "name": "log_sanitizer",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/log_sanitizer.log"
+    },
+    {
+      "name": "board_evidence",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/board_evidence.log"
+    },
+    {
+      "name": "touch",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/touch.log"
+    },
+    {
+      "name": "rpc",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/rpc.log"
+    },
+    {
+      "name": "skill",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/skill.log"
+    },
+    {
+      "name": "skill_reuse",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/skill_reuse.log"
+    },
+    {
+      "name": "vectors",
+      "returncode": 0,
+      "passed": true,
+      "log": "logs/host/vectors.log"
+    }
+  ],
+  "python": "3.12.10",
+  "platform": "Windows",
+  "board_tested": false,
+  "hardware_operations": false,
+  "public_edition": true,
+  "log_scope": "repository",
+  "log_base": "sim/results",
+  "check_suite_version": 5,
+  "source_snapshot": "public-v6-r17",
+  "package_audit_scope": "sealed snapshot before host-log archiving"
+}

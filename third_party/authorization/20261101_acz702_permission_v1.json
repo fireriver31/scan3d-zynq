@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-01",
+  "evidence_kind": "shop_customer_service_chat",
+  "shop_display_name": "小梅哥FPGA企业店",
+  "responder_account_as_displayed": "zgmxs88:小梅妹",
+  "question_time_as_displayed": "2026-11-01 14:16:24",
+  "response_time_as_displayed": "2026-11-01 14:16:53",
+  "question_verbatim_with_visual_linewraps_joined": "您好，我们是参加2026年全国大学生嵌入式芯片与系统设计竞赛的学生团队。我们购买了贵司的ACZ702开发板，并在官方例程 ov5640_ddr3_tft_hdmi 的基础上进行了二次开发（实现了转台三维重建等功能）。\n\n因为比赛要求必须将工程开源到GitHub，为了评审时能一键运行，我们想申请在公开仓库中保留并分发该例程的修改版源文件。我们承诺仅用于比赛和学术交流，绝不用于任何商业盈利，且会在代码头部和README中完整保留贵司的署名和原始链接。请问能否授权我们进行再分发？非常感谢！",
+  "reply_verbatim": "可以",
+  "named_example": "ov5640_ddr3_tft_hdmi",
+  "board": "ACZ702",
+  "requested_action": "retain and distribute the modified example source files in this project public repository",
+  "stated_purpose": [
+    "competition",
+    "academic exchange"
+  ],
+  "stated_noncommercial_commitment": true,
+  "attribution_and_original_links_retained": true,
+  "permission_recorded": true,
+  "source_distribution_permission": true,
+  "blanket_mit_granted": false,
+  "downstream_relicensing_granted": false,
+  "unrestricted_commercial_use_granted": false,
+  "prebuilt_bitstream_permission_explicit": false,
+  "screenshot_file": "20261101_acz702_permission_v1.png",
+  "screenshot_sha256": "4203a48e605d3fb585e79042325b225fd009e326e824499f075881eb2535484f",
+  "screenshot_unmodified": false,
+  "transcript_file": "20261101_acz702_permission_v1.md",
+  "transcript_sha256": "5167a4b1f055942c4ba8d11e8e54e9b2d82aff90f18be1c884c75a7fe39c87a9",
+  "requester_account_omitted_from_public_text": true,
+  "screenshot_contains_requester_account": false,
+  "screenshot_redacted": true,
+  "original_screenshot_sha256": "dc2d42a9a08574135458e6253e786865d1ea7b0f8059ebe2c3075b9f85b8f961",
+  "original_screenshot_retained_privately": true,
+  "original_screenshot_in_delivery": false,
+  "redaction": {
+    "method": "opaque_black_rectangle",
+    "rectangle_xywh": [
+      638,
+      88,
+      137,
+      30
+    ],
+    "outside_rectangle_pixels_identical": true
+  }
+}

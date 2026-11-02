@@ -1,0 +1,11 @@
+{
+  "baseline": "public-v2",
+  "change": "remove_obsolete_import_hints",
+  "removed_hints": 12,
+  "file_references_unchanged": true,
+  "file_reference_count": 40,
+  "baseline_sha256": "3312776a863bab69cba47d4f3756bd89e18511437cd832821e380bff29d41805",
+  "current_sha256": "7da3b883933a3ed4bbcf0eda861ea7adafcb867c96f3c191e6331bd8df0c46de",
+  "rtl_changed": false,
+  "new_synthesis_run": false
+}

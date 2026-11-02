@@ -1,0 +1,41 @@
+{
+  "upstream": "notofonts/noto-cjk",
+  "commit": "f8d157532fbfaeda587e826d4cd5b21a49186f7c",
+  "files": [
+    {
+      "file": "NotoSansCJKsc-Regular.otf",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "file": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/LICENSE",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    }
+  ],
+  "distribution_name": "Scan3D Raster CJK",
+  "raster": {
+    "characters": 766,
+    "unique_characters": 766,
+    "bytes": 98048,
+    "font_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "data_sha256": "5b889d76225beff6ad81e09c82e0e472f68d2a19d05540ea3f6cdc89578ad991",
+    "pixel_size": 30,
+    "cell": [
+      32,
+      32
+    ],
+    "threshold": 128,
+    "bit_order": "row-major, MSB first",
+    "missing_characters": [],
+    "empty_nonspace_characters": [],
+    "license": "OFL-1.1"
+  },
+  "loader_license": "MIT",
+  "raster_license": "OFL-1.1",
+  "board_tested": true,
+  "board_validation_evidence": "data/board_acceptance/cuboid_606/acceptance_summary.json",
+  "board_validation_scope": "Manual Chinese-legibility confirmation with matching scan_font.bin SHA; one deployed combination."
+}

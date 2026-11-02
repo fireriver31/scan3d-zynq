@@ -1,0 +1,483 @@
+{
+  "test_fixture": false,
+  "run_dir": "/home/xilinx/jupyter_notebooks/User/Overlays/OV5640_UI/mask_rtl_1010_v1/1014_彩色原图扫描_20190226_104704_648667_v1",
+  "public_source_manifest_sha256": "86269aee313d5b5d2812428d54fa0e5a57a139c0ea2760b035f9a874ebdcd475",
+  "expected_payload": {
+    "version": 1,
+    "public_source_manifest_sha256": "86269aee313d5b5d2812428d54fa0e5a57a139c0ea2760b035f9a874ebdcd475",
+    "source_edition": "public-v6-r2",
+    "public_source_changes": false,
+    "bit_origin": "competition_v11/build/reproduction_reports/20261031_packaged",
+    "bit_build_record_sha256": "0798678bfca3a225b0ac1b4d6c2356854b8fbe46645c37f447c739379248826b",
+    "hardware_compatibility": "41 hardware sources differ only by one comment and 12 obsolete XPR ImportPath hints; no functional changes",
+    "purpose": "private local board acceptance; not a public binary distribution package",
+    "files": [
+      {
+        "name": "adaptive_scan.py",
+        "bytes": 29202,
+        "sha256": "f0e4e91c0e7e9b690aaa48fe756642d45acd1d889ce57439675d5e7db73e3a4d"
+      },
+      {
+        "name": "background_model.py",
+        "bytes": 16187,
+        "sha256": "bca050ceddadef066faa80c7cea87c9788230f702b4a5010ba1e4277aa78fb28"
+      },
+      {
+        "name": "background_witness.py",
+        "bytes": 9825,
+        "sha256": "7c003dd8d7847c94d5bd35c27a457661c71546270869da60adca15f4f5e75ff9"
+      },
+      {
+        "name": "camera_control.py",
+        "bytes": 15869,
+        "sha256": "29ef77c2f43249d33b521ad94a89ebab0176f35370d7c37bd4434fd9cd7bda81"
+      },
+      {
+        "name": "competitive_colour.py",
+        "bytes": 23383,
+        "sha256": "75fb93372673fbada19389247d0802668e8a314a82be857cf94f2741472e1bf0"
+      },
+      {
+        "name": "edge_partition.py",
+        "bytes": 12852,
+        "sha256": "a1ce08e9c5710c19d6a129574a9bdb2acb30bb37a82d0c9a64dedf76a72e313b"
+      },
+      {
+        "name": "exact_scan_accel.c",
+        "bytes": 2038,
+        "sha256": "32a0b331efea66269410464358e16636e8c7c7bf6bab70eacb93429de276fdec"
+      },
+      {
+        "name": "exact_scan_accel.py",
+        "bytes": 4851,
+        "sha256": "aa61cf548f51e7ce09df7126d569bb1f6c3aebfa09b5c67841c67d5daf248f91"
+      },
+      {
+        "name": "interior_evidence.py",
+        "bytes": 11748,
+        "sha256": "b315cf2ff2779e4b55d2942758b6ae1753cb31710f85c5a36f9895e3e3223d7c"
+      },
+      {
+        "name": "marker_speed.py",
+        "bytes": 22920,
+        "sha256": "2720c416cce0d4a634404cb2edebb300fd937f05c2526dc828b797c881766a9f"
+      },
+      {
+        "name": "mask_input.py",
+        "bytes": 1688,
+        "sha256": "821a9f9e8df030ea0369069c0a840854c1a2690d148a42ef9911a4f5a138030d"
+      },
+      {
+        "name": "photo_geometry.py",
+        "bytes": 18561,
+        "sha256": "d9a98e3851c15d67ce41ccf2ebea644d200a510f2feae10b307384f110ba1eeb"
+      },
+      {
+        "name": "pl_mask.py",
+        "bytes": 96214,
+        "sha256": "816b96cb2d238b3178a25429ffab5c021fd12879e8183e21d70658538bdb1a4d"
+      },
+      {
+        "name": "ps_demo.py",
+        "bytes": 17591,
+        "sha256": "ec10688599e9c06e43ec92d5f11a619ac8afb4623b6e180c657be3375edde974"
+      },
+      {
+        "name": "reference_motion.py",
+        "bytes": 10812,
+        "sha256": "7d1eed8e98f12c6d3d39ed7ed4650e8747164d2f1cce2d8e02007a04957ab98e"
+      },
+      {
+        "name": "roi_reference.py",
+        "bytes": 17007,
+        "sha256": "34d30aa9fe5ff1f878b70bf920d0b84cdfdf4ad9d45bd92693554a7b1afa4202"
+      },
+      {
+        "name": "rtl_mask_demo.py",
+        "bytes": 6176,
+        "sha256": "2647ed8c32aa61df2b30556e60cec47207b20273eff4dbd46bccd63bd81d008a"
+      },
+      {
+        "name": "scan3d.bit",
+        "bytes": 4045775,
+        "sha256": "c563373a98e544cdde2797d4b88f1d3bc1af3f94a703aea0eb769833ea14c606"
+      },
+      {
+        "name": "scan3d.hwh",
+        "bytes": 488996,
+        "sha256": "bbfe9e71e3652a2466d3a757e2ed62f8c82dfc47bf64ada1fc089401474f9412"
+      },
+      {
+        "name": "scan_clock.py",
+        "bytes": 4003,
+        "sha256": "41f9e7f6c71bf0a6249463d5e6e7287e0b9c17181977edfc9f9bb2189aec0453"
+      },
+      {
+        "name": "scan_font.bin",
+        "bytes": 98048,
+        "sha256": "5b889d76225beff6ad81e09c82e0e472f68d2a19d05540ea3f6cdc89578ad991"
+      },
+      {
+        "name": "scan_pipeline.py",
+        "bytes": 171502,
+        "sha256": "38746abf5f5d030036437029cbf4913cb6085c22480a7a1c8e054c42351cdcf1"
+      },
+      {
+        "name": "scan_pl_guard.py",
+        "bytes": 5131,
+        "sha256": "891ab1e5223aa410e38b57a27e612250fade50b88b16de1422bc20335e4bef8c"
+      },
+      {
+        "name": "scan_runtime.py",
+        "bytes": 5208,
+        "sha256": "aa1d3fd431247d14af2699319004d2d2d4a06d7ccbead3bad6ed8fb388207777"
+      },
+      {
+        "name": "scan_screen.py",
+        "bytes": 27465,
+        "sha256": "e9a5843621b13768f8de55babc975e7cb11fa81ff873f3f4661b1daa4631c863"
+      },
+      {
+        "name": "scan_screen_font.py",
+        "bytes": 2603,
+        "sha256": "bddea8161774bb02bb7f45def29132c7111db0a936c84a60ec68e964ead8b0d5"
+      },
+      {
+        "name": "scan_workflow.ipynb",
+        "bytes": 38487,
+        "sha256": "87abd5c9c4ab94f8d51d1d33bd68f93c4e8a82b3556da6486828a751c980f9c0"
+      },
+      {
+        "name": "screen_lease.py",
+        "bytes": 1412,
+        "sha256": "4d4f9a773be1d5e4952b84cf909830400e0035e7b13322f875b6f4706aa03de8"
+      },
+      {
+        "name": "screen_probe.py",
+        "bytes": 4244,
+        "sha256": "f311095a5056d81cbc9715611a058773ddd210a8ca5626aeb6475cc03fbb28ba"
+      },
+      {
+        "name": "subject_evidence.py",
+        "bytes": 44298,
+        "sha256": "53bb6a5b1397c1499c99fb4e879d5fb9497b3cb9f60b936708b4da30a6581501"
+      },
+      {
+        "name": "subject_region.py",
+        "bytes": 51478,
+        "sha256": "cafb1e0471a214e2a6a68c93f69fd5dedb3d854955acbfc1bb64b7e671102daf"
+      },
+      {
+        "name": "surface_photo.py",
+        "bytes": 14075,
+        "sha256": "3fd34fbe3278b13f1ac43d03c75284525652e1d0008ebbb732e3eb541f84dde1"
+      },
+      {
+        "name": "tft_model.py",
+        "bytes": 7207,
+        "sha256": "fd7dbecee3275984bf56bfabe79fd1a1ac58ccdea693552a04c94e4d52900b1d"
+      },
+      {
+        "name": "tft_raster.c",
+        "bytes": 2791,
+        "sha256": "230d052a48a68498b598c8cc886eb6d58058af4c257a6dfc759ebc6ba9280185"
+      },
+      {
+        "name": "tft_touch.py",
+        "bytes": 8167,
+        "sha256": "cc071ffb76a06030087e3002e3aad3880e3e2988e8174f58c8cf05a92c637e38"
+      },
+      {
+        "name": "tft_viewer.py",
+        "bytes": 11649,
+        "sha256": "02bc280393f050a008b2f8ba3dca6d5b63be4a72eb2a1f17ebfa8f9eed3e670c"
+      },
+      {
+        "name": "touch_scan.py",
+        "bytes": 27104,
+        "sha256": "b915b3cc609e07a8e2c43cb9e8af1d760caa567dbc0e26e3105f1d9682bc8e6e"
+      },
+      {
+        "name": "touch_workflow.ipynb",
+        "bytes": 1050,
+        "sha256": "9f69aaa40c208c524c00f9f1450d7607f6fe0a1f3b61e5f1a88b8aec8248b5b0"
+      },
+      {
+        "name": "turntable_camera.py",
+        "bytes": 31840,
+        "sha256": "1cdca61f27f1f489b7816e8eb9b186bc82d000576076d998308f70cdf9c71ae9"
+      },
+      {
+        "name": "uncertainty_scope.py",
+        "bytes": 12524,
+        "sha256": "29770ca7c58e5eb1c38745c9875e580f6a07c41bde34d2f9c48d54c0263a9e2d"
+      }
+    ]
+  },
+  "runtime_files": [
+    {
+      "file": "adaptive_scan.py",
+      "expected_sha256": "f0e4e91c0e7e9b690aaa48fe756642d45acd1d889ce57439675d5e7db73e3a4d",
+      "actual_sha256": "f0e4e91c0e7e9b690aaa48fe756642d45acd1d889ce57439675d5e7db73e3a4d",
+      "matches": true
+    },
+    {
+      "file": "background_model.py",
+      "expected_sha256": "bca050ceddadef066faa80c7cea87c9788230f702b4a5010ba1e4277aa78fb28",
+      "actual_sha256": "bca050ceddadef066faa80c7cea87c9788230f702b4a5010ba1e4277aa78fb28",
+      "matches": true
+    },
+    {
+      "file": "background_witness.py",
+      "expected_sha256": "7c003dd8d7847c94d5bd35c27a457661c71546270869da60adca15f4f5e75ff9",
+      "actual_sha256": "7c003dd8d7847c94d5bd35c27a457661c71546270869da60adca15f4f5e75ff9",
+      "matches": true
+    },
+    {
+      "file": "camera_control.py",
+      "expected_sha256": "29ef77c2f43249d33b521ad94a89ebab0176f35370d7c37bd4434fd9cd7bda81",
+      "actual_sha256": "29ef77c2f43249d33b521ad94a89ebab0176f35370d7c37bd4434fd9cd7bda81",
+      "matches": true
+    },
+    {
+      "file": "competitive_colour.py",
+      "expected_sha256": "75fb93372673fbada19389247d0802668e8a314a82be857cf94f2741472e1bf0",
+      "actual_sha256": "75fb93372673fbada19389247d0802668e8a314a82be857cf94f2741472e1bf0",
+      "matches": true
+    },
+    {
+      "file": "edge_partition.py",
+      "expected_sha256": "a1ce08e9c5710c19d6a129574a9bdb2acb30bb37a82d0c9a64dedf76a72e313b",
+      "actual_sha256": "a1ce08e9c5710c19d6a129574a9bdb2acb30bb37a82d0c9a64dedf76a72e313b",
+      "matches": true
+    },
+    {
+      "file": "exact_scan_accel.c",
+      "expected_sha256": "32a0b331efea66269410464358e16636e8c7c7bf6bab70eacb93429de276fdec",
+      "actual_sha256": "32a0b331efea66269410464358e16636e8c7c7bf6bab70eacb93429de276fdec",
+      "matches": true
+    },
+    {
+      "file": "exact_scan_accel.py",
+      "expected_sha256": "aa61cf548f51e7ce09df7126d569bb1f6c3aebfa09b5c67841c67d5daf248f91",
+      "actual_sha256": "aa61cf548f51e7ce09df7126d569bb1f6c3aebfa09b5c67841c67d5daf248f91",
+      "matches": true
+    },
+    {
+      "file": "interior_evidence.py",
+      "expected_sha256": "b315cf2ff2779e4b55d2942758b6ae1753cb31710f85c5a36f9895e3e3223d7c",
+      "actual_sha256": "b315cf2ff2779e4b55d2942758b6ae1753cb31710f85c5a36f9895e3e3223d7c",
+      "matches": true
+    },
+    {
+      "file": "marker_speed.py",
+      "expected_sha256": "2720c416cce0d4a634404cb2edebb300fd937f05c2526dc828b797c881766a9f",
+      "actual_sha256": "2720c416cce0d4a634404cb2edebb300fd937f05c2526dc828b797c881766a9f",
+      "matches": true
+    },
+    {
+      "file": "mask_input.py",
+      "expected_sha256": "821a9f9e8df030ea0369069c0a840854c1a2690d148a42ef9911a4f5a138030d",
+      "actual_sha256": "821a9f9e8df030ea0369069c0a840854c1a2690d148a42ef9911a4f5a138030d",
+      "matches": true
+    },
+    {
+      "file": "photo_geometry.py",
+      "expected_sha256": "d9a98e3851c15d67ce41ccf2ebea644d200a510f2feae10b307384f110ba1eeb",
+      "actual_sha256": "d9a98e3851c15d67ce41ccf2ebea644d200a510f2feae10b307384f110ba1eeb",
+      "matches": true
+    },
+    {
+      "file": "pl_mask.py",
+      "expected_sha256": "816b96cb2d238b3178a25429ffab5c021fd12879e8183e21d70658538bdb1a4d",
+      "actual_sha256": "816b96cb2d238b3178a25429ffab5c021fd12879e8183e21d70658538bdb1a4d",
+      "matches": true
+    },
+    {
+      "file": "ps_demo.py",
+      "expected_sha256": "ec10688599e9c06e43ec92d5f11a619ac8afb4623b6e180c657be3375edde974",
+      "actual_sha256": "ec10688599e9c06e43ec92d5f11a619ac8afb4623b6e180c657be3375edde974",
+      "matches": true
+    },
+    {
+      "file": "reference_motion.py",
+      "expected_sha256": "7d1eed8e98f12c6d3d39ed7ed4650e8747164d2f1cce2d8e02007a04957ab98e",
+      "actual_sha256": "7d1eed8e98f12c6d3d39ed7ed4650e8747164d2f1cce2d8e02007a04957ab98e",
+      "matches": true
+    },
+    {
+      "file": "roi_reference.py",
+      "expected_sha256": "34d30aa9fe5ff1f878b70bf920d0b84cdfdf4ad9d45bd92693554a7b1afa4202",
+      "actual_sha256": "34d30aa9fe5ff1f878b70bf920d0b84cdfdf4ad9d45bd92693554a7b1afa4202",
+      "matches": true
+    },
+    {
+      "file": "rtl_mask_demo.py",
+      "expected_sha256": "2647ed8c32aa61df2b30556e60cec47207b20273eff4dbd46bccd63bd81d008a",
+      "actual_sha256": "2647ed8c32aa61df2b30556e60cec47207b20273eff4dbd46bccd63bd81d008a",
+      "matches": true
+    },
+    {
+      "file": "scan3d.bit",
+      "expected_sha256": "c563373a98e544cdde2797d4b88f1d3bc1af3f94a703aea0eb769833ea14c606",
+      "actual_sha256": "c563373a98e544cdde2797d4b88f1d3bc1af3f94a703aea0eb769833ea14c606",
+      "matches": true
+    },
+    {
+      "file": "scan3d.hwh",
+      "expected_sha256": "bbfe9e71e3652a2466d3a757e2ed62f8c82dfc47bf64ada1fc089401474f9412",
+      "actual_sha256": "bbfe9e71e3652a2466d3a757e2ed62f8c82dfc47bf64ada1fc089401474f9412",
+      "matches": true
+    },
+    {
+      "file": "scan_clock.py",
+      "expected_sha256": "41f9e7f6c71bf0a6249463d5e6e7287e0b9c17181977edfc9f9bb2189aec0453",
+      "actual_sha256": "41f9e7f6c71bf0a6249463d5e6e7287e0b9c17181977edfc9f9bb2189aec0453",
+      "matches": true
+    },
+    {
+      "file": "scan_font.bin",
+      "expected_sha256": "5b889d76225beff6ad81e09c82e0e472f68d2a19d05540ea3f6cdc89578ad991",
+      "actual_sha256": "5b889d76225beff6ad81e09c82e0e472f68d2a19d05540ea3f6cdc89578ad991",
+      "matches": true
+    },
+    {
+      "file": "scan_pipeline.py",
+      "expected_sha256": "38746abf5f5d030036437029cbf4913cb6085c22480a7a1c8e054c42351cdcf1",
+      "actual_sha256": "38746abf5f5d030036437029cbf4913cb6085c22480a7a1c8e054c42351cdcf1",
+      "matches": true
+    },
+    {
+      "file": "scan_pl_guard.py",
+      "expected_sha256": "891ab1e5223aa410e38b57a27e612250fade50b88b16de1422bc20335e4bef8c",
+      "actual_sha256": "891ab1e5223aa410e38b57a27e612250fade50b88b16de1422bc20335e4bef8c",
+      "matches": true
+    },
+    {
+      "file": "scan_runtime.py",
+      "expected_sha256": "aa1d3fd431247d14af2699319004d2d2d4a06d7ccbead3bad6ed8fb388207777",
+      "actual_sha256": "aa1d3fd431247d14af2699319004d2d2d4a06d7ccbead3bad6ed8fb388207777",
+      "matches": true
+    },
+    {
+      "file": "scan_screen.py",
+      "expected_sha256": "e9a5843621b13768f8de55babc975e7cb11fa81ff873f3f4661b1daa4631c863",
+      "actual_sha256": "e9a5843621b13768f8de55babc975e7cb11fa81ff873f3f4661b1daa4631c863",
+      "matches": true
+    },
+    {
+      "file": "scan_screen_font.py",
+      "expected_sha256": "bddea8161774bb02bb7f45def29132c7111db0a936c84a60ec68e964ead8b0d5",
+      "actual_sha256": "bddea8161774bb02bb7f45def29132c7111db0a936c84a60ec68e964ead8b0d5",
+      "matches": true
+    },
+    {
+      "file": "scan_workflow.ipynb",
+      "expected_sha256": "87abd5c9c4ab94f8d51d1d33bd68f93c4e8a82b3556da6486828a751c980f9c0",
+      "actual_sha256": "87abd5c9c4ab94f8d51d1d33bd68f93c4e8a82b3556da6486828a751c980f9c0",
+      "matches": true
+    },
+    {
+      "file": "screen_lease.py",
+      "expected_sha256": "4d4f9a773be1d5e4952b84cf909830400e0035e7b13322f875b6f4706aa03de8",
+      "actual_sha256": "4d4f9a773be1d5e4952b84cf909830400e0035e7b13322f875b6f4706aa03de8",
+      "matches": true
+    },
+    {
+      "file": "screen_probe.py",
+      "expected_sha256": "f311095a5056d81cbc9715611a058773ddd210a8ca5626aeb6475cc03fbb28ba",
+      "actual_sha256": "f311095a5056d81cbc9715611a058773ddd210a8ca5626aeb6475cc03fbb28ba",
+      "matches": true
+    },
+    {
+      "file": "subject_evidence.py",
+      "expected_sha256": "53bb6a5b1397c1499c99fb4e879d5fb9497b3cb9f60b936708b4da30a6581501",
+      "actual_sha256": "53bb6a5b1397c1499c99fb4e879d5fb9497b3cb9f60b936708b4da30a6581501",
+      "matches": true
+    },
+    {
+      "file": "subject_region.py",
+      "expected_sha256": "cafb1e0471a214e2a6a68c93f69fd5dedb3d854955acbfc1bb64b7e671102daf",
+      "actual_sha256": "cafb1e0471a214e2a6a68c93f69fd5dedb3d854955acbfc1bb64b7e671102daf",
+      "matches": true
+    },
+    {
+      "file": "surface_photo.py",
+      "expected_sha256": "3fd34fbe3278b13f1ac43d03c75284525652e1d0008ebbb732e3eb541f84dde1",
+      "actual_sha256": "3fd34fbe3278b13f1ac43d03c75284525652e1d0008ebbb732e3eb541f84dde1",
+      "matches": true
+    },
+    {
+      "file": "tft_model.py",
+      "expected_sha256": "fd7dbecee3275984bf56bfabe79fd1a1ac58ccdea693552a04c94e4d52900b1d",
+      "actual_sha256": "fd7dbecee3275984bf56bfabe79fd1a1ac58ccdea693552a04c94e4d52900b1d",
+      "matches": true
+    },
+    {
+      "file": "tft_raster.c",
+      "expected_sha256": "230d052a48a68498b598c8cc886eb6d58058af4c257a6dfc759ebc6ba9280185",
+      "actual_sha256": "230d052a48a68498b598c8cc886eb6d58058af4c257a6dfc759ebc6ba9280185",
+      "matches": true
+    },
+    {
+      "file": "tft_touch.py",
+      "expected_sha256": "cc071ffb76a06030087e3002e3aad3880e3e2988e8174f58c8cf05a92c637e38",
+      "actual_sha256": "cc071ffb76a06030087e3002e3aad3880e3e2988e8174f58c8cf05a92c637e38",
+      "matches": true
+    },
+    {
+      "file": "tft_viewer.py",
+      "expected_sha256": "02bc280393f050a008b2f8ba3dca6d5b63be4a72eb2a1f17ebfa8f9eed3e670c",
+      "actual_sha256": "02bc280393f050a008b2f8ba3dca6d5b63be4a72eb2a1f17ebfa8f9eed3e670c",
+      "matches": true
+    },
+    {
+      "file": "touch_scan.py",
+      "expected_sha256": "b915b3cc609e07a8e2c43cb9e8af1d760caa567dbc0e26e3105f1d9682bc8e6e",
+      "actual_sha256": "b915b3cc609e07a8e2c43cb9e8af1d760caa567dbc0e26e3105f1d9682bc8e6e",
+      "matches": true
+    },
+    {
+      "file": "touch_workflow.ipynb",
+      "expected_sha256": "9f69aaa40c208c524c00f9f1450d7607f6fe0a1f3b61e5f1a88b8aec8248b5b0",
+      "actual_sha256": "9f69aaa40c208c524c00f9f1450d7607f6fe0a1f3b61e5f1a88b8aec8248b5b0",
+      "matches": true
+    },
+    {
+      "file": "turntable_camera.py",
+      "expected_sha256": "1cdca61f27f1f489b7816e8eb9b186bc82d000576076d998308f70cdf9c71ae9",
+      "actual_sha256": "1cdca61f27f1f489b7816e8eb9b186bc82d000576076d998308f70cdf9c71ae9",
+      "matches": true
+    },
+    {
+      "file": "uncertainty_scope.py",
+      "expected_sha256": "29770ca7c58e5eb1c38745c9875e580f6a07c41bde34d2f9c48d54c0263a9e2d",
+      "actual_sha256": "29770ca7c58e5eb1c38745c9875e580f6a07c41bde34d2f9c48d54c0263a9e2d",
+      "matches": true
+    }
+  ],
+  "operator_checks": {
+    "camera_clear_color": true,
+    "screen_aligned": true,
+    "chinese_text_legible": true,
+    "touch_step_buttons": true,
+    "model_rotation": true,
+    "model_zoom": true,
+    "volume_visible": true
+  },
+  "missing_expected_files": [],
+  "step8_completed_event": true,
+  "all_operator_checks_confirmed": true,
+  "expected_files_unchanged": true,
+  "initialization_clock_passed": true,
+  "export_fclk0_mhz": 50.0,
+  "export_clock_matches_expected": true,
+  "ddr_reservation_confirmed": true,
+  "result_volume_cm3": 637.3279817160902,
+  "shape_consistency_passed": false,
+  "physical_accuracy_verified": false,
+  "boot_id_at_start": "ac8c66d2-018b-4017-8338-3d28bf203a0b",
+  "boot_id_at_export": "ac8c66d2-018b-4017-8338-3d28bf203a0b",
+  "result_scope": "technical board acceptance; physical accuracy and paired performance require separate experiments",
+  "review_status": "ready_for_evidence_review"
+}

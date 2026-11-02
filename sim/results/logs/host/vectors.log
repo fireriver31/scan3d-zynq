@@ -1,0 +1,33 @@
+{
+  "recon": {
+    "n": 32,
+    "mw": 128,
+    "mh": 128,
+    "nv": 24,
+    "occupied_voxels": 10504,
+    "shift_px": 0,
+    "coefficient_source": "PS plan_geometry; scalar affine oracle; not physical validation"
+  },
+  "recon_shift": {
+    "n": 32,
+    "mw": 128,
+    "mh": 128,
+    "nv": 24,
+    "occupied_voxels": 5094,
+    "shift_px": 64,
+    "coefficient_source": "PS plan_geometry; scalar affine oracle; not physical validation"
+  },
+  "photo_pattern": {
+    "pixels": 384000,
+    "random_stress": false,
+    "strong": 23934,
+    "possible": 74038
+  },
+  "photo_random": {
+    "pixels": 384000,
+    "random_stress": true,
+    "strong": 16968,
+    "possible": 256324
+  },
+  "board_tested": false
+}

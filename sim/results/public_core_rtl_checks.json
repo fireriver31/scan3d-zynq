@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "recon",
+      "passed": true,
+      "run_log": "logs/core/recon_run.log",
+      "scope": "actual recon_top AXI transfers and all occupancy words"
+    },
+    {
+      "name": "recon_shift",
+      "passed": true,
+      "run_log": "logs/core/recon_shift_run.log",
+      "scope": "actual recon_top AXI transfers and all occupancy words"
+    },
+    {
+      "name": "photo_protocol",
+      "passed": true,
+      "run_log": "logs/core/photo_protocol_run.log",
+      "scope": "actual photo_mask_axis full-frame decisions and AXI/stream handshake"
+    },
+    {
+      "name": "photo_pattern",
+      "passed": true,
+      "run_log": "logs/core/photo_pattern_run.log",
+      "scope": "actual photo_mask_axis full-frame decisions and AXI/stream handshake"
+    },
+    {
+      "name": "photo_random",
+      "passed": true,
+      "run_log": "logs/core/photo_random_run.log",
+      "scope": "actual photo_mask_axis full-frame decisions and AXI/stream handshake"
+    }
+  ],
+  "vectors": {
+    "recon": {
+      "n": 32,
+      "mw": 128,
+      "mh": 128,
+      "nv": 24,
+      "occupied_voxels": 10504,
+      "shift_px": 0,
+      "coefficient_source": "PS plan_geometry; scalar affine oracle; not physical validation"
+    },
+    "recon_shift": {
+      "n": 32,
+      "mw": 128,
+      "mh": 128,
+      "nv": 24,
+      "occupied_voxels": 5094,
+      "shift_px": 64,
+      "coefficient_source": "PS plan_geometry; scalar affine oracle; not physical validation"
+    },
+    "photo_pattern": {
+      "pixels": 384000,
+      "random_stress": false,
+      "strong": 23934,
+      "possible": 74038
+    },
+    "photo_random": {
+      "pixels": 384000,
+      "random_stress": true,
+      "strong": 16968,
+      "possible": 256324
+    },
+    "board_tested": false
+  },
+  "board_tested": false,
+  "physical_accuracy_validated": false,
+  "log_scope": "repository",
+  "log_base": "sim/results",
+  "archive_note": "Public log copies; raw hashes and path replacements are in log_provenance.json."
+}

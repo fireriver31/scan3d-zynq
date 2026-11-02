@@ -1,0 +1,9 @@
+{
+  "frontmatter_restricted_scalar_schema_passed": true,
+  "bundled_quick_validate_status": "unavailable_missing_PyYAML",
+  "dependency_download_status": "not_completed",
+  "checks_executed": "independent_name_description_and_link_checks_plus_14_tool_behavior_cases",
+  "board_tested": false,
+  "cli_detected_corruption_exit_code": 2,
+  "dependency_status_note": "PyYAML was unavailable; the bundled validator did not run."
+}

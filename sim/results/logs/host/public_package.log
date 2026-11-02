@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "privacy": {
+    "passed": true,
+    "local_paths_or_requester_accounts": [],
+    "payload_files_and_members": 247,
+    "archive_members": 0,
+    "path_redacted_files": 12,
+    "screenshot_account_redacted": true,
+    "original_evidence_distributed": false
+  },
+  "analysis_records": {
+    "interaction_groups": 3,
+    "original_messages": 7,
+    "self_correction_cases": 1,
+    "technical_topics": 4,
+    "local_references_resolve": true,
+    "external_evidence_scope_explicit": true,
+    "acceptance_writer_matches_notebook": true,
+    "executed_notebook_outputs": 13,
+    "interrupt_output_preserved": true
+  },
+  "files": 247,
+  "runtime_python36": 33,
+  "notebook_cells": 10,
+  "glyphs": 766,
+  "missing_markdown_links": [],
+  "local_personal_path_findings": [],
+  "authorization_evidence_hashes_verified": true,
+  "hardware_source_files": 41,
+  "vendor_material_not_mit": true,
+  "full_system_bit_absent": true,
+  "per_file_license_coverage": true,
+  "board_record_present": true,
+  "hardware_access_performed": false,
+  "linked_test_logs": 22,
+  "archived_log_files": 38,
+  "historical_data_scope_explicit": true,
+  "design_report_chapters": 12,
+  "obsolete_import_paths_absent": true,
+  "deployment_bit_name": "scan3d.bit"
+}

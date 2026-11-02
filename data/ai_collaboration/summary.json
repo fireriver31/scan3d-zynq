@@ -1,0 +1,60 @@
+{
+  "format": "edited_summary",
+  "tools": [
+    "ChatGPT",
+    "WorkBuddy"
+  ],
+  "historical_model_version": null,
+  "core_rtl_scope": [
+    "方案设计",
+    "代码检查",
+    "故障分析"
+  ],
+  "tasks": [
+    {
+      "id": "touch_and_mask",
+      "topic": "触屏代码检查与掩模优化思路",
+      "prompt_summary": "检验触屏功能代码是否存在问题？并提供一个优化第七步生成掩模部分的思路，看看能不能在效果完全不变的情况下改善算法节约时间，20min确实是难以接受",
+      "ai_response_summary": "从步骤切换、显示状态和异常处理检查触屏入口；对第7步先按阶段拆分耗时，再比较区域处理与存档的优化方向。",
+      "team_decision": "将功能检查与性能优化分开，使用同输入比较处理结果；不同平台或样品的耗时分别登记。",
+      "validation": [
+        "report/optimization_comparison.md",
+        "report/board_volume_experiment.md"
+      ]
+    },
+    {
+      "id": "touch_entry",
+      "topic": "原有流程的触屏接入",
+      "prompt_summary": "我们想在现有扫描流程和计算接口的基础上，将整个流程由一个代码框实现，通过触屏操作运行下一步，代码可以怎么实现？",
+      "ai_response_summary": "以触摸事件驱动步骤控制器，调用原有Notebook步骤；为执行中、失败、重试和返回分别设置状态。",
+      "team_decision": "沿用原计算入口，采用触屏流程控制；结合板上步骤和手势记录检查操作行为，流程末尾中断单独登记。",
+      "validation": [
+        "src/runtime/touch_scan.py",
+        "data/board_acceptance/cuboid_606/acceptance_summary.json"
+      ]
+    },
+    {
+      "id": "component_filter",
+      "topic": "筛选前移的风险评估",
+      "prompt_summary": "我们考虑将最大连通块筛选前移。请协助分析数据依赖、误删真实部件的风险，并提出等价比较的检查方法；若耗时没有减少或模型变差，则保留原方案。",
+      "ai_response_summary": "提前筛选可能删除因漏分暂时断开的真实部件，应比较区域编号、掩模及三维占据，再评估耗时变化。",
+      "team_decision": "采用可回退的比较方式，按已验收源码指纹选择运行版本；局部离线改善不直接替换整圈实机基线。",
+      "validation": [
+        "report/engineering_history.md",
+        "report/optimization_comparison.md"
+      ]
+    },
+    {
+      "id": "single_capture",
+      "topic": "简化采集流程与界面布局",
+      "prompt_summary": "结合双姿态采集与配准的操作负担，我们决定本次主流程保留单圈24视角。请协助梳理受影响的流程入口，并提出减少UI遮挡的布局建议。",
+      "ai_response_summary": "比较采集次数、配准步骤和界面占用，围绕单圈流程组织操作与显示。",
+      "team_decision": "主流程保留单圈24视角，将操作负担和观察区域纳入方案取舍。",
+      "validation": [
+        "src/runtime/scan_workflow.ipynb",
+        "report/design_report.md"
+      ]
+    }
+  ],
+  "description": "按开发任务整理的提问要点、建议摘要与方案取舍，非逐字对话。"
+}

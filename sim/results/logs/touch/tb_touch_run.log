@@ -1,0 +1,18 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Nov  1 18:09:28 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/check_tb_touch/xsim_script.tcl
+# xsim {check_tb_touch} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+TOUCH correct 8150..8153 x=  666 y=  340 seq=         1
+PASS GT911 ID/config/full16bit/move/multi/release/clear/clock-stretch
+$finish called at time : 138626 ns : File "$REPO/sim/rtl/1026_tb_touch_v87.sv" Line 81
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 18:09:30 2026...

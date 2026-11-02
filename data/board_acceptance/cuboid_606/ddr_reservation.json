@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2019-02-26T11:27:30.838432Z",
+  "boot_id": "ac8c66d2-018b-4017-8338-3d28bf203a0b",
+  "test_fixture": false,
+  "exporter_loaded_bit": false,
+  "exporter_captured_camera": false,
+  "exporter_wrote_clock_registers": false,
+  "existing_scan_files_modified": false,
+  "framebuffer_start": "0x1800000",
+  "framebuffer_end": "0x18bb7ff",
+  "size_bytes": 768000,
+  "reservation_evidence": "device_tree_covering_range",
+  "reservation_confirmed": true,
+  "device_tree_root": "/proc/device-tree",
+  "address_cells": 1,
+  "size_cells": 1,
+  "ranges": [
+    {
+      "node": "framebuffer@1800000",
+      "start": "0x1800000",
+      "end": "0x18fffff",
+      "size_bytes": 1048576,
+      "status": "okay",
+      "no_map": true,
+      "reg_hex": "0180000000100000",
+      "reusable": false,
+      "covers_framebuffer": true
+    }
+  ],
+  "iomem_matching_reserved_lines": [],
+  "read_errors": [],
+  "note": "Read-only evidence for this boot. Does not replace the scan initialization guard or prove a prior boot."
+}

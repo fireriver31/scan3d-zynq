@@ -1,0 +1,45 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Nov  1 18:09:56 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/check_tb_probe_v90/xsim_script.tcl
+# xsim {check_tb_probe_v90} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+WARNING: file out/1027_case_0_trace_v1.csv could not be opened
+WARNING: file out/1027_case_1_trace_v1.csv could not be opened
+WARNING: file out/1027_case_2_trace_v1.csv could not be opened
+WARNING: file out/1027_case_3_trace_v1.csv could not be opened
+WARNING: file out/1027_case_4_trace_v1.csv could not be opened
+WARNING: file out/1027_case_5_trace_v1.csv could not be opened
+WARNING: file out/1027_case_6_trace_v1.csv could not be opened
+WARNING: file out/1027_case_7_trace_v1.csv could not be opened
+WARNING: file out/1027_case_8_trace_v1.csv could not be opened
+WARNING: file out/1027_case_9_trace_v1.csv could not be opened
+WARNING: file out/1027_case_10_trace_v1.csv could not be opened
+WARNING: file out/1027_case_11_trace_v1.csv could not be opened
+WARNING: file out/1027_fault_results_v1.csv could not be opened
+CASE 0 normal_5d online=1 errors=0 product=313139 range=800x480
+CASE 1 normal_14 online=1 errors=1 product=313139 range=800x480
+CASE 2 absent_or_unpowered online=0 errors=3 product=000000 range=0x0
+CASE 3 SDA_open online=0 errors=3 product=000000 range=0x0
+CASE 4 SCL_open online=0 errors=3 product=000000 range=0x0
+CASE 5 SDA_held_low online=0 errors=2 product=000000 range=0x0
+CASE 6 SCL_held_low online=0 errors=2 product=000000 range=0x0
+CASE 7 ACK_but_ID_zero online=0 errors=2 product=000000 range=0x0
+CASE 8 ACK_but_other_ID online=0 errors=2 product=000000 range=0x0
+CASE 9 config_address_NACK online=0 errors=2 product=000000 range=0x0
+CASE 10 device_held_reset online=0 errors=3 product=000000 range=0x0
+CASE 11 read_address_NACK online=0 errors=3 product=000000 range=0x0
+WARNING: file out/1027_diagnostic_results_v90.csv could not be opened
+PASS 12 diagnostic scenarios, failures retained per address, native 50MHz
+$finish called at time : 230000100 ns : File "$REPO/sim/rtl/1027_tb_probe_v90.sv" Line 152
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 208.211 ; gain = 0.074
+exit
+INFO: xsimkernel Simulation Memory Usage: 22284 KB (Peak: 22284 KB), Simulation CPU Usage: 17717 ms
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 18:10:16 2026...

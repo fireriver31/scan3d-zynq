@@ -1,0 +1,5 @@
+metric,baseline,selected,delta,scope,notes
+Slice LUTs,16253,16651,398,full_design,v87 and v99; changes include the display probe
+Slice Registers,21706,22729,1023,full_design,v87 and v99; changes include the display probe
+Block RAM Tile,117,118,1,full_design,v87 and v99; changes include the display probe
+DSPs,6,6,0,full_design,v87 and v99; changes include the display probe

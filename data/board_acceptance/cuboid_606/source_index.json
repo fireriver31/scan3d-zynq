@@ -1,0 +1,82 @@
+{
+  "received_date": "2026-11-01",
+  "archive_sha256": "01ad12c8b32b3ba3de0ab41df620694af2db4586d86c17de57422f13b5a897e5",
+  "archive_bytes": 136913710,
+  "archive_entries": 119,
+  "archive_crc_verified": true,
+  "exported_file_hashes_verified": 118,
+  "archive_in_public_repository": false,
+  "files": [
+    {
+      "file": "acceptance_summary.json",
+      "archive_path": "acceptance/acceptance_summary.json",
+      "bytes": 18455,
+      "sha256": "0485b8a5bd49c8352e2ab74261cf35a2ae9fd5ea6cf0ee8d05c7e4ab83dee2b6",
+      "original_bytes": true
+    },
+    {
+      "file": "result.json",
+      "archive_path": "scan_run/1014_photo_guided_result_20190226_110654_635649_v1/result.json",
+      "bytes": 1189689,
+      "sha256": "3b7b6e7c1ff6a05f3149ad2b06e0de4491e0a79980024adac123e076916379df",
+      "original_bytes": true
+    },
+    {
+      "file": "occupancy.npy",
+      "archive_path": "scan_run/1014_photo_guided_result_20190226_110654_635649_v1/occupancy.npy",
+      "bytes": 2097232,
+      "sha256": "0fc3a0f174ec2619463dfef0c529e8a1500d51b7e1f7dc7d6c8adad9580ccfee",
+      "original_bytes": true
+    },
+    {
+      "file": "touch_flow.json",
+      "archive_path": "scan_run/1030_touch_flow_v103.json",
+      "bytes": 2700,
+      "sha256": "e7c1392141530850389680ed6af84af5e3adfcde541fed9b2cb7bff249915238",
+      "original_bytes": true
+    },
+    {
+      "file": "flow_exit.json",
+      "archive_path": "acceptance/flow_exit.json",
+      "bytes": 247,
+      "sha256": "74ad25a97f64c96e30ed738d93ebd2ba4eb3f6a3333af9a246a86dadeb9d919f",
+      "original_bytes": true
+    },
+    {
+      "file": "touch_viewer.json",
+      "archive_path": "scan_run/1026_touch_viewer_status_v87.json",
+      "bytes": 850,
+      "sha256": "fd7ad0740b8e7ec8aed8e8aa889c43225b6cb3202bf90dba19f6de870bc163e0",
+      "original_bytes": true
+    },
+    {
+      "file": "display_status.json",
+      "archive_path": "scan_run/1028_display_status_v99.json",
+      "bytes": 1998,
+      "sha256": "4f2adaf20b0e8c3e116919419854ed053701788fe536d2797b3c3b6115ca2950",
+      "original_bytes": true
+    },
+    {
+      "file": "display_clock.json",
+      "archive_path": "scan_run/1028_display_clock_v98.json",
+      "bytes": 862,
+      "sha256": "98033a128334fafe0c09265279111763aa736bc6838366f207f2dd96010aeb32",
+      "original_bytes": true
+    },
+    {
+      "file": "clock_status.json",
+      "archive_path": "acceptance/board_info_4feb99/clock_status.json",
+      "bytes": 521,
+      "sha256": "6af9c45cd9d6a8ff9fa566e6308bfbe127fdae85cd493f58993ca0145b3778ae",
+      "original_bytes": true
+    },
+    {
+      "file": "ddr_reservation.json",
+      "archive_path": "acceptance/board_info_4feb99/ddr_reservation.json",
+      "bytes": 1022,
+      "sha256": "aabfe77af025bd22e78147aba5e45cd7aaeedf9433621653c0e60e31e555cbed",
+      "original_bytes": true
+    }
+  ],
+  "board_timestamp_scope": "board clock reads 2019; correspondence is established by hashes and boot_id"
+}

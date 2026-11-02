@@ -1,0 +1,30 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Nov  1 18:09:28 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/recon_check/xsim_script.tcl
+# xsim {recon_check} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+
+=====================================================
+  recon_top  --  RTL vs Python 逐位对拍
+  N=32  MW=128  MH=128  NV=24
+-----------------------------------------------------
+  雕刻完成，仿真时间 = 742510 ns
+  写路径不匹配 : 0 / 1024   (occ_we 脉冲数 = 1024)
+-----------------------------------------------------
+  RTL  占据体素 : 10504
+  Python 占据体素: 10504
+  不匹配字数    : 0 / 1024
+  >>> PASS   逐位与 Python 参考模型完全一致
+=====================================================
+
+$finish called at time : 763060 ns : File "$REPO/hardware/tests/tb_recon.v" Line 192
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 18:09:30 2026...

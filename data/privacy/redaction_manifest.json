@@ -1,0 +1,806 @@
+{
+  "scope": "distributed_privacy_copies",
+  "original_files_retained_privately": true,
+  "original_files_in_delivery": false,
+  "transformations": "Remove identified local path tokens from distributed technical reports and logs; retain original and copy file hashes.",
+  "records": [
+    {
+      "path": "sim/results/logs/core/photo_elaborate.log",
+      "original_sha256": "7938ce1953317c525e33c703a24e056756bcb964a3cb88f422f92b5bb7f7cb5c",
+      "delivered_sha256": "caef5f08e2e9ea46ece7d3e1477b710a7e46211d82e0fdd9fce1d876ce89e765",
+      "original_bytes": 613,
+      "delivered_bytes": 575,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/core/recon_elaborate.log",
+      "original_sha256": "e82c29a1c49205a4485126be3efa80645d43ff65c50928117275f0b7f34a0bd2",
+      "delivered_sha256": "f6cabfd18193727dfa58e93f14621e35ef2c47ccdbc58646c39c3b40007c44ba",
+      "original_bytes": 685,
+      "delivered_bytes": 647,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/project/ip_status.rpt",
+      "original_sha256": "28c71ee7a2bedbf7ce0c6c8331029b6669964f5dc6cf3245fe8efa3476f4ec53",
+      "delivered_sha256": "a67b86c9c95101e830633ce53479e1956e723e1d744320c8681546200c166bdc",
+      "original_bytes": 81982,
+      "delivered_bytes": 77127,
+      "path_replacements": 96,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 72956,
+          "end": 73038,
+          "original_span_sha256": "59128d99b71bc855ed5b8e17105871c1e68e18f03895176c692cbcecc67df365",
+          "replacement": "$VIVADO/clk_wiz_v6_0_changelog.txt"
+        },
+        {
+          "start": 73044,
+          "end": 73142,
+          "original_span_sha256": "d21dc6de8332756b26afcc18565783b86b9a2e715e28079e9a9e75015e5a0bed",
+          "replacement": "$VIVADO/fifo_generator_v13_2_changelog.txt"
+        },
+        {
+          "start": 73148,
+          "end": 73248,
+          "original_span_sha256": "215c37baa6e47b3b47811beed236bddd32d53d8fd2f9f18eaa81402479d47a80",
+          "replacement": "$VIVADO/axi_interconnect_v2_1_changelog.txt"
+        },
+        {
+          "start": 73254,
+          "end": 73346,
+          "original_span_sha256": "06c205e327fc82fd1460656b7a1323f4700f9d52d8a66558766048462ff020d8",
+          "replacement": "$VIVADO/smartconnect_v1_0_changelog.txt"
+        },
+        {
+          "start": 73352,
+          "end": 73442,
+          "original_span_sha256": "2baf371ab2f515a5bccd6b8fd34705683eec0194f8f375099f487bf336610d8e",
+          "replacement": "$VIVADO/blk_mem_gen_v8_4_changelog.txt"
+        },
+        {
+          "start": 73448,
+          "end": 73532,
+          "original_span_sha256": "e195051c77088abb39500e827c9a87174beeada264307775ed190e0b5e236b9c",
+          "replacement": "$VIVADO/axi_gpio_v2_0_changelog.txt"
+        },
+        {
+          "start": 73538,
+          "end": 73620,
+          "original_span_sha256": "fca2bcd234a52d1688a9437f4be994c5f62428f27c1f81c259c5d897ac0e9792",
+          "replacement": "$VIVADO/axi_dma_v7_1_changelog.txt"
+        },
+        {
+          "start": 73626,
+          "end": 73718,
+          "original_span_sha256": "06c205e327fc82fd1460656b7a1323f4700f9d52d8a66558766048462ff020d8",
+          "replacement": "$VIVADO/smartconnect_v1_0_changelog.txt"
+        },
+        {
+          "start": 73724,
+          "end": 73820,
+          "original_span_sha256": "d49e1a9b63fa683770bf923d41c230240f641c48c93c16560deb696649118760",
+          "replacement": "$VIVADO/proc_sys_reset_v5_0_changelog.txt"
+        },
+        {
+          "start": 73827,
+          "end": 73931,
+          "original_span_sha256": "feca30cb6e4ed77dcfe4762ea3dd2bbf27841306d559603b8260f9138402e4d6",
+          "replacement": "$VIVADO/processing_system7_v5_5_changelog.txt"
+        },
+        {
+          "start": 73938,
+          "end": 74034,
+          "original_span_sha256": "d49e1a9b63fa683770bf923d41c230240f641c48c93c16560deb696649118760",
+          "replacement": "$VIVADO/proc_sys_reset_v5_0_changelog.txt"
+        },
+        {
+          "start": 74041,
+          "end": 74135,
+          "original_span_sha256": "1efd1c51394f7e1081508daaaba55711df347a5e12da89e83f17a0b79b49da4b",
+          "replacement": "$VIVADO/axi_bram_ctrl_v4_1_changelog.txt"
+        },
+        {
+          "start": 74142,
+          "end": 74240,
+          "original_span_sha256": "d21dc6de8332756b26afcc18565783b86b9a2e715e28079e9a9e75015e5a0bed",
+          "replacement": "$VIVADO/fifo_generator_v13_2_changelog.txt"
+        },
+        {
+          "start": 74247,
+          "end": 74343,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 74350,
+          "end": 74446,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 74453,
+          "end": 74549,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 74556,
+          "end": 74638,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 74645,
+          "end": 74727,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 74734,
+          "end": 74816,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 74823,
+          "end": 74905,
+          "original_span_sha256": "c32fb4ce9fe47fbdadefa98ca11f1cefdf5b1f6736d706c142e3301fd69d76b4",
+          "replacement": "$VIVADO/sc_exit_v1_0_changelog.txt"
+        },
+        {
+          "start": 74912,
+          "end": 74994,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75001,
+          "end": 75087,
+          "original_span_sha256": "ac626c823d4dacc7e39135711957cd8cb51d6045aa02c600950932e7b83427a8",
+          "replacement": "$VIVADO/sc_sc2axi_v1_0_changelog.txt"
+        },
+        {
+          "start": 75094,
+          "end": 75176,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75183,
+          "end": 75265,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75272,
+          "end": 75354,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75361,
+          "end": 75443,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75450,
+          "end": 75532,
+          "original_span_sha256": "c32fb4ce9fe47fbdadefa98ca11f1cefdf5b1f6736d706c142e3301fd69d76b4",
+          "replacement": "$VIVADO/sc_exit_v1_0_changelog.txt"
+        },
+        {
+          "start": 75539,
+          "end": 75621,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75628,
+          "end": 75714,
+          "original_span_sha256": "ac626c823d4dacc7e39135711957cd8cb51d6045aa02c600950932e7b83427a8",
+          "replacement": "$VIVADO/sc_sc2axi_v1_0_changelog.txt"
+        },
+        {
+          "start": 75721,
+          "end": 75803,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75810,
+          "end": 75892,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75899,
+          "end": 75981,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 75988,
+          "end": 76070,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 76077,
+          "end": 76159,
+          "original_span_sha256": "c32fb4ce9fe47fbdadefa98ca11f1cefdf5b1f6736d706c142e3301fd69d76b4",
+          "replacement": "$VIVADO/sc_exit_v1_0_changelog.txt"
+        },
+        {
+          "start": 76166,
+          "end": 76248,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 76255,
+          "end": 76341,
+          "original_span_sha256": "ac626c823d4dacc7e39135711957cd8cb51d6045aa02c600950932e7b83427a8",
+          "replacement": "$VIVADO/sc_sc2axi_v1_0_changelog.txt"
+        },
+        {
+          "start": 76348,
+          "end": 76430,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 76437,
+          "end": 76519,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 76526,
+          "end": 76608,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 76615,
+          "end": 76697,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 76704,
+          "end": 76786,
+          "original_span_sha256": "c32fb4ce9fe47fbdadefa98ca11f1cefdf5b1f6736d706c142e3301fd69d76b4",
+          "replacement": "$VIVADO/sc_exit_v1_0_changelog.txt"
+        },
+        {
+          "start": 76793,
+          "end": 76875,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 76882,
+          "end": 76968,
+          "original_span_sha256": "ac626c823d4dacc7e39135711957cd8cb51d6045aa02c600950932e7b83427a8",
+          "replacement": "$VIVADO/sc_sc2axi_v1_0_changelog.txt"
+        },
+        {
+          "start": 76975,
+          "end": 77057,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77064,
+          "end": 77146,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77153,
+          "end": 77235,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77242,
+          "end": 77324,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77331,
+          "end": 77413,
+          "original_span_sha256": "c32fb4ce9fe47fbdadefa98ca11f1cefdf5b1f6736d706c142e3301fd69d76b4",
+          "replacement": "$VIVADO/sc_exit_v1_0_changelog.txt"
+        },
+        {
+          "start": 77420,
+          "end": 77502,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77509,
+          "end": 77595,
+          "original_span_sha256": "ac626c823d4dacc7e39135711957cd8cb51d6045aa02c600950932e7b83427a8",
+          "replacement": "$VIVADO/sc_sc2axi_v1_0_changelog.txt"
+        },
+        {
+          "start": 77602,
+          "end": 77684,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77691,
+          "end": 77773,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77780,
+          "end": 77862,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77869,
+          "end": 77951,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 77958,
+          "end": 78040,
+          "original_span_sha256": "c32fb4ce9fe47fbdadefa98ca11f1cefdf5b1f6736d706c142e3301fd69d76b4",
+          "replacement": "$VIVADO/sc_exit_v1_0_changelog.txt"
+        },
+        {
+          "start": 78047,
+          "end": 78129,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 78136,
+          "end": 78222,
+          "original_span_sha256": "ac626c823d4dacc7e39135711957cd8cb51d6045aa02c600950932e7b83427a8",
+          "replacement": "$VIVADO/sc_sc2axi_v1_0_changelog.txt"
+        },
+        {
+          "start": 78229,
+          "end": 78311,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 78318,
+          "end": 78414,
+          "original_span_sha256": "d49e1a9b63fa683770bf923d41c230240f641c48c93c16560deb696649118760",
+          "replacement": "$VIVADO/proc_sys_reset_v5_0_changelog.txt"
+        },
+        {
+          "start": 78421,
+          "end": 78517,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 78524,
+          "end": 78610,
+          "original_span_sha256": "fc75f0bfbcf9fb29a495d1f8cfdf5cd2a1338443deff23cffdb9d3e276197943",
+          "replacement": "$VIVADO/sc_axi2sc_v1_0_changelog.txt"
+        },
+        {
+          "start": 78617,
+          "end": 78697,
+          "original_span_sha256": "28b76d51ce4bca20a7b0f65169a90a0f874568ce3c5be304748c2f23603a7b46",
+          "replacement": "$VIVADO/sc_mmu_v1_0_changelog.txt"
+        },
+        {
+          "start": 78704,
+          "end": 78802,
+          "original_span_sha256": "cd9dc692e73f9502758e2c6420d55d36cb58d33e4d49f3836aaf5cdf4e3f7c11",
+          "replacement": "$VIVADO/sc_si_converter_v1_0_changelog.txt"
+        },
+        {
+          "start": 78809,
+          "end": 78925,
+          "original_span_sha256": "dcb4aadd982792c95db1f66e8ca22850b5c9c42fc86c2d428fb3a656c2a622fb",
+          "replacement": "$VIVADO/sc_transaction_regulator_v1_0_changelog.txt"
+        },
+        {
+          "start": 78932,
+          "end": 79014,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 79021,
+          "end": 79103,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 79110,
+          "end": 79192,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 79199,
+          "end": 79281,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 79288,
+          "end": 79370,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 79377,
+          "end": 79473,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 79480,
+          "end": 79576,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 79583,
+          "end": 79679,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 79686,
+          "end": 79782,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 79789,
+          "end": 79871,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 79878,
+          "end": 79960,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 79967,
+          "end": 80049,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 80056,
+          "end": 80138,
+          "original_span_sha256": "c32fb4ce9fe47fbdadefa98ca11f1cefdf5b1f6736d706c142e3301fd69d76b4",
+          "replacement": "$VIVADO/sc_exit_v1_0_changelog.txt"
+        },
+        {
+          "start": 80145,
+          "end": 80227,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 80234,
+          "end": 80320,
+          "original_span_sha256": "ac626c823d4dacc7e39135711957cd8cb51d6045aa02c600950932e7b83427a8",
+          "replacement": "$VIVADO/sc_sc2axi_v1_0_changelog.txt"
+        },
+        {
+          "start": 80327,
+          "end": 80409,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 80416,
+          "end": 80512,
+          "original_span_sha256": "d49e1a9b63fa683770bf923d41c230240f641c48c93c16560deb696649118760",
+          "replacement": "$VIVADO/proc_sys_reset_v5_0_changelog.txt"
+        },
+        {
+          "start": 80519,
+          "end": 80615,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        },
+        {
+          "start": 80622,
+          "end": 80708,
+          "original_span_sha256": "fc75f0bfbcf9fb29a495d1f8cfdf5cd2a1338443deff23cffdb9d3e276197943",
+          "replacement": "$VIVADO/sc_axi2sc_v1_0_changelog.txt"
+        },
+        {
+          "start": 80715,
+          "end": 80795,
+          "original_span_sha256": "28b76d51ce4bca20a7b0f65169a90a0f874568ce3c5be304748c2f23603a7b46",
+          "replacement": "$VIVADO/sc_mmu_v1_0_changelog.txt"
+        },
+        {
+          "start": 80802,
+          "end": 80900,
+          "original_span_sha256": "cd9dc692e73f9502758e2c6420d55d36cb58d33e4d49f3836aaf5cdf4e3f7c11",
+          "replacement": "$VIVADO/sc_si_converter_v1_0_changelog.txt"
+        },
+        {
+          "start": 80907,
+          "end": 81023,
+          "original_span_sha256": "dcb4aadd982792c95db1f66e8ca22850b5c9c42fc86c2d428fb3a656c2a622fb",
+          "replacement": "$VIVADO/sc_transaction_regulator_v1_0_changelog.txt"
+        },
+        {
+          "start": 81030,
+          "end": 81116,
+          "original_span_sha256": "fc75f0bfbcf9fb29a495d1f8cfdf5cd2a1338443deff23cffdb9d3e276197943",
+          "replacement": "$VIVADO/sc_axi2sc_v1_0_changelog.txt"
+        },
+        {
+          "start": 81123,
+          "end": 81203,
+          "original_span_sha256": "28b76d51ce4bca20a7b0f65169a90a0f874568ce3c5be304748c2f23603a7b46",
+          "replacement": "$VIVADO/sc_mmu_v1_0_changelog.txt"
+        },
+        {
+          "start": 81210,
+          "end": 81308,
+          "original_span_sha256": "cd9dc692e73f9502758e2c6420d55d36cb58d33e4d49f3836aaf5cdf4e3f7c11",
+          "replacement": "$VIVADO/sc_si_converter_v1_0_changelog.txt"
+        },
+        {
+          "start": 81315,
+          "end": 81431,
+          "original_span_sha256": "dcb4aadd982792c95db1f66e8ca22850b5c9c42fc86c2d428fb3a656c2a622fb",
+          "replacement": "$VIVADO/sc_transaction_regulator_v1_0_changelog.txt"
+        },
+        {
+          "start": 81438,
+          "end": 81520,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 81527,
+          "end": 81609,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 81616,
+          "end": 81698,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 81705,
+          "end": 81787,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 81794,
+          "end": 81876,
+          "original_span_sha256": "0ccf8641aaa88f14eeb28300570c4dca8f82cfe231a59fd8c66d83c6ff2f4e41",
+          "replacement": "$VIVADO/sc_node_v1_0_changelog.txt"
+        },
+        {
+          "start": 81883,
+          "end": 81979,
+          "original_span_sha256": "e2ccbff62c2ae31d9410ff6aec9be7aa0d0a8df709350da89e6ff67524f3a6cc",
+          "replacement": "$VIVADO/sc_switchboard_v1_0_changelog.txt"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_absent_elaborate.log",
+      "original_sha256": "e77dbaeb631e29455e0d29a4718b6ae6cb036a5934ff766abcf8f1995bffc1d2",
+      "delivered_sha256": "8d02cff99f000da59bd9d43e7b6753d2fde52a902fbb18613155fd65e93b6284",
+      "original_bytes": 809,
+      "delivered_bytes": 771,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_color_elaborate.log",
+      "original_sha256": "4da59e5b43e4072acf7153b653b0c5167056171f8c663fe220c1eb25e00e5e3e",
+      "delivered_sha256": "2482f72f06754cc1d1cf831401848a90e5d65982097c5a26bd8186df542c9ba5",
+      "original_bytes": 616,
+      "delivered_bytes": 578,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_display_probe_v99_elaborate.log",
+      "original_sha256": "a8441953f22f74e00202f90c955fc7601c8f4090a26e97c9e244eab4070a4085",
+      "delivered_sha256": "6c503ef9b15641345ebd2a83a7093f7036d8c00547c371fe0658694a44fdd5a6",
+      "original_bytes": 662,
+      "delivered_bytes": 624,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_display_registers_v99_elaborate.log",
+      "original_sha256": "e7728d24594a442f6a2eec8c9718774b22343d35902001446dbf257de195d6da",
+      "delivered_sha256": "7c1cbd373b62d67f387ed8447b5323867f34cbc58a7fb53a4068ede89e2a81c1",
+      "original_bytes": 760,
+      "delivered_bytes": 722,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_frame_elaborate.log",
+      "original_sha256": "6f46896c1fdcc7dd95188db29740e2f3fedbeb2bdba25d70fbd121b3dac9fec4",
+      "delivered_sha256": "152bcef0f2594da3d5f3bbf1710f68b73a8d0e49c0f20d69d4c4b949323d54e0",
+      "original_bytes": 629,
+      "delivered_bytes": 591,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_probe_regs_v90_elaborate.log",
+      "original_sha256": "40ca23a8ae1e36d0862b508b5e8c30295ba2cb849a7bf0f8f0ddd8640f5f1bbd",
+      "delivered_sha256": "ddeaa537d6aae69af13f8a0182a496191e4e3bf74ba6e37cfb794da71f0b5bf4",
+      "original_bytes": 859,
+      "delivered_bytes": 821,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_probe_v90_elaborate.log",
+      "original_sha256": "0d7bf1bb8df425bcafd91676c80f4b907cb4e94fa19d225f5e476a1c65958b95",
+      "delivered_sha256": "b9b7518cac3ab38b9bfff26ef3341306c6dcb0d22b8cc4e1cae66c7af284f133",
+      "original_bytes": 1778,
+      "delivered_bytes": 1740,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_registers_elaborate.log",
+      "original_sha256": "bbcd8c37e10e31574cf51c0b858e4e076ac66808ca94e6ea5ddf8eefbd0e2ad6",
+      "delivered_sha256": "eea047fb398a50965e009c469142efed54978dc91a1bd5e552a4ddecb0bd8e23",
+      "original_bytes": 838,
+      "delivered_bytes": 800,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    },
+    {
+      "path": "sim/results/logs/touch/tb_touch_elaborate.log",
+      "original_sha256": "3c98d03def58be4898bb0ad7f817db57d3b0f9fcf2877cee79314d105705eb24",
+      "delivered_sha256": "c73d8e91daa11663719e93bb3785f812e0c4d966dcd507f57020557058b48701",
+      "original_bytes": 805,
+      "delivered_bytes": 767,
+      "path_replacements": 1,
+      "original_ufffd_count": 0,
+      "delivered_ufffd_count": 0,
+      "outside_path_bytes_preserved": true,
+      "changes": [
+        {
+          "start": 161,
+          "end": 216,
+          "original_span_sha256": "ebea12fb22ba25bbb8244678303e0b0f2723af58454d8ee1a0887f308aa61c84",
+          "replacement": "$VIVADO/xelab.exe"
+        }
+      ]
+    }
+  ]
+}

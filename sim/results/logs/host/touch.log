@@ -1,0 +1,72 @@
+test_all_preparation_review_and_manual_timing_tips_fit_sidebar (__main__.Tests.test_all_preparation_review_and_manual_timing_tips_fit_sidebar) ... ok
+test_back_and_retry_go_to_preparation_not_immediate_capture (__main__.Tests.test_back_and_retry_go_to_preparation_not_immediate_capture) ... ok
+test_calibration_collects_four_taps_and_preserves_abi87 (__main__.Tests.test_calibration_collects_four_taps_and_preserves_abi87) ... ok
+test_controls_only_write_sidebar_keep_header_and_bottom_left_visible (__main__.Tests.test_controls_only_write_sidebar_keep_header_and_bottom_left_visible) ... ok
+test_drag_multitouch_and_offline_contact_do_not_advance (__main__.Tests.test_drag_multitouch_and_offline_contact_do_not_advance) ... ok
+test_existing_nine_cells_keep_all_algorithm_code (__main__.Tests.test_existing_nine_cells_keep_all_algorithm_code) ... ok
+test_invalidation_clears_downstream_and_cancelled_speed_is_not_success (__main__.Tests.test_invalidation_clears_downstream_and_cancelled_speed_is_not_success) ... ok
+test_manual_start_stop_retime_and_cancel_use_original_prompts (__main__.Tests.test_manual_start_stop_retime_and_cancel_use_original_prompts) ... ok
+test_model_button_uses_existing_viewer_and_keeps_model_header (__main__.Tests.test_model_button_uses_existing_viewer_and_keeps_model_header) ... ok
+test_no_session_reports_recorded_attach_cause (__main__.Tests.test_no_session_reports_recorded_attach_cause) ... ok
+test_obsolete_footer_on_left_has_no_hidden_buttons (__main__.Tests.test_obsolete_footer_on_left_has_no_hidden_buttons) ... ok
+test_one_tap_enqueues_one_step_and_busy_taps_do_not_queue (__main__.Tests.test_one_tap_enqueues_one_step_and_busy_taps_do_not_queue) ... ok
+test_preview_is_ui_owned_and_returns_to_camera_before_execute (__main__.Tests.test_preview_is_ui_owned_and_returns_to_camera_before_execute) ... ok
+test_preview_preserves_aspect_ratio_and_stays_left_of_sidebar (__main__.Tests.test_preview_preserves_aspect_ratio_and_stays_left_of_sidebar) ... ok
+test_ready_after_finished_step_accepts_first_new_tap (__main__.Tests.test_ready_after_finished_step_accepts_first_new_tap) ... ok
+test_real_ui_worker_preserves_first_failure_and_cleanup_failure (__main__.Tests.test_real_ui_worker_preserves_first_failure_and_cleanup_failure) ... 实体屏UI已停止：模型显示停止但旧读取未确认结束：cleanup PL server unavailable；Notebook计算不受影响。
+ok
+test_runtime_python36_and_ui_acquisition_driver_ast_unchanged (__main__.Tests.test_runtime_python36_and_ui_acquisition_driver_ast_unchanged) ... ok
+test_scanning_startup_and_nonlayout_control_logic_ast_unchanged (__main__.Tests.test_scanning_startup_and_nonlayout_control_logic_ast_unchanged) ... ok
+test_sidebar_geometry_separates_header_tips_buttons_and_preview (__main__.Tests.test_sidebar_geometry_separates_header_tips_buttons_and_preview) ... ok
+test_speed_retry_and_manual_timing_are_touch_answers (__main__.Tests.test_speed_retry_and_manual_timing_are_touch_answers) ... ok
+test_unsafe_initialization_rejected_before_any_execution (__main__.Tests.test_unsafe_initialization_rejected_before_any_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.684s
+
+OK
+触屏流程已启动。本格[*]表示正在等待屏幕操作，请勿重复运行。
+触屏流程已启动。本格[*]表示正在等待屏幕操作，请勿重复运行。
+第3步未完成：controlled calibration failure；可在屏幕重试或返回。
+{
+  "unit_tests": 21,
+  "failures": 0,
+  "errors": 0,
+  "integrations": [
+    {
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "notebook_only_one_start": true,
+      "hardware_operations": "fake_only",
+      "retry_failure": false,
+      "passed": true
+    },
+    {
+      "steps": [
+        1,
+        2,
+        3,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "notebook_only_one_start": true,
+      "hardware_operations": "fake_only",
+      "retry_failure": true,
+      "passed": true
+    }
+  ],
+  "board_tested": false,
+  "actual_scanner_run": false
+}

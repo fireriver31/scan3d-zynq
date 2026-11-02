@@ -1,0 +1,17 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Nov  1 18:09:33 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/check_tb_absent/xsim_script.tcl
+# xsim {check_tb_absent} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS disconnected GT911 stays offline, releases down, retries both addresses
+$finish called at time : 200045 ns : File "$REPO/sim/rtl/1026_tb_absent_v87.sv" Line 14
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 18:09:35 2026...

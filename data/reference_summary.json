@@ -1,0 +1,20 @@
+{
+  "scope": "historical complete competition build; not a new public-edition board test",
+  "volume_cm3": 86.9580811890668,
+  "voxel_mm": 0.8898995384197664,
+  "occupied_voxels": 123392,
+  "stage7_s": 750.32767267,
+  "stage8_s": 596.768390965,
+  "pl_decisions": 288,
+  "digital_mismatches": 0,
+  "physical_accuracy_verified": false,
+  "source_sha256": {
+    "result.json": "a39b4f9688857cecbaed2fbdb533e391c0b17e8cb18f853880c921ae5617a560",
+    "occupancy.npy": "fc1affa577152ae1bedfdda1c6110c6b01e7704a17b7dbb69a06b01b99aa2672",
+    "masks.npz": "448a77bc9c615bfafbad4484c7cdfd506e6c3b65317330e97bbd55287aca860f"
+  },
+  "raw_capture_published": false,
+  "evidence_scope": "competition_submission_v11",
+  "evidence_in_public_repo": false,
+  "evidence_index": "data/evidence_sources.json"
+}

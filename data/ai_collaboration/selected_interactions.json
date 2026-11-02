@@ -1,0 +1,159 @@
+{
+  "record_kind": "verbatim_selection",
+  "tools": [
+    "ChatGPT",
+    "WorkBuddy"
+  ],
+  "historical_model_version": null,
+  "scope": "三组历史交互选段、一则模型分析记录中的自我纠错案例，以及四个技术主题的引用索引。",
+  "cases": [
+    {
+      "id": "task_constraints",
+      "title": "团队提出优化方向和回退条件",
+      "context_summary": "团队先提出筛选前移的方向，再给出耗时与模型质量的回退条件。",
+      "fragments": [
+        {
+          "kind": "user_task_and_limits",
+          "messages": [
+            {
+              "role": "user",
+              "content": "能不能把最大连通块这个改成一种适当的写法放前面节约时间，且不产生其他纰漏呢？",
+              "selection": "saved_message"
+            },
+            {
+              "role": "user",
+              "content": "尝试修改，如果做不出好的效果（比如时间没减少，重建模型相比之前变差）就算了",
+              "selection": "saved_message"
+            }
+          ]
+        }
+      ],
+      "engineering_summary": "团队提出优化方向与退出条件，AI辅助检查实现风险和比较方法。",
+      "evidence": [
+        "report/optimization_comparison.md",
+        "report/engineering_history.md"
+      ]
+    },
+    {
+      "id": "diagnostic_clarification",
+      "title": "先限定分析任务，再提供现场现象",
+      "context_summary": "同一耗时排查中的任务约束和现场澄清，分为两个片段列出。",
+      "fragments": [
+        {
+          "kind": "single_user_instruction",
+          "messages": [
+            {
+              "role": "user",
+              "content": "不是让你提速，是要你讲清楚为什么要这么久",
+              "selection": "verbatim_excerpt"
+            }
+          ]
+        },
+        {
+          "kind": "question_and_reply",
+          "messages": [
+            {
+              "role": "assistant",
+              "content": "卡顿时，实体屏顶部“用时”数字和摄像头实时画面是什么状态？这能区分计算阶段较慢与整机资源阻塞。",
+              "selection": "saved_message"
+            },
+            {
+              "role": "user",
+              "content": "用时、实时画面都继续变化，只是进度文字不变",
+              "selection": "saved_message"
+            }
+          ]
+        }
+      ],
+      "engineering_summary": "团队限定先分析原因并提供现场现象，AI协助区分计算较慢与整机阻塞，再结合阶段计时核对。",
+      "evidence": [
+        "report/optimization_comparison.md"
+      ],
+      "archived_evidence": [
+        {
+          "path": "data/engineering_history/performance/progress.json",
+          "scope": "competition_submission",
+          "included_in_repository": false
+        }
+      ]
+    },
+    {
+      "id": "human_constraint",
+      "title": "真实连接要求限定方案取舍",
+      "context_summary": "片段中的约6900像素是当时的局部诊断量，当前纸盒体积与轮廓结果另列。",
+      "fragments": [
+        {
+          "kind": "proposal_and_feedback",
+          "messages": [
+            {
+              "role": "assistant",
+              "content": "这圈第13张还有一个确定原因：原图核验支持的约6900个前景像素已经找回，但它们仍与主体断开，又被你之前选择的“严格只留最大连通块”规则删掉了。是否改为保留这种已由原图核实的独立部件，同时继续删除未核实的杂点？不会画线连接或填补中间空白。",
+              "selection": "saved_message"
+            },
+            {
+              "role": "user",
+              "content": "他们为什么会与主体断开？就不应该断开啊，最后肯定是要一个连贯的整体啊",
+              "selection": "saved_message"
+            }
+          ]
+        }
+      ],
+      "engineering_summary": "团队坚持真实部件的连贯性，推动排查具体连接判据；相关离线修正按版本单独保存。",
+      "evidence": [
+        "report/engineering_history.md"
+      ],
+      "archived_evidence": [
+        {
+          "path": "data/engineering_history/mask/early_stage.npz",
+          "scope": "competition_submission",
+          "included_in_repository": false
+        }
+      ]
+    }
+  ],
+  "design_note": {
+    "record_kind": "technical_note_reference",
+    "path": "data/ai_collaboration/technical_excerpts.md",
+    "heading": "PS与PL计算划分",
+    "date": "2026-10-08"
+  },
+  "analysis_notes": [
+    {
+      "id": "performance_breakdown",
+      "title": "耗时计数的核对",
+      "date": "2026-10-25",
+      "record_kind": "technical_note_reference",
+      "path": "data/ai_collaboration/technical_excerpts.md",
+      "heading": "耗时计数的核对"
+    },
+    {
+      "id": "pin_reading",
+      "title": "针位图的识读方法",
+      "date": "2026-10-28",
+      "record_kind": "technical_note_reference",
+      "path": "data/ai_collaboration/technical_excerpts.md",
+      "heading": "针位图的识读方法"
+    },
+    {
+      "id": "initial_code_inspection",
+      "title": "既有PYNQ入口的代码检查",
+      "date": "2026-10-08",
+      "record_kind": "technical_note_reference",
+      "path": "data/ai_collaboration/technical_excerpts.md",
+      "heading": "既有PYNQ入口的代码检查"
+    }
+  ],
+  "self_correction": {
+    "id": "pin_review_self_correction",
+    "record_kind": "assistant_technical_note_reference",
+    "authorship": "assistant",
+    "source_title": "第709页图31-17核对",
+    "date": "2026-10-28",
+    "path": "data/ai_collaboration/selected_interactions.md",
+    "heading": "模型自我纠错",
+    "context_summary": "模型在取得手册原页后，纠正了此前过早作出的根因判断，并将图纸核对与板上验收分开。",
+    "evidence": [
+      "report/engineering_history.md"
+    ]
+  }
+}

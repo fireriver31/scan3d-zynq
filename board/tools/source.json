@@ -1,0 +1,14 @@
+{
+  "kind": "returned_acceptance_producer",
+  "archive_scope": "cuboid_606_returned_evidence",
+  "archive_sha256": "01ad12c8b32b3ba3de0ab41df620694af2db4586d86c17de57422f13b5a897e5",
+  "notebook_member": "acceptance/helper_notebooks/1_1101_board_acceptance_v1_1.ipynb",
+  "notebook_file": "acceptance_capture.ipynb",
+  "notebook_bytes": 47331,
+  "notebook_sha256": "1931ec74db102fc71f76a4115cb24fc6b5abd211c8fc8f94dd1a8a804cc718ac",
+  "module_file": "acceptance_support.py",
+  "module_sha256": "ce3b2be298185095c798be80bf66f844c9991530faa305badd765ce19b164347",
+  "derivation": "First code-cell definitions before the _board_state installation call; export function unchanged.",
+  "export_function": "_b_export",
+  "export_function_ast_matches_returned_notebook": true
+}

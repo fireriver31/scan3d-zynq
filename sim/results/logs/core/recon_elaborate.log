@@ -1,0 +1,16 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: $VIVADO/xelab.exe -mt off tb_recon -s recon_check 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.recon_axil(N=32)
+Compiling module work.voxel_carver(N=32)
+Compiling module work.recon_top(N=32)
+Compiling module work.tb_recon
+Built simulation snapshot recon_check

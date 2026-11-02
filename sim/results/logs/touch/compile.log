@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/gt911_reader.v" into library work
+INFO: [VRFC 10-311] analyzing module gt911_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/touch_i2c.v" into library work
+INFO: [VRFC 10-311] analyzing module touch_i2c
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/touch_viewer_ctrl.v" into library work
+INFO: [VRFC 10-311] analyzing module touch_viewer_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/viewer_frame_reader.v" into library work
+INFO: [VRFC 10-311] analyzing module viewer_frame_reader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/ui_mixer.v" into library work
+INFO: [VRFC 10-311] analyzing module ui_mixer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/hardware/vivado/ov5640_ddr3_tft_hdmi.srcs/sources_1/new/display_stream_probe.v" into library work
+INFO: [VRFC 10-311] analyzing module display_stream_probe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1026_tb_touch_v87.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1026_tb_absent_v87.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_absent
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1026_tb_color_v87.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_color
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1026_tb_frame_v87.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_frame
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1026_tb_registers_v87.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_registers
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1027_tb_probe_regs_v90.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_probe_regs_v90
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1027_tb_probe_v90.sv" into library work
+INFO: [VRFC 10-311] analyzing module gt_model_v1
+INFO: [VRFC 10-311] analyzing module fault_node_v1
+INFO: [VRFC 10-311] analyzing module tb_probe_v90
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1028_tb_display_probe_v99.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_display_probe_v99
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "$REPO/sim/rtl/1028_tb_display_registers_v99.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_display_registers_v99

@@ -1,0 +1,35 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: $VIVADO/xelab.exe -mt off tb_probe_v90 -s check_tb_probe_v90 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'diag_reader_live' remains unconnected for this instance [$REPO/sim/rtl/1027_tb_probe_v90.sv:76]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.gt_model_v1(POWERED=1'b1,REJECT_...
+Compiling module work.touch_i2c_default
+Compiling module work.gt911_reader_default
+Compiling module work.fault_node_v1
+Compiling module work.gt_model_v1(ADDR=7'b010100,POWER...
+Compiling module work.fault_node_v1(CASE_ID=1)
+Compiling module work.gt_model_v1(POWERED=1'b0,REJECT_...
+Compiling module work.fault_node_v1(CASE_ID=2)
+Compiling module work.fault_node_v1(CASE_ID=3)
+Compiling module work.fault_node_v1(CASE_ID=4)
+Compiling module work.fault_node_v1(CASE_ID=5)
+Compiling module work.fault_node_v1(CASE_ID=6)
+Compiling module work.gt_model_v1(ID=24'b0,POWERED=1'b...
+Compiling module work.fault_node_v1(CASE_ID=7)
+Compiling module work.gt_model_v1(ID=24'b0110111001100...
+Compiling module work.fault_node_v1(CASE_ID=8)
+Compiling module work.gt_model_v1(POWERED=1'b1,REJECT_...
+Compiling module work.fault_node_v1(CASE_ID=9)
+Compiling module work.fault_node_v1(CASE_ID=10)
+Compiling module work.gt_model_v1(POWERED=1'b1,REJECT_...
+Compiling module work.fault_node_v1(CASE_ID=11)
+Compiling module work.tb_probe_v90
+Built simulation snapshot check_tb_probe_v90
