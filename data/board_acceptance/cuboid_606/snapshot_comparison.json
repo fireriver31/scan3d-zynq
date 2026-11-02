@@ -5,8 +5,8 @@
   "current_scope": "source_edition",
   "classification": "same relative path, then exact file SHA; absence at a path is not a claim that related evidence was deleted",
   "counts": {
-    "identical": 153,
-    "changed": 51,
+    "identical": 152,
+    "changed": 52,
     "not_at_original_path": 0
   },
   "groups": {
@@ -345,11 +345,6 @@
         "path": "sim/results/logs/core/recon_shift_run.log",
         "tested_sha256": "1f0566493b8a30fdfdce24c2cf723cacf95c51887a74c62dec415b861361f053",
         "current_sha256": "1f0566493b8a30fdfdce24c2cf723cacf95c51887a74c62dec415b861361f053"
-      },
-      {
-        "path": "sim/results/logs/host/log_sanitizer.log",
-        "tested_sha256": "5f6ae3b9231ac3cddda35e0452c83cddb3917a85dfb0478752af1c0823f238e7",
-        "current_sha256": "5f6ae3b9231ac3cddda35e0452c83cddb3917a85dfb0478752af1c0823f238e7"
       },
       {
         "path": "sim/results/logs/host/skill.log",
@@ -811,7 +806,7 @@
       {
         "path": "build/seal_public.py",
         "tested_sha256": "74c06d8123398cbc6b95bdc22a88beb2ffe5c0033c6fad7352a10a80cc3d1ed2",
-        "current_sha256": "47054ef44eca23ffe44a8b0fd6c9e2a23e4407a2dfac0f7ace946f406d46203e"
+        "current_sha256": "9849ea2cfc82331a6ee7fa679d8b28606110a5234a68a053810f4373a5c4218f"
       },
       {
         "path": "data/evidence_sources.json",
@@ -881,7 +876,7 @@
       {
         "path": "sim/results/log_provenance.json",
         "tested_sha256": "fe24da28070930ec8ed7397de361560f87abc90415512271232eb470ed86b5d8",
-        "current_sha256": "e0c07b1fcd46cb6c29b1b17bc4d93d70a66c0103955cb8efada77f7d8dbb368d"
+        "current_sha256": "b774d5a3784913bbc2d47533644f8ad3b5a665d2bc45d6b9c8df108e88f0bb8a"
       },
       {
         "path": "sim/results/logs/core/photo_elaborate.log",
@@ -894,6 +889,11 @@
         "current_sha256": "f6cabfd18193727dfa58e93f14621e35ef2c47ccdbc58646c39c3b40007c44ba"
       },
       {
+        "path": "sim/results/logs/host/log_sanitizer.log",
+        "tested_sha256": "5f6ae3b9231ac3cddda35e0452c83cddb3917a85dfb0478752af1c0823f238e7",
+        "current_sha256": "6a5a45b8caad39f467bc285265edb92b1e39fa7deb284af42e2e5af1425d25bc"
+      },
+      {
         "path": "sim/results/logs/host/public_package.log",
         "tested_sha256": "7fcdcbed07adf7e371b074c2bddf6aff3500417b65b1b7f559d219e890894fef",
         "current_sha256": "a9151e7f5a14a0edc58c4a2da925472403957bb609e7383de7c21bf1b47463fa"
@@ -901,12 +901,12 @@
       {
         "path": "sim/results/logs/host/rpc.log",
         "tested_sha256": "3f56048f9a240a801c448942c1f121b9180224831257b94daa8bb7584024c7c7",
-        "current_sha256": "fd3491ddbcc42b0edf0f3dff18bd28f6f119ae647483824a80bef7ded5cf8830"
+        "current_sha256": "ed062267b0113cb65c2553f1483cdd729b74ed95eb20cdb3f3c5e3fd2a8f9dca"
       },
       {
         "path": "sim/results/logs/host/touch.log",
         "tested_sha256": "ccd027cb94d0ffe78e38b94099f232aa5cd84139bfa0e424105b0a9692a217c2",
-        "current_sha256": "7e61483403ae53a52c6b2f135021d516a7c5af48345892f67303e98c13ae1f22"
+        "current_sha256": "0ea5b85dc5ff4093c80d9040379fe1ee34ef789af7beef497c664784b3f593bc"
       },
       {
         "path": "sim/results/logs/project/ip_status.rpt",
