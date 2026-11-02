@@ -244,6 +244,7 @@
   "third_party/source_history/competition_v11_manifest.sha256": "LicenseRef-Validation-Record",
   "third_party/source_history/competition_v27_manifest.sha256": "LicenseRef-Validation-Record",
   "third_party/source_history/competition_v28_manifest.sha256": "LicenseRef-Validation-Record",
+  "third_party/source_history/competition_v29_manifest.sha256": "LicenseRef-Validation-Record",
   "third_party/source_history/hardware_inventory_v11.json": "LicenseRef-Validation-Record",
   "third_party/source_inventory.json": "MIT",
   "tools/README.md": "MIT",

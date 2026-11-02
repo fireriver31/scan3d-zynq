@@ -1,13 +1,13 @@
 {
   "record_kind": "submission_release_locator",
   "url": "https://github.com/fireriver31/scan3d-zynq",
-  "release_tag": "submission-v28",
-  "release_ref": "refs/tags/submission-v28",
-  "release_url": "https://github.com/fireriver31/scan3d-zynq/releases/tag/submission-v28",
-  "source_tree_url": "https://github.com/fireriver31/scan3d-zynq/tree/submission-v28",
+  "release_tag": "submission-v29",
+  "release_ref": "refs/tags/submission-v29",
+  "release_url": "https://github.com/fireriver31/scan3d-zynq/releases/tag/submission-v29",
+  "source_tree_url": "https://github.com/fireriver31/scan3d-zynq/tree/submission-v29",
   "date": "2026-11-02",
   "repository_visibility": "public",
-  "binding_method": "The fixed tag records the source archive SHA and manifest; the release verification asset records the resolved commit and archive SHA.",
+  "binding_method": "The version tag locates the source. The release verification asset records the resolved full commit SHA, competition archive SHA and manifests; annotation is not a server-side immutability guarantee.",
   "historical_records": [
     {
       "scope": "initial_publication",
@@ -18,6 +18,14 @@
       "tag": "submission-v27",
       "commit": "34db3cf66cbd4c863a7998a4e4cf22d0306e1555",
       "archive_sha256": "c183a27a3eaa690a7a5245e0d8e1f581680339da413fdab144f4eafe5be9b981"
+    },
+    {
+      "scope": "previous_submission_v28",
+      "tag": "submission-v28",
+      "commit": "64bfc7ee34365d818461f1bbd1e539ab5324589f",
+      "archive_sha256": "5c4133b85bf1e1d4cab535c52df91cf9d3fd232fb6191adb293e0f0570cff499"
     }
-  ]
+  ],
+  "verification_asset_url": "https://github.com/fireriver31/scan3d-zynq/releases/download/submission-v29/submission_v29_verification.json",
+  "tag_kind": "annotated"
 }

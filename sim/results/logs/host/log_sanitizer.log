@@ -10,6 +10,6 @@ test_utf8_message_is_not_decoded_as_gbk (__main__.LogTests.test_utf8_message_is_
 test_utf8_source_path_and_warning_preserved (__main__.LogTests.test_utf8_source_path_and_warning_preserved) ... ok
 
 ----------------------------------------------------------------------
-Ran 10 tests in 0.006s
+Ran 10 tests in 0.005s
 
 OK

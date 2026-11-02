@@ -33,7 +33,7 @@
 | board | 构建与部署条件、接口、验收归档工具及已执行Notebook快照 |
 | data | 实测结果与体积复算、AI辅助选段及模型分析记录、隐私处理索引 |
 | skill | PYNQ元数据与数组比较工具 |
-| report | 完整12章设计报告源稿、功能框图、优化比较与工程过程 |
+| report | 完整13章设计报告源稿、功能框图、优化比较与工程过程 |
 | tools | 开放字体的字模生成工具 |
 | third_party | BSD/OFL原文、逐文件许可及排除清单 |
 
@@ -69,7 +69,7 @@ Notebook需配套Overlay，且初始化会访问固定DDR缓存。**先按[板�
 
 ## 技术报告与其他提交材料
 
-完整[12章技术报告源稿](report/design_report.md)和功能框图保留在report目录；[系统摘要](report/system_design.md)便于快速查看。正式模板PDF、演示视频和签署授权书在赛事网站各自栏目提交，未包含在本源码库中。报告中的历史实测原件按[data归档索引](data/evidence_sources.json)区分，公开测试结果配有[实际日志](sim/README.md)。
+完整[13章技术报告源稿](report/design_report.md)和功能框图保留在report目录；[系统摘要](report/system_design.md)便于快速查看。正式模板PDF、演示视频和签署授权书在赛事网站各自栏目提交，未包含在本源码库中。报告中的历史实测原件按[data归档索引](data/evidence_sources.json)区分，公开测试结果配有[实际日志](sim/README.md)。
 
 ## 许可
 
@@ -89,4 +89,4 @@ ChatGPT用于方案比较、代码检查、故障分析，以及测试脚本和�
 
 授权截图与历史报告的隐私处理及原件/副本SHA对应关系见[隐私处理说明](data/privacy/README.md)。
 
-本次提交源码以固定标签[submission-v28](https://github.com/fireriver31/scan3d-zynq/tree/submission-v28)定位，发布核验见[Release](https://github.com/fireriver31/scan3d-zynq/releases/tag/submission-v28)。
+本次提交源码以版本标签[submission-v29](https://github.com/fireriver31/scan3d-zynq/tree/submission-v29)定位，完整提交SHA和比赛归档SHA见[发布核验文件](https://github.com/fireriver31/scan3d-zynq/releases/download/submission-v29/submission_v29_verification.json)。[开源发布与许可](report/design_report.md#12-开源发布与许可)独立说明源码入口和许可范围。

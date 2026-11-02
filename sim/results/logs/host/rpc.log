@@ -8,7 +8,7 @@ test_receive_exception_releases_lock_for_other_thread (__main__.Tests.test_recei
 test_reload_and_reinstall_keep_one_lock_and_original_checks (__main__.Tests.test_reload_and_reinstall_keep_one_lock_and_original_checks) ... ok
 
 ----------------------------------------------------------------------
-Ran 8 tests in 0.643s
+Ran 8 tests in 0.701s
 
 OK
 {

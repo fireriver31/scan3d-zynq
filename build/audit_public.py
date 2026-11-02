@@ -91,6 +91,7 @@ def main():
     assert (ROOT / 'LICENSE').read_text(encoding='utf8').startswith('MIT License')
     assert 'project-developed files marked MIT' in (ROOT / 'LICENSE').read_text(encoding='utf8')
     assert (ROOT / 'licenses/mit.txt').read_text(encoding='utf8').startswith('MIT License')
+    assert (ROOT / 'LICENSE').read_bytes() == (ROOT / 'licenses/mit.txt').read_bytes()
     assert 'SIL OPEN FONT LICENSE' in (ROOT / 'third_party/fonts/OFL.txt').read_text(encoding='utf8')
     assert 'All rights reserved.' in (ROOT / 'sim/reference/pynq_v24_pl.py').read_text(encoding='utf8')
     auth_dir = ROOT / 'third_party/authorization'
@@ -223,7 +224,8 @@ def main():
     initial = next(cell for cell in main_notebook['cells'] if cell['cell_type'] == 'code')
     assert "COLOR_BIT = DATA_DIR / 'scan3d.bit'" in ''.join(initial['source'])
     report_text = (ROOT / 'report/design_report.md').read_text(encoding='utf8')
-    assert len(re.findall(r'^## \d+\.', report_text, re.M)) == 12
+    assert [int(n) for n in re.findall(r'^## (\d+)\.', report_text, re.M)] == list(range(1, 14))
+    assert '## 12. 开源发布与许可' in report_text
     manifest = {}
     for line in (ROOT / 'manifest.sha256').read_text(encoding='utf8').splitlines():
         digest, name = line.split('  ', 1)

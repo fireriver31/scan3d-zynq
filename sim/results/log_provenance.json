@@ -22,53 +22,53 @@
       "path": "logs/host/public_package.log",
       "source_group": "host",
       "source_file": "public_package.log",
-      "raw_sha256": "f4508f5db24ec629cfd9c153447eafe6279e37be754421304c422adcc4a789ca",
-      "public_sha256": "f4508f5db24ec629cfd9c153447eafe6279e37be754421304c422adcc4a789ca",
+      "raw_sha256": "fe22a50597b2c55460bd2c3009136709794a08ff878871dfab96fef9c7d65df3",
+      "public_sha256": "fe22a50597b2c55460bd2c3009136709794a08ff878871dfab96fef9c7d65df3",
       "path_redacted": false,
       "path_replacements": {},
       "path_encodings_matched": [],
       "decode_after_path_redaction": "ascii",
       "lossy_decode_used": false,
-      "source_snapshot": "public-v6-r18"
+      "source_snapshot": "public-v6-r19"
     },
     {
       "path": "logs/host/log_sanitizer.log",
       "source_group": "host",
       "source_file": "log_sanitizer.log",
-      "raw_sha256": "5f6ae3b9231ac3cddda35e0452c83cddb3917a85dfb0478752af1c0823f238e7",
-      "public_sha256": "5f6ae3b9231ac3cddda35e0452c83cddb3917a85dfb0478752af1c0823f238e7",
+      "raw_sha256": "a06e13fa496efa7544227bd06366486e29c46ac83ebd26b465b5afba631db6ec",
+      "public_sha256": "a06e13fa496efa7544227bd06366486e29c46ac83ebd26b465b5afba631db6ec",
       "path_redacted": false,
       "path_replacements": {},
       "path_encodings_matched": [],
       "decode_after_path_redaction": "ascii",
       "lossy_decode_used": false,
-      "source_snapshot": "public-v6-r18"
+      "source_snapshot": "public-v6-r19"
     },
     {
       "path": "logs/host/touch.log",
       "source_group": "host",
       "source_file": "touch.log",
-      "raw_sha256": "e8bc0c73a4b8040693e9f6d2a1a52eeefe8bcbcc88e2e7bc1fd2d45e833ea976",
-      "public_sha256": "e8bc0c73a4b8040693e9f6d2a1a52eeefe8bcbcc88e2e7bc1fd2d45e833ea976",
+      "raw_sha256": "5e5337eb8a4cd42c037b261a231843a713a396875328d5e6a17d08db233675fe",
+      "public_sha256": "5e5337eb8a4cd42c037b261a231843a713a396875328d5e6a17d08db233675fe",
       "path_redacted": false,
       "path_replacements": {},
       "path_encodings_matched": [],
       "decode_after_path_redaction": "utf-8-sig",
       "lossy_decode_used": false,
-      "source_snapshot": "public-v6-r18"
+      "source_snapshot": "public-v6-r19"
     },
     {
       "path": "logs/host/rpc.log",
       "source_group": "host",
       "source_file": "rpc.log",
-      "raw_sha256": "3f56048f9a240a801c448942c1f121b9180224831257b94daa8bb7584024c7c7",
-      "public_sha256": "3f56048f9a240a801c448942c1f121b9180224831257b94daa8bb7584024c7c7",
+      "raw_sha256": "e3cad4237d369714432d74e5c416e66e94736fbfa594176cf7109fb638f82ecd",
+      "public_sha256": "e3cad4237d369714432d74e5c416e66e94736fbfa594176cf7109fb638f82ecd",
       "path_redacted": false,
       "path_replacements": {},
       "path_encodings_matched": [],
       "decode_after_path_redaction": "ascii",
       "lossy_decode_used": false,
-      "source_snapshot": "public-v6-r18"
+      "source_snapshot": "public-v6-r19"
     },
     {
       "path": "logs/host/skill.log",
@@ -81,7 +81,7 @@
       "path_encodings_matched": [],
       "decode_after_path_redaction": "ascii",
       "lossy_decode_used": false,
-      "source_snapshot": "public-v6-r18"
+      "source_snapshot": "public-v6-r19"
     },
     {
       "path": "logs/host/skill_reuse.log",
@@ -94,7 +94,7 @@
       "path_encodings_matched": [],
       "decode_after_path_redaction": "ascii",
       "lossy_decode_used": false,
-      "source_snapshot": "public-v6-r18"
+      "source_snapshot": "public-v6-r19"
     },
     {
       "path": "logs/host/vectors.log",
@@ -107,7 +107,7 @@
       "path_encodings_matched": [],
       "decode_after_path_redaction": "ascii",
       "lossy_decode_used": false,
-      "source_snapshot": "public-v6-r18"
+      "source_snapshot": "public-v6-r19"
     },
     {
       "path": "logs/touch/compile.log",
@@ -614,7 +614,7 @@
     {
       "path": "logs/host/board_evidence.log",
       "source_group": "host",
-      "source_snapshot": "public-v6-r18",
+      "source_snapshot": "public-v6-r19",
       "raw_sha256": "655818127b82d8b26fe24cadb470b48c68cbd09fa01316c37d8aebdaccc94640",
       "public_sha256": "655818127b82d8b26fe24cadb470b48c68cbd09fa01316c37d8aebdaccc94640",
       "path_redacted": false,
@@ -625,7 +625,7 @@
     }
   ],
   "source_scopes": {
-    "host": "public-v6-r18",
+    "host": "public-v6-r19",
     "touch": "public-v4",
     "core": "public-v4",
     "project": "public-v4"

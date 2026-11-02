@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "edition": "public-v6-r18",
+  "edition": "public-v6-r19",
   "team_license": {
     "identifier": "MIT",
     "scope": "project-developed files identified in file_licenses.json",
@@ -44,7 +44,7 @@
   "public_release_done": true,
   "release_executed": true,
   "public_repository_url": "https://github.com/fireriver31/scan3d-zynq",
-  "public_release_tag": "submission-v28",
-  "public_release_ref": "refs/tags/submission-v28",
+  "public_release_tag": "submission-v29",
+  "public_release_ref": "refs/tags/submission-v29",
   "team_license_file": "LICENSE"
 }
